@@ -8,14 +8,6 @@
     "sourcePage": "https://commons.wikimedia.org/wiki/File%3ABologna_sandwich.jpg"
   },
   {
-    "key": "noodles",
-    "query": "noodles food",
-    "title": "File:Soba-Noodles-Deliveryman-Tokyo-1935.png",
-    "artist": "Mainichi Shimbun",
-    "license": "Public domain",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ASoba-Noodles-Deliveryman-Tokyo-1935.png"
-  },
-  {
     "key": "pizza",
     "query": "pizza food",
     "title": "File:Vegetarian Pizza.jpg",
@@ -56,14 +48,6 @@
     "sourcePage": "https://commons.wikimedia.org/wiki/File%3AKacchi_Dum_Biryani.JPG"
   },
   {
-    "key": "todayspecial",
-    "query": "grilled chicken food",
-    "title": "File:Grilled Chicken Sandwich.jpg",
-    "artist": "Sirsendu.mohanta",
-    "license": "CC BY-SA 4.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AGrilled_Chicken_Sandwich.jpg"
-  },
-  {
     "key": "puffsrolls",
     "query": "puff pastry snack",
     "title": "File:Rustico leccese.jpg",
@@ -96,14 +80,6 @@
     "sourcePage": "https://commons.wikimedia.org/wiki/File%3APlate_of_chips_at_the_Chalet_Cafe%2C_Cowfold%2C_West_Sussex%2C_England.jpg"
   },
   {
-    "key": "milkshakes",
-    "query": "milkshake glass",
-    "title": "File:Milkshake toppings - M&Ms and crushed almonds.jpg",
-    "artist": "Jack Everett",
-    "license": "CC BY-SA 2.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AMilkshake_toppings_-_M%26Ms_and_crushed_almonds.jpg"
-  },
-  {
     "key": "cakes",
     "query": "birthday cake",
     "title": "File:A birthday cake in West Bengal, India.jpg",
@@ -126,22 +102,6 @@
     "artist": "Bhavana Homecook",
     "license": "CC BY-SA 4.0",
     "sourcePage": "https://commons.wikimedia.org/wiki/File%3AGolgappe_(Pani_Puri).jpg"
-  },
-  {
-    "key": "lassies",
-    "query": "lassi drink",
-    "title": "File:Lassi and Bomaby Biscuits.JPG",
-    "artist": "Rohini1234",
-    "license": "CC BY-SA 4.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ALassi_and_Bomaby_Biscuits.JPG"
-  },
-  {
-    "key": "juices",
-    "query": "fruit juice glass",
-    "title": "File:Watermelon Juice in a paper glass Held by a Beautiful Friend.PNG",
-    "artist": "Soumya Mukherjee",
-    "license": "CC BY-SA 4.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AWatermelon_Juice_in_a_paper_glass_Held_by_a_Beautiful_Friend.PNG"
   },
   {
     "key": "cooldrinks",
@@ -168,14 +128,6 @@
     "sourcePage": "https://commons.wikimedia.org/wiki/File%3ABread_-_La_Brea_Bakery_Bread_Pudding.jpg"
   },
   {
-    "key": "combos",
-    "query": "fast food meal tray",
-    "title": "File:Italian (Mikazuki), Japanese local fast food.jpg",
-    "artist": "tail_furry",
-    "license": "CC BY-SA 3.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AItalian_(Mikazuki)%2C_Japanese_local_fast_food.jpg"
-  },
-  {
     "key": "icecreams",
     "query": "ice cream cone",
     "title": "File:Ice cream cone - superman flavor.jpg",
@@ -200,27 +152,75 @@
     "sourcePage": "https://commons.wikimedia.org/wiki/File%3AIce_Box_Bakery_cookies_(4714890352).jpg"
   },
   {
-    "key": "general",
-    "query": "grocery items shelf",
-    "title": "File:B&w print. The interior of Kerwin's grocery store on King st., showing large selections of goods for sale- fruit and grocery items, biscuits, bottles, and cans. A large scale for weighting goods (13608787903).jpg",
-    "artist": "Dundas Museum and Archives",
-    "license": "No restrictions",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AB%26w_print._The_interior_of_Kerwin's_grocery_store_on_King_st.%2C_showing_large_selections_of_goods_for_sale-_fruit_and_grocery_items%2C_biscuits%2C_bottles%2C_and_cans._A_large_scale_for_weighting_goods_(13608787903).jpg"
-  },
-  {
-    "key": "indiansnacks",
-    "query": "indian snacks food",
-    "title": "File:Sev Puri.jpg",
-    "artist": "https://www.flickr.com/photos/feastguru_kirti/",
-    "license": "CC BY-SA 2.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ASev_Puri.jpg"
-  },
-  {
     "key": "importchocolates",
     "query": "chocolate bars",
     "title": "File:Green and Black's dark chocolate bar 1.jpg",
     "artist": "Mx. Granger",
     "license": "CC0",
     "sourcePage": "https://commons.wikimedia.org/wiki/File%3AGreen_and_Black's_dark_chocolate_bar_1.jpg"
+  },
+  {
+    "key": "todayspecial",
+    "query": "tandoori chicken platter",
+    "title": "File:Tandoori Platter.jpg",
+    "artist": "Ameen",
+    "license": "CC BY-SA 4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ATandoori_Platter.jpg"
+  },
+  {
+    "key": "noodles",
+    "query": "chow mein noodles dish",
+    "title": "File:Boiled Noodles 7753.JPG",
+    "artist": "Biswarup Ganguly",
+    "license": "CC BY 3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ABoiled_Noodles_7753.JPG"
+  },
+  {
+    "key": "milkshakes",
+    "query": "milkshake glass with straw",
+    "title": "File:Strawberry milk shake.jpg",
+    "artist": "Renee Comet (Photographer)",
+    "license": "Public domain",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AStrawberry_milk_shake.jpg"
+  },
+  {
+    "key": "combos",
+    "query": "burger fries combo meal tray",
+    "title": "File:Burger King Whopper Combo.jpg",
+    "artist": "user Siqbal",
+    "license": "Public domain",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ABurger_King_Whopper_Combo.jpg"
+  },
+  {
+    "key": "juices",
+    "query": "orange juice glass",
+    "title": "File:Orange juice 1 edit1.jpg",
+    "artist": "Agency of the United States Department of Agriculture\nEdited Version by: Arad",
+    "license": "Public domain",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AOrange_juice_1_edit1.jpg"
+  },
+  {
+    "key": "general",
+    "query": "potato chips bag snack",
+    "title": "File:A Long Way From Home (53527425744).jpg",
+    "artist": "Pete from Liverpool, UK",
+    "license": "CC BY 2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AA_Long_Way_From_Home_(53527425744).jpg"
+  },
+  {
+    "key": "indiansnacks",
+    "query": "murukku snack",
+    "title": "File:A Traditional Tamil Snack Murukku.jpg",
+    "artist": "Thamizhpparithi Maari",
+    "license": "CC BY-SA 3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AA_Traditional_Tamil_Snack_Murukku.jpg"
+  },
+  {
+    "key": "lassies",
+    "query": "lassi glass",
+    "title": "File:\"Amazing Aloo Paratha and Lovely Lassi\".jpg",
+    "artist": "Mahi Tatavarty",
+    "license": "CC BY-SA 4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3A%22Amazing_Aloo_Paratha_and_Lovely_Lassi%22.jpg"
   }
 ]
