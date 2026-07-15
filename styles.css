@@ -16,13 +16,13 @@
 html, body {
   margin: 0; padding: 0;
   background:
-    radial-gradient(circle at 15% 0%, rgba(224,32,44,0.55) 0%, transparent 45%),
-    radial-gradient(circle at 100% 15%, rgba(163,20,29,0.5) 0%, transparent 40%),
-    linear-gradient(160deg, #2a0206 0%, #0a0a0a 38%, #050505 100%);
-  background-attachment: fixed;
+    radial-gradient(circle at 15% 0%, rgba(224,32,44,0.16) 0%, transparent 40%),
+    radial-gradient(circle at 100% 10%, rgba(163,20,29,0.14) 0%, transparent 35%),
+    #0e0b0b;
   color: var(--white);
   font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
   min-height: 100vh;
+  line-height: 1.5;
 }
 button { font-family: inherit; cursor: pointer; }
 .hidden { display: none !important; }
