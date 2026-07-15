@@ -1,0 +1,5422 @@
+[
+  {
+    "img": "pizza__1",
+    "name": "Stuffed Crust Pizza",
+    "query": "Stuffed Crust Pizza food",
+    "catKey": "pizza",
+    "status": "ok",
+    "usedQuery": "Stuffed Crust Pizza food",
+    "sourceTitle": "File:2019-02-26 22 49 34 A large Pizza Hut stuffed crust pizza with mushrooms and pineapple in Herndon, Fairfax County, Virginia.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "pizza__3",
+    "name": "Extra Cheese",
+    "query": "Extra Cheese food",
+    "catKey": "pizza",
+    "status": "ok",
+    "usedQuery": "Extra Cheese food",
+    "sourceTitle": "File:Roasted bred with cheese like osam.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "pizza__4",
+    "name": "Golden Chicken Pizza",
+    "query": "Golden Chicken Pizza food",
+    "catKey": "pizza",
+    "status": "ok",
+    "usedQuery": "Golden Chicken Pizza food",
+    "sourceTitle": "File:Golden Delight Pizza-Nellore-Andhra Pradesh-DED 004.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "pizza__6",
+    "name": "Chicken Patlak Pizza",
+    "query": "Chicken Patlak Pizza food",
+    "catKey": "pizza",
+    "status": "ok",
+    "usedQuery": "pizza food",
+    "sourceTitle": "File:Vegetarian Pizza.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "pizza__7",
+    "name": "Italian Chicken Pizza",
+    "query": "Italian Chicken Pizza food",
+    "catKey": "pizza",
+    "status": "ok",
+    "usedQuery": "Italian Chicken Pizza food",
+    "sourceTitle": "File:Chicken Wings made in a Wood-fired pizza oven.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "pizza__8",
+    "name": "Stuffed Crust Pizza (Large)",
+    "query": "Stuffed Crust Pizza food",
+    "catKey": "pizza",
+    "status": "ok",
+    "usedQuery": "Stuffed Crust Pizza food",
+    "sourceTitle": "File:2019-02-26 22 49 34 A large Pizza Hut stuffed crust pizza with mushrooms and pineapple in Herndon, Fairfax County, Virginia.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "pizza__9",
+    "name": "Chef Spl Fried Chicken Pizza",
+    "query": "Fried Chicken Pizza food",
+    "catKey": "pizza",
+    "status": "ok",
+    "usedQuery": "Fried Chicken Pizza food",
+    "sourceTitle": "File:A Fried Chicken wings and Fried Octopus Circles and Fried French Fries and Fried Shrimps with Mushroom Toasts from Pizza Hut Shenzhen.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "pizza__10",
+    "name": "Country Chicken Pizza",
+    "query": "Country Chicken Pizza food",
+    "catKey": "pizza",
+    "status": "ok",
+    "usedQuery": "Country Chicken Pizza food",
+    "sourceTitle": "File:Chicken pizza.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "pizza__11",
+    "name": "Double Cheese Chicken Pizza",
+    "query": "Double Cheese Chicken Pizza food",
+    "catKey": "pizza",
+    "status": "ok",
+    "usedQuery": "Double Cheese Chicken Pizza food",
+    "sourceTitle": "File:Frozen pizza topped with double cheeseburgers, chicken nuggets and other foods.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "pizza__12",
+    "name": "Paneer Delight Pizza",
+    "query": "Paneer Delight Pizza food",
+    "catKey": "pizza",
+    "status": "ok",
+    "usedQuery": "Paneer Delight Pizza food",
+    "sourceTitle": "File:PizzaPlatter HomeMade Mumbai.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "pizza__13",
+    "name": "Veggie Pizza",
+    "query": "Veggie Pizza food",
+    "catKey": "pizza",
+    "status": "ok",
+    "usedQuery": "Veggie Pizza food",
+    "sourceTitle": "File:Pizza veggie by Arthur avant cuisson au four.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "pizza__15",
+    "name": "Veg Farmhouse Pizza",
+    "query": "Veg Farmhouse Pizza food",
+    "catKey": "pizza",
+    "status": "ok",
+    "usedQuery": "pizza food",
+    "sourceTitle": "File:Vegetarian Pizza.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "pizza__19",
+    "name": "Foodies Spl Veg Pizza",
+    "query": "Veg Pizza food",
+    "catKey": "pizza",
+    "status": "ok",
+    "usedQuery": "Veg Pizza food",
+    "sourceTitle": "File:Homemade veg pizza..jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "pizza__21",
+    "name": "Mini Pizza Veg",
+    "query": "Mini Pizza Veg food",
+    "catKey": "pizza",
+    "status": "ok",
+    "usedQuery": "Mini Pizza Veg food",
+    "sourceTitle": "File:Pizza.jp.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "pizza__22",
+    "name": "Extra Cheese",
+    "query": "Extra Cheese food",
+    "catKey": "pizza",
+    "status": "ok",
+    "usedQuery": "Extra Cheese food",
+    "sourceTitle": "File:Roasted bred with cheese like osam.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "burger__23",
+    "name": "Chef Spl Chicken Burger",
+    "query": "Chicken Burger food",
+    "catKey": "burger",
+    "status": "ok",
+    "usedQuery": "Chicken Burger food",
+    "sourceTitle": "File:Burger-King-Chicken-Tenders.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "burger__24",
+    "name": "Kuro Chicken Burger",
+    "query": "Kuro Chicken Burger food",
+    "catKey": "burger",
+    "status": "ok",
+    "usedQuery": "Kuro Chicken Burger food",
+    "sourceTitle": "File:MOS Kuro-Koshō Chicken01.JPG",
+    "license": "Public domain"
+  },
+  {
+    "img": "burger__25",
+    "name": "Kuro Veg Burger",
+    "query": "Kuro Veg Burger food",
+    "catKey": "burger",
+    "status": "ok",
+    "usedQuery": "burger food",
+    "sourceTitle": "File:A&W restaurant in Page, Arizona.jpeg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "burger__27",
+    "name": "Veg Hot Dog",
+    "query": "Veg Hot Dog food",
+    "catKey": "burger",
+    "status": "ok",
+    "usedQuery": "Veg Hot Dog food",
+    "sourceTitle": "File:Herbivorous Butcher - Vegan Chili Cheese Dog (22068110213).jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "burger__29",
+    "name": "Chicken Hot Dog",
+    "query": "Chicken Hot Dog food",
+    "catKey": "burger",
+    "status": "ok",
+    "usedQuery": "Chicken Hot Dog food",
+    "sourceTitle": "File:Noddles served with Hot dog, chicken and Ketchup.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "burger__30",
+    "name": "Chicken Dinner Rolls",
+    "query": "Chicken Dinner Rolls food",
+    "catKey": "burger",
+    "status": "ok",
+    "usedQuery": "Chicken Dinner Rolls food",
+    "sourceTitle": "File:Chicken Fried Steak.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "burger__31",
+    "name": "Veggie Burger",
+    "query": "Veggie Burger food",
+    "catKey": "burger",
+    "status": "ok",
+    "usedQuery": "Veggie Burger food",
+    "sourceTitle": "File:Veggie burger burger king flickr user moe creative commons.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "burger__33",
+    "name": "Creamy Mushroom Burger",
+    "query": "Creamy Mushroom Burger food",
+    "catKey": "burger",
+    "status": "ok",
+    "usedQuery": "Creamy Mushroom Burger food",
+    "sourceTitle": "File:Burger Brothers picnic in Royal Pavilion Gardens 2024-03-30.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "burger__36",
+    "name": "Chicken Fried Burger",
+    "query": "Chicken Fried Burger food",
+    "catKey": "burger",
+    "status": "ok",
+    "usedQuery": "Chicken Fried Burger food",
+    "sourceTitle": "File:Fried chicken Burger in Milan, Italy.jpg",
+    "license": "CC BY-SA 3.0 it"
+  },
+  {
+    "img": "sandwich__41",
+    "name": "Chicken Sandwich",
+    "query": "Chicken Sandwich food",
+    "catKey": "sandwich",
+    "status": "ok",
+    "usedQuery": "Chicken Sandwich food",
+    "sourceTitle": "File:ChickFilA-ChickenSandwich.jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "sandwich__42",
+    "name": "Chicken Masala Sandwich",
+    "query": "Chicken Masala Sandwich food",
+    "catKey": "sandwich",
+    "status": "ok",
+    "usedQuery": "Chicken Masala Sandwich food",
+    "sourceTitle": "File:Bombay grilled cheese with chicken masala.jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "sandwich__43",
+    "name": "Chicken Cheese Sandwich",
+    "query": "Chicken Cheese Sandwich food",
+    "catKey": "sandwich",
+    "status": "ok",
+    "usedQuery": "Chicken Cheese Sandwich food",
+    "sourceTitle": "File:Jerked chicken, cheese, pickles, hoagie roll, mustard (4470125495).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "sandwich__44",
+    "name": "Chicken Club Sandwich",
+    "query": "Chicken Club Sandwich food",
+    "catKey": "sandwich",
+    "status": "ok",
+    "usedQuery": "Chicken Club Sandwich food",
+    "sourceTitle": "File:BK Chicken Club.JPG",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "sandwich__45",
+    "name": "Egg Sandwich",
+    "query": "Egg Sandwich food",
+    "catKey": "sandwich",
+    "status": "ok",
+    "usedQuery": "Egg Sandwich food",
+    "sourceTitle": "File:Sandwich on a cutting board.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "sandwich__46",
+    "name": "Veg Sandwich",
+    "query": "Veg Sandwich food",
+    "catKey": "sandwich",
+    "status": "ok",
+    "usedQuery": "Veg Sandwich food",
+    "sourceTitle": "File:Veg Sandwich with Sundried Tomatoes and Mushrooms.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "sandwich__48",
+    "name": "Paneer Sandwich",
+    "query": "Paneer Sandwich food",
+    "catKey": "sandwich",
+    "status": "ok",
+    "usedQuery": "Paneer Sandwich food",
+    "sourceTitle": "File:Bologna sandwich.jpg",
+    "license": "CC BY 3.0"
+  },
+  {
+    "img": "sandwich__49",
+    "name": "Veg Club Sandwich",
+    "query": "Veg Club Sandwich food",
+    "catKey": "sandwich",
+    "status": "ok",
+    "usedQuery": "Veg Club Sandwich food",
+    "sourceTitle": "File:Veg Club Sandwich, The Verandah Restaurant, Goa -IMG 20191202 124624.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "sandwich__50",
+    "name": "Veg Cheese Sandwich",
+    "query": "Veg Cheese Sandwich food",
+    "catKey": "sandwich",
+    "status": "ok",
+    "usedQuery": "Veg Cheese Sandwich food",
+    "sourceTitle": "File:Veg Cheese Sandwich.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "starters__51",
+    "name": "Crispy Corn",
+    "query": "Crispy Corn food",
+    "catKey": "starters",
+    "status": "ok",
+    "usedQuery": "Crispy Corn food",
+    "sourceTitle": "File:Food-Crispy-Baby-Corn.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "starters__52",
+    "name": "Gobi Manchurian",
+    "query": "Gobi Manchurian food",
+    "catKey": "starters",
+    "status": "ok",
+    "usedQuery": "Gobi Manchurian food",
+    "sourceTitle": "File:Dry Gobi Manchurians.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "starters__53",
+    "name": "Chilli Gobi",
+    "query": "Chilli Gobi food",
+    "catKey": "starters",
+    "status": "ok",
+    "usedQuery": "Chilli Gobi food",
+    "sourceTitle": "File:Fried Rice & Chilli Gobi.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "starters__54",
+    "name": "Gobi 65",
+    "query": "Gobi food",
+    "catKey": "starters",
+    "status": "ok",
+    "usedQuery": "Gobi food",
+    "sourceTitle": "File:Gobi Manchuri.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "starters__55",
+    "name": "Shoti Mushroom",
+    "query": "Shoti Mushroom food",
+    "catKey": "starters",
+    "status": "ok",
+    "usedQuery": "starters food",
+    "sourceTitle": "File:Starters 01.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "starters__56",
+    "name": "Crispy Babycorn",
+    "query": "Crispy Babycorn food",
+    "catKey": "starters",
+    "status": "ok",
+    "usedQuery": "starters food",
+    "sourceTitle": "File:Starters 01.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "starters__57",
+    "name": "Veg Manchuria",
+    "query": "Veg Manchuria food",
+    "catKey": "starters",
+    "status": "ok",
+    "usedQuery": "Veg Manchuria food",
+    "sourceTitle": "File:Manchuria1.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "starters__59",
+    "name": "Veg Chilli 65",
+    "query": "Veg Chilli food",
+    "catKey": "starters",
+    "status": "ok",
+    "usedQuery": "Veg Chilli food",
+    "sourceTitle": "File:Chilli Babycorn.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "starters__61",
+    "name": "Chilli Babycorn",
+    "query": "Chilli Babycorn food",
+    "catKey": "starters",
+    "status": "ok",
+    "usedQuery": "Chilli Babycorn food",
+    "sourceTitle": "File:Chilli Babycorn.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "starters__62",
+    "name": "Baby Corn 65",
+    "query": "Baby Corn food",
+    "catKey": "starters",
+    "status": "ok",
+    "usedQuery": "Baby Corn food",
+    "sourceTitle": "File:Baby corn masala.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "starters__64",
+    "name": "Chilli Mushroom",
+    "query": "Chilli Mushroom food",
+    "catKey": "starters",
+    "status": "ok",
+    "usedQuery": "Chilli Mushroom food",
+    "sourceTitle": "File:Mushroom Manchurian dry.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "starters__65",
+    "name": "Mushroom 65",
+    "query": "Mushroom food",
+    "catKey": "starters",
+    "status": "ok",
+    "usedQuery": "Mushroom food",
+    "sourceTitle": "File:Dried mushrooms.jpg",
+    "license": "CC BY-SA 2.5"
+  },
+  {
+    "img": "starters__67",
+    "name": "Paneer 65",
+    "query": "Paneer food",
+    "catKey": "starters",
+    "status": "ok",
+    "usedQuery": "Paneer food",
+    "sourceTitle": "File:Egyptian food Koshary.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "starters__68",
+    "name": "Chilli Paneer",
+    "query": "Chilli Paneer food",
+    "catKey": "starters",
+    "status": "ok",
+    "usedQuery": "Chilli Paneer food",
+    "sourceTitle": "File:Chilli Paneer.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "starters__70",
+    "name": "Egg Manchuria",
+    "query": "Egg Manchuria food",
+    "catKey": "starters",
+    "status": "ok",
+    "usedQuery": "Egg Manchuria food",
+    "sourceTitle": "File:The Long White Mountain - or, A journey in Manchuria; with some account of the history, people, administration and religion of that country (1888) (14776389261).jpg",
+    "license": "No restrictions"
+  },
+  {
+    "img": "starters__71",
+    "name": "Chicken Kaju Pokodi",
+    "query": "Chicken Kaju Pokodi food",
+    "catKey": "starters",
+    "status": "ok",
+    "usedQuery": "starters food",
+    "sourceTitle": "File:Starters 01.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "starters__73",
+    "name": "Kabab 1 Pc",
+    "query": "Kabab food",
+    "catKey": "starters",
+    "status": "ok",
+    "usedQuery": "Kabab food",
+    "sourceTitle": "File:Hara bhara kabab-.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "starters__74",
+    "name": "Chilli Chicken",
+    "query": "Chilli Chicken food",
+    "catKey": "starters",
+    "status": "ok",
+    "usedQuery": "Chilli Chicken food",
+    "sourceTitle": "File:Chilli chicken with kerala parotta.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "starters__75",
+    "name": "Chicken 65",
+    "query": "Chicken food",
+    "catKey": "starters",
+    "status": "ok",
+    "usedQuery": "Chicken food",
+    "sourceTitle": "File:Chickens in market.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "starters__77",
+    "name": "Dragon Chicken",
+    "query": "Dragon Chicken food",
+    "catKey": "starters",
+    "status": "ok",
+    "usedQuery": "Dragon Chicken food",
+    "sourceTitle": "File:HK Sai Ying Pun Golden Dragon Restaurant food chicken feet rice 中式飲茶 tea morning August 2017 Lnv2 05.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "starters__78",
+    "name": "Ginger Chicken",
+    "query": "Ginger Chicken food",
+    "catKey": "starters",
+    "status": "ok",
+    "usedQuery": "Ginger Chicken food",
+    "sourceTitle": "File:Chicken breast with ginger on green peas - Massachusetts.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "starters__79",
+    "name": "Kabab 2 Pieces",
+    "query": "Kabab food",
+    "catKey": "starters",
+    "status": "ok",
+    "usedQuery": "Kabab food",
+    "sourceTitle": "File:Hara bhara kabab-.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "starters__80",
+    "name": "Chicken Wings 3 Pieces",
+    "query": "Chicken Wings food",
+    "catKey": "starters",
+    "status": "ok",
+    "usedQuery": "Chicken Wings food",
+    "sourceTitle": "File:16-03-17-Chicken-Wings-Burger-King-RalfR-WP 20160317 001.jpg",
+    "license": "GFDL 1.2"
+  },
+  {
+    "img": "starters__81",
+    "name": "Chicken Lollipop 3 Pieces",
+    "query": "Chicken Lollipop food",
+    "catKey": "starters",
+    "status": "ok",
+    "usedQuery": "Chicken Lollipop food",
+    "sourceTitle": "File:Chicken Lollipop Gulshan.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "friedrice__82",
+    "name": "Schezwan Veg Fried Rice",
+    "query": "Schezwan Veg Fried Rice food",
+    "catKey": "friedrice",
+    "status": "ok",
+    "usedQuery": "Schezwan Veg Fried Rice food",
+    "sourceTitle": "File:Manchurian.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "friedrice__83",
+    "name": "Veg Fried Rice",
+    "query": "Veg Fried Rice food",
+    "catKey": "friedrice",
+    "status": "ok",
+    "usedQuery": "Veg Fried Rice food",
+    "sourceTitle": "File:Veg fried rice 2.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "friedrice__84",
+    "name": "Jeera Fried Rice",
+    "query": "Jeera Fried Rice food",
+    "catKey": "friedrice",
+    "status": "ok",
+    "usedQuery": "Jeera Fried Rice food",
+    "sourceTitle": "File:Pulao Mangsho (a classic indian dish).JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "friedrice__85",
+    "name": "Lemon Fried Rice",
+    "query": "Lemon Fried Rice food",
+    "catKey": "friedrice",
+    "status": "ok",
+    "usedQuery": "Lemon Fried Rice food",
+    "sourceTitle": "File:Piri-Piri Fried rice with Lemon Grass.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "friedrice__86",
+    "name": "Tomato Fried Rice",
+    "query": "Tomato Fried Rice food",
+    "catKey": "friedrice",
+    "status": "ok",
+    "usedQuery": "Tomato Fried Rice food",
+    "sourceTitle": "File:Special Fried Rice - Brown rice, kale, bacon, tomatoes, red onions, over easy eggs (16325885791).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "friedrice__87",
+    "name": "Veg Manchurian Fried Rice",
+    "query": "Veg Manchurian Fried Rice food",
+    "catKey": "friedrice",
+    "status": "ok",
+    "usedQuery": "Veg Manchurian Fried Rice food",
+    "sourceTitle": "File:Vegetarian.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "friedrice__88",
+    "name": "Gobi Fried Rice",
+    "query": "Gobi Fried Rice food",
+    "catKey": "friedrice",
+    "status": "ok",
+    "usedQuery": "Gobi Fried Rice food",
+    "sourceTitle": "File:First Grain in Mouth Ceremony (Bengali style) of a Baby.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "friedrice__89",
+    "name": "Kaju Paneer Fried Rice",
+    "query": "Kaju Paneer Fried Rice food",
+    "catKey": "friedrice",
+    "status": "ok",
+    "usedQuery": "friedrice food",
+    "sourceTitle": "File:Pork belly and garlic fried rice bowl. -porkbelly -sousvide -garlic -friedrice (14575185663).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "friedrice__90",
+    "name": "Kaju Capsicum Fried Rice",
+    "query": "Kaju Capsicum Fried Rice food",
+    "catKey": "friedrice",
+    "status": "ok",
+    "usedQuery": "friedrice food",
+    "sourceTitle": "File:Pork belly and garlic fried rice bowl. -porkbelly -sousvide -garlic -friedrice (14575185663).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "friedrice__91",
+    "name": "Kaju Mushroom Fried Rice",
+    "query": "Kaju Mushroom Fried Rice food",
+    "catKey": "friedrice",
+    "status": "ok",
+    "usedQuery": "friedrice food",
+    "sourceTitle": "File:Pork belly and garlic fried rice bowl. -porkbelly -sousvide -garlic -friedrice (14575185663).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "friedrice__93",
+    "name": "Chicken 65 Rice",
+    "query": "Chicken Rice food",
+    "catKey": "friedrice",
+    "status": "ok",
+    "usedQuery": "Chicken Rice food",
+    "sourceTitle": "File:Parboiled rice with chicken, peppers, cucurbita, peas and tomato.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "friedrice__96",
+    "name": "Chicken Fried Rice",
+    "query": "Chicken Fried Rice food",
+    "catKey": "friedrice",
+    "status": "ok",
+    "usedQuery": "Chicken Fried Rice food",
+    "sourceTitle": "File:Fried rice with chicken (17234644521).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "friedrice__98",
+    "name": "Chicken Schezwan Rice",
+    "query": "Chicken Schezwan Rice food",
+    "catKey": "friedrice",
+    "status": "ok",
+    "usedQuery": "friedrice food",
+    "sourceTitle": "File:Pork belly and garlic fried rice bowl. -porkbelly -sousvide -garlic -friedrice (14575185663).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "friedrice__99",
+    "name": "Egg Fried Rice",
+    "query": "Egg Fried Rice food",
+    "catKey": "friedrice",
+    "status": "ok",
+    "usedQuery": "Egg Fried Rice food",
+    "sourceTitle": "File:\"Egg Fried Rice\".jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "biryani__101",
+    "name": "Veg Biryani",
+    "query": "Veg Biryani food",
+    "catKey": "biryani",
+    "status": "ok",
+    "usedQuery": "Veg Biryani food",
+    "sourceTitle": "File:Dum veg biryani by fatima.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "biryani__102",
+    "name": "Egg Biryani",
+    "query": "Egg Biryani food",
+    "catKey": "biryani",
+    "status": "ok",
+    "usedQuery": "Egg Biryani food",
+    "sourceTitle": "File:Egg Biryani and Chicken Chap.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "biryani__103",
+    "name": "Chicken Dum Biryani",
+    "query": "Chicken Dum Biryani food",
+    "catKey": "biryani",
+    "status": "ok",
+    "usedQuery": "Chicken Dum Biryani food",
+    "sourceTitle": "File:Chicken Dum Biryani 01.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "biryani__104",
+    "name": "Chicken Fried Piece Biryani",
+    "query": "Chicken Fried Piece Biryani food",
+    "catKey": "biryani",
+    "status": "ok",
+    "usedQuery": "Chicken Fried Piece Biryani food",
+    "sourceTitle": "File:Biriyani with a piece of chicken fry.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "biryani__105",
+    "name": "Spl Chicken Biryani Boneless",
+    "query": "Chicken Biryani Boneless food",
+    "catKey": "biryani",
+    "status": "ok",
+    "usedQuery": "Chicken Biryani Boneless food",
+    "sourceTitle": "File:Boneless Chicken Biryani.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "biryani__106",
+    "name": "Wings Biryani",
+    "query": "Wings Biryani food",
+    "catKey": "biryani",
+    "status": "ok",
+    "usedQuery": "biryani food",
+    "sourceTitle": "File:Kacchi Biryani.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "todayspecial__107",
+    "name": "Ginger Chicken",
+    "query": "Ginger Chicken food",
+    "catKey": "todayspecial",
+    "status": "ok",
+    "usedQuery": "Ginger Chicken food",
+    "sourceTitle": "File:Chicken breast with ginger on green peas - Massachusetts.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "todayspecial__108",
+    "name": "Schezwan Chicken",
+    "query": "Schezwan Chicken food",
+    "catKey": "todayspecial",
+    "status": "ok",
+    "usedQuery": "Schezwan Chicken food",
+    "sourceTitle": "File:Boneless Chicken fry.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "todayspecial__109",
+    "name": "Garlic Chicken",
+    "query": "Garlic Chicken food",
+    "catKey": "todayspecial",
+    "status": "ok",
+    "usedQuery": "Garlic Chicken food",
+    "sourceTitle": "File:Garlic-Chicken balls (6068563531).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "todayspecial__110",
+    "name": "Corn Chicken",
+    "query": "Corn Chicken food",
+    "catKey": "todayspecial",
+    "status": "ok",
+    "usedQuery": "Corn Chicken food",
+    "sourceTitle": "File:001 Tacos de carnitas, carne asada y al pastor.jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "todayspecial__111",
+    "name": "Crispy Chicken",
+    "query": "Crispy Chicken food",
+    "catKey": "todayspecial",
+    "status": "ok",
+    "usedQuery": "Crispy Chicken food",
+    "sourceTitle": "File:4fingersbrisbane.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "todayspecial__112",
+    "name": "Marinate Chicken",
+    "query": "Marinate Chicken food",
+    "catKey": "todayspecial",
+    "status": "ok",
+    "usedQuery": "Marinate Chicken food",
+    "sourceTitle": "File:Skewer with marinated chicken wings bbq barbeque.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "todayspecial__113",
+    "name": "Hong Kong Chicken",
+    "query": "Hong Kong Chicken food",
+    "catKey": "todayspecial",
+    "status": "ok",
+    "usedQuery": "Hong Kong Chicken food",
+    "sourceTitle": "File:Food stall in Aberdeen, Hong Kong (6847623998).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "todayspecial__116",
+    "name": "Chicken 555",
+    "query": "Chicken food",
+    "catKey": "todayspecial",
+    "status": "ok",
+    "usedQuery": "Chicken food",
+    "sourceTitle": "File:Chickens in market.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "todayspecial__117",
+    "name": "Chicken 91",
+    "query": "Chicken food",
+    "catKey": "todayspecial",
+    "status": "ok",
+    "usedQuery": "Chicken food",
+    "sourceTitle": "File:Chickens in market.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "todayspecial__118",
+    "name": "Dragon Chicken",
+    "query": "Dragon Chicken food",
+    "catKey": "todayspecial",
+    "status": "ok",
+    "usedQuery": "Dragon Chicken food",
+    "sourceTitle": "File:HK Sai Ying Pun Golden Dragon Restaurant food chicken feet rice 中式飲茶 tea morning August 2017 Lnv2 05.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "todayspecial__120",
+    "name": "Pepper Chicken",
+    "query": "Pepper Chicken food",
+    "catKey": "todayspecial",
+    "status": "ok",
+    "usedQuery": "Pepper Chicken food",
+    "sourceTitle": "File:Parboiled rice with chicken, peppers, cucurbita, peas and tomato.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "todayspecial__123",
+    "name": "Kung Pao Chicken",
+    "query": "Kung Pao Chicken food",
+    "catKey": "todayspecial",
+    "status": "ok",
+    "usedQuery": "Kung Pao Chicken food",
+    "sourceTitle": "File:Kung pao chicken food dinner.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "todayspecial__124",
+    "name": "Honey Chicken",
+    "query": "Honey Chicken food",
+    "catKey": "todayspecial",
+    "status": "ok",
+    "usedQuery": "Honey Chicken food",
+    "sourceTitle": "File:Honey chicken (31204192593).jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "todayspecial__126",
+    "name": "Pepper Chicken (Special)",
+    "query": "Pepper Chicken food",
+    "catKey": "todayspecial",
+    "status": "ok",
+    "usedQuery": "Pepper Chicken food",
+    "sourceTitle": "File:Parboiled rice with chicken, peppers, cucurbita, peas and tomato.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "noodles__127",
+    "name": "Paneer Noodles",
+    "query": "Paneer Noodles food",
+    "catKey": "noodles",
+    "status": "ok",
+    "usedQuery": "Paneer Noodles food",
+    "sourceTitle": "File:HK Arena Sunday AsiaWorld Expo Food Soy Sauce Fried Noodles 豉油皇炒麵.JPG",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "noodles__128",
+    "name": "Veg Manchurian Noodles",
+    "query": "Veg Manchurian Noodles food",
+    "catKey": "noodles",
+    "status": "ok",
+    "usedQuery": "Veg Manchurian Noodles food",
+    "sourceTitle": "File:Manchurian.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "noodles__129",
+    "name": "Paneer Noodles (Regular)",
+    "query": "Paneer Noodles food",
+    "catKey": "noodles",
+    "status": "ok",
+    "usedQuery": "Paneer Noodles food",
+    "sourceTitle": "File:HK Arena Sunday AsiaWorld Expo Food Soy Sauce Fried Noodles 豉油皇炒麵.JPG",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "noodles__130",
+    "name": "Veg Noodles",
+    "query": "Veg Noodles food",
+    "catKey": "noodles",
+    "status": "ok",
+    "usedQuery": "Veg Noodles food",
+    "sourceTitle": "File:Noodles-Veg Noodles.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "noodles__132",
+    "name": "Veg Jeera Noodles",
+    "query": "Veg Jeera Noodles food",
+    "catKey": "noodles",
+    "status": "ok",
+    "usedQuery": "noodles food",
+    "sourceTitle": "File:Soba-Noodles-Deliveryman-Tokyo-1935.png",
+    "license": "Public domain"
+  },
+  {
+    "img": "noodles__138",
+    "name": "Veg Hongkong Noodles",
+    "query": "Veg Hongkong Noodles food",
+    "catKey": "noodles",
+    "status": "ok",
+    "usedQuery": "noodles food",
+    "sourceTitle": "File:Soba-Noodles-Deliveryman-Tokyo-1935.png",
+    "license": "Public domain"
+  },
+  {
+    "img": "noodles__139",
+    "name": "Chicken Noodles",
+    "query": "Chicken Noodles food",
+    "catKey": "noodles",
+    "status": "ok",
+    "usedQuery": "Chicken Noodles food",
+    "sourceTitle": "File:Chicken noodle soup - Massachusetts 2.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "noodles__140",
+    "name": "Chicken Masala Noodles",
+    "query": "Chicken Masala Noodles food",
+    "catKey": "noodles",
+    "status": "ok",
+    "usedQuery": "Chicken Masala Noodles food",
+    "sourceTitle": "File:Idiyappam with Egg masala curry.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "noodles__141",
+    "name": "Chicken Jeera Noodles",
+    "query": "Chicken Jeera Noodles food",
+    "catKey": "noodles",
+    "status": "ok",
+    "usedQuery": "noodles food",
+    "sourceTitle": "File:Soba-Noodles-Deliveryman-Tokyo-1935.png",
+    "license": "Public domain"
+  },
+  {
+    "img": "noodles__144",
+    "name": "Chicken Schezwan Noodles",
+    "query": "Chicken Schezwan Noodles food",
+    "catKey": "noodles",
+    "status": "ok",
+    "usedQuery": "noodles food",
+    "sourceTitle": "File:Soba-Noodles-Deliveryman-Tokyo-1935.png",
+    "license": "Public domain"
+  },
+  {
+    "img": "noodles__145",
+    "name": "Egg Noodles",
+    "query": "Egg Noodles food",
+    "catKey": "noodles",
+    "status": "ok",
+    "usedQuery": "Egg Noodles food",
+    "sourceTitle": "File:Egg Noodles 2.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "noodles__146",
+    "name": "Double Egg Noodles",
+    "query": "Double Egg Noodles food",
+    "catKey": "noodles",
+    "status": "ok",
+    "usedQuery": "Double Egg Noodles food",
+    "sourceTitle": "File:GD 廣東 Guangdong 河源市 HeYuan 越王大道 YueWang Avenue Double Tree by Hilton Hotel Open Cafe n Restaurant 早餐 breakfast food 中式早餐 Chinese style congee egg n noodle April 2026 N13P 07.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "puffsrolls__148",
+    "name": "Foodies Spl Chicken Puff",
+    "query": "Chicken Puff food",
+    "catKey": "puffsrolls",
+    "status": "ok",
+    "usedQuery": "Chicken Puff food",
+    "sourceTitle": "File:Chilli Chicken Puffs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "puffsrolls__150",
+    "name": "Chicken Swirls",
+    "query": "Chicken Swirls food",
+    "catKey": "puffsrolls",
+    "status": "ok",
+    "usedQuery": "Chicken Swirls food",
+    "sourceTitle": "File:The universal food chopper and a few of the things it chops LCCN2003681789.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "puffsrolls__154",
+    "name": "Egg Puff",
+    "query": "Egg Puff food",
+    "catKey": "puffsrolls",
+    "status": "ok",
+    "usedQuery": "Egg Puff food",
+    "sourceTitle": "File:Egg Tarts with Puff Pastry.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "puffsrolls__155",
+    "name": "Paneer Puff",
+    "query": "Paneer Puff food",
+    "catKey": "puffsrolls",
+    "status": "ok",
+    "usedQuery": "Paneer Puff food",
+    "sourceTitle": "File:Poff poff in frying pan.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "puffsrolls__156",
+    "name": "Aloo Samosa",
+    "query": "Aloo Samosa food",
+    "catKey": "puffsrolls",
+    "status": "ok",
+    "usedQuery": "Aloo Samosa food",
+    "sourceTitle": "File:Aloo matar with samosa and green chili pickle - Massachusetts.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "puffsrolls__157",
+    "name": "Chicken Puff",
+    "query": "Chicken Puff food",
+    "catKey": "puffsrolls",
+    "status": "ok",
+    "usedQuery": "Chicken Puff food",
+    "sourceTitle": "File:Chilli Chicken Puffs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "puffsrolls__158",
+    "name": "Chicken Roll",
+    "query": "Chicken Roll food",
+    "catKey": "puffsrolls",
+    "status": "ok",
+    "usedQuery": "Chicken Roll food",
+    "sourceTitle": "File:001 Tacos de carnitas, carne asada y al pastor.jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "momos__159",
+    "name": "Veg Steam Momos 6pcs",
+    "query": "Veg Steam Momos food",
+    "catKey": "momos",
+    "status": "ok",
+    "usedQuery": "Veg Steam Momos food",
+    "sourceTitle": "File:Homemade veg momo recipe.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "momos__160",
+    "name": "Paneer Steamed Momos 6pcs",
+    "query": "Paneer Steamed Momos food",
+    "catKey": "momos",
+    "status": "ok",
+    "usedQuery": "Paneer Steamed Momos food",
+    "sourceTitle": "File:Steamed momos - Tibetan cuisine.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "momos__161",
+    "name": "Chicken Steamed Momos 6pcs",
+    "query": "Chicken Steamed Momos food",
+    "catKey": "momos",
+    "status": "ok",
+    "usedQuery": "Chicken Steamed Momos food",
+    "sourceTitle": "File:Steamed Chicken Momo with soup.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "momos__162",
+    "name": "Chilli Chicken Steamed Momos 6pcs",
+    "query": "Chilli Chicken Steamed Momos food",
+    "catKey": "momos",
+    "status": "ok",
+    "usedQuery": "Chilli Chicken Steamed Momos food",
+    "sourceTitle": "File:Kosha Momo, Siliguri, West Bengal DSC 0931.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "wraps__163",
+    "name": "Veg Wrap",
+    "query": "Veg Wrap food",
+    "catKey": "wraps",
+    "status": "ok",
+    "usedQuery": "Veg Wrap food",
+    "sourceTitle": "File:Vegetable and Basil-Garlic Hummus Wrap (4800115998).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "wraps__167",
+    "name": "Paneer Wrap",
+    "query": "Paneer Wrap food",
+    "catKey": "wraps",
+    "status": "ok",
+    "usedQuery": "Paneer Wrap food",
+    "sourceTitle": "File:Smoked chicken and avocado wrap.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "wraps__168",
+    "name": "Fries Wrap",
+    "query": "Fries Wrap food",
+    "catKey": "wraps",
+    "status": "ok",
+    "usedQuery": "Fries Wrap food",
+    "sourceTitle": "File:Wrap (6737751597).jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "wraps__169",
+    "name": "Chicken Wrap",
+    "query": "Chicken Wrap food",
+    "catKey": "wraps",
+    "status": "ok",
+    "usedQuery": "Chicken Wrap food",
+    "sourceTitle": "File:Garang asem Pj.JPG",
+    "license": "CC0"
+  },
+  {
+    "img": "wraps__170",
+    "name": "Chicken Cheese Wrap",
+    "query": "Chicken Cheese Wrap food",
+    "catKey": "wraps",
+    "status": "ok",
+    "usedQuery": "Chicken Cheese Wrap food",
+    "sourceTitle": "File:Grilled Chicken Wrap, Steel Magnolias, Valdosta.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "wraps__171",
+    "name": "Chicken Masala Wrap",
+    "query": "Chicken Masala Wrap food",
+    "catKey": "wraps",
+    "status": "ok",
+    "usedQuery": "Chicken Masala Wrap food",
+    "sourceTitle": "File:Tandoori Chicken 01.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "wraps__172",
+    "name": "Chicken 65 Wrap",
+    "query": "Chicken Wrap food",
+    "catKey": "wraps",
+    "status": "ok",
+    "usedQuery": "Chicken Wrap food",
+    "sourceTitle": "File:Garang asem Pj.JPG",
+    "license": "CC0"
+  },
+  {
+    "img": "wraps__173",
+    "name": "Crunchy Chicken Wrap",
+    "query": "Crunchy Chicken Wrap food",
+    "catKey": "wraps",
+    "status": "ok",
+    "usedQuery": "Crunchy Chicken Wrap food",
+    "sourceTitle": "File:Crunchy Korean Chicken Wrap - Leon 2025-10-27.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "kids__174",
+    "name": "Chicken Samosa 4pcs",
+    "query": "Chicken Samosa food",
+    "catKey": "kids",
+    "status": "ok",
+    "usedQuery": "Chicken Samosa food",
+    "sourceTitle": "File:Samosa, chicken, with Kansas City barbeque sauce - Massachusetts.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "kids__176",
+    "name": "Cheese Fries",
+    "query": "Cheese Fries food",
+    "catKey": "kids",
+    "status": "ok",
+    "usedQuery": "Cheese Fries food",
+    "sourceTitle": "File:Cheese Fries.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "kids__177",
+    "name": "Smilies",
+    "query": "Smilies food",
+    "catKey": "kids",
+    "status": "ok",
+    "usedQuery": "Smilies food",
+    "sourceTitle": "File:Food not bombs 2.JPG",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "kids__178",
+    "name": "Potato Wedges 8pcs",
+    "query": "Potato Wedges food",
+    "catKey": "kids",
+    "status": "ok",
+    "usedQuery": "Potato Wedges food",
+    "sourceTitle": "File:Roasted Potato Wedges with Shallots and Rosemary (5706897999).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "kids__180",
+    "name": "Plain Cheese Pizza",
+    "query": "Plain Cheese Pizza food",
+    "catKey": "kids",
+    "status": "ok",
+    "usedQuery": "Plain Cheese Pizza food",
+    "sourceTitle": "File:Cheese pizza pie at Grotto Pizza Dover DE.jpeg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "kids__182",
+    "name": "Chicken Nuggets 8pcs",
+    "query": "Chicken Nuggets food",
+    "catKey": "kids",
+    "status": "ok",
+    "usedQuery": "Chicken Nuggets food",
+    "sourceTitle": "File:Impossible chicken nuggets 2.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "kids__183",
+    "name": "Corn Samosa 4pcs",
+    "query": "Corn Samosa food",
+    "catKey": "kids",
+    "status": "ok",
+    "usedQuery": "kids food",
+    "sourceTitle": "File:Goat chops.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "kids__184",
+    "name": "Chicken Spring Rolls",
+    "query": "Chicken Spring Rolls food",
+    "catKey": "kids",
+    "status": "ok",
+    "usedQuery": "Chicken Spring Rolls food",
+    "sourceTitle": "File:RECALLED - Whole Foods - Chicken Spring Rolls Label (8051698919).jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "kids__185",
+    "name": "Veg Spring Rolls",
+    "query": "Veg Spring Rolls food",
+    "catKey": "kids",
+    "status": "ok",
+    "usedQuery": "Veg Spring Rolls food",
+    "sourceTitle": "File:Vegan spring rolls.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "kids__186",
+    "name": "French Fries",
+    "query": "French Fries food",
+    "catKey": "kids",
+    "status": "ok",
+    "usedQuery": "French Fries food",
+    "sourceTitle": "File:Plate of chips at the Chalet Cafe, Cowfold, West Sussex, England.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cakes__220",
+    "name": "Choco Almond",
+    "query": "Choco Almond food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Choco Almond food",
+    "sourceTitle": "File:Homemade - Choco Almond Milkshake.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cakes__222",
+    "name": "Honey Almond",
+    "query": "Honey Almond food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Honey Almond food",
+    "sourceTitle": "File:Rolling out the marzipan (11029638025).jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "cakes__223",
+    "name": "Red Velvet",
+    "query": "Red Velvet food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Red Velvet food",
+    "sourceTitle": "File:Biskut red velvet (Red velvet cookie) 20230425 083540.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "cakes__225",
+    "name": "Fresh Fruit Cake 500g",
+    "query": "Fresh Fruit Cake food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Fresh Fruit Cake food",
+    "sourceTitle": "File:Fresh Fruit Dessert.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "cakes__226",
+    "name": "Milky Butterscotch 500g",
+    "query": "Milky Butterscotch food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "cakes food",
+    "sourceTitle": "File:Piece of chocolate cake on a white plate decorated with chocolate sauce.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "cakes__227",
+    "name": "Selfie Cake 500g",
+    "query": "Selfie Cake food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Selfie Cake food",
+    "sourceTitle": "File:Bechnikha cake, Morocco 2015.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cakes__228",
+    "name": "Customised Cake",
+    "query": "Cake food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Cake food",
+    "sourceTitle": "File:Chocolate cake and Victoria sponge.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cakes__229",
+    "name": "Choco Chips 500g",
+    "query": "Choco Chips food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Choco Chips food",
+    "sourceTitle": "File:Iced Vanilla and Strawberry Ice Cream with Choco chips.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cakes__230",
+    "name": "KitKat Customised 500g",
+    "query": "KitKat food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "KitKat food",
+    "sourceTitle": "File:Kit-Kat-Split.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "cakes__231",
+    "name": "Butterscotch 500g",
+    "query": "Butterscotch food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Butterscotch food",
+    "sourceTitle": "File:Butterscotch-Candies.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "cakes__232",
+    "name": "Vanilla 500g",
+    "query": "Vanilla food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Vanilla food",
+    "sourceTitle": "File:VanillaExtract.png",
+    "license": "Public domain"
+  },
+  {
+    "img": "cakes__233",
+    "name": "Strawberry 500g",
+    "query": "Strawberry food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Strawberry food",
+    "sourceTitle": "File:Fragaria vesca 5048.JPG",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "cakes__234",
+    "name": "Chocolate 500g",
+    "query": "Chocolate food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Chocolate food",
+    "sourceTitle": "File:Bûche de Noël chocolat framboise maison.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "cakes__235",
+    "name": "Pineapple 500g",
+    "query": "Pineapple food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Pineapple food",
+    "sourceTitle": "File:Pineapple Pastry.JPG",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "cakes__236",
+    "name": "Black Forest 500g",
+    "query": "Black Forest food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Black Forest food",
+    "sourceTitle": "File:Black forest cake2022.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cakes__237",
+    "name": "Extra Topping",
+    "query": "Extra Topping food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Extra Topping food",
+    "sourceTitle": "File:Tinutuan topping.JPG",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "cakes__238",
+    "name": "White Forest 500g",
+    "query": "White Forest food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "White Forest food",
+    "sourceTitle": "File:Beefburger - A114 Whips Cross Road café hut - Waltham Forest London England.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cakes__239",
+    "name": "Fondant Cake 500g",
+    "query": "Fondant Cake food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Fondant Cake food",
+    "sourceTitle": "File:Successful party blue icing rose on cut birthday cake.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "cakes__241",
+    "name": "KitKat Customised Cake 1kg",
+    "query": "KitKat Cake food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "KitKat Cake food",
+    "sourceTitle": "File:Tarta de chocolate.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cakes__242",
+    "name": "Honey Almond 1kg",
+    "query": "Honey Almond food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Honey Almond food",
+    "sourceTitle": "File:Rolling out the marzipan (11029638025).jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "cakes__243",
+    "name": "Chocolate Truffle 1kg",
+    "query": "Chocolate Truffle food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Chocolate Truffle food",
+    "sourceTitle": "File:Chocolate truffle - Delacre.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "cakes__244",
+    "name": "Red Velvet 1kg",
+    "query": "Red Velvet food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Red Velvet food",
+    "sourceTitle": "File:Biskut red velvet (Red velvet cookie) 20230425 083540.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "cakes__245",
+    "name": "Milky Butterscotch 1kg",
+    "query": "Milky Butterscotch food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "cakes food",
+    "sourceTitle": "File:Piece of chocolate cake on a white plate decorated with chocolate sauce.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "cakes__246",
+    "name": "Extra Toppings",
+    "query": "Extra Toppings food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Extra Toppings food",
+    "sourceTitle": "File:Tinutuan topping.JPG",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "cakes__248",
+    "name": "Oreo 1kg",
+    "query": "Oreo food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Oreo food",
+    "sourceTitle": "File:Oreo-Two-Cookies.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "cakes__249",
+    "name": "Fresh Fruit Cake 1kg",
+    "query": "Fresh Fruit Cake food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Fresh Fruit Cake food",
+    "sourceTitle": "File:Fresh Fruit Dessert.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "cakes__250",
+    "name": "Choco Chips 1kg",
+    "query": "Choco Chips food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Choco Chips food",
+    "sourceTitle": "File:Iced Vanilla and Strawberry Ice Cream with Choco chips.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cakes__252",
+    "name": "Butterscotch 1kg",
+    "query": "Butterscotch food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Butterscotch food",
+    "sourceTitle": "File:Butterscotch-Candies.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "cakes__253",
+    "name": "Pineapple 1kg",
+    "query": "Pineapple food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Pineapple food",
+    "sourceTitle": "File:Pineapple Pastry.JPG",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "cakes__255",
+    "name": "Strawberry 1kg",
+    "query": "Strawberry food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Strawberry food",
+    "sourceTitle": "File:Fragaria vesca 5048.JPG",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "cakes__256",
+    "name": "Black Forest 1kg",
+    "query": "Black Forest food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Black Forest food",
+    "sourceTitle": "File:Black forest cake2022.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cakes__257",
+    "name": "White Forest 1kg",
+    "query": "White Forest food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "White Forest food",
+    "sourceTitle": "File:Beefburger - A114 Whips Cross Road café hut - Waltham Forest London England.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cakes__258",
+    "name": "Selfie Cake 1kg",
+    "query": "Selfie Cake food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Selfie Cake food",
+    "sourceTitle": "File:Bechnikha cake, Morocco 2015.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cakes__259",
+    "name": "Customised Cake (1kg)",
+    "query": "Cake food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Cake food",
+    "sourceTitle": "File:Chocolate cake and Victoria sponge.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cakes__260",
+    "name": "Milky Butterscotch 1kg (Spl)",
+    "query": "Milky Butterscotch food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "cakes food",
+    "sourceTitle": "File:Piece of chocolate cake on a white plate decorated with chocolate sauce.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "cakes__263",
+    "name": "Eggless 500g Regular Cake",
+    "query": "Eggless Cake food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Eggless Cake food",
+    "sourceTitle": "File:Eggless cake.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cakes__264",
+    "name": "1kg Regular Cake",
+    "query": "Cake food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Cake food",
+    "sourceTitle": "File:Chocolate cake and Victoria sponge.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cakes__265",
+    "name": "1.5kg Regular Cake",
+    "query": "Cake food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Cake food",
+    "sourceTitle": "File:Chocolate cake and Victoria sponge.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cakes__266",
+    "name": "2kg Size Regular Cake",
+    "query": "Size Cake food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Size Cake food",
+    "sourceTitle": "File:Hungarian Honey Cake (Mézes krémes).jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "cakes__267",
+    "name": "Eggless 1kg Regular",
+    "query": "Eggless food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Eggless food",
+    "sourceTitle": "File:Eggless cake.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cakes__268",
+    "name": "2kg Regular Cake (Spl)",
+    "query": "Cake food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Cake food",
+    "sourceTitle": "File:Chocolate cake and Victoria sponge.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cakes__269",
+    "name": "1kg Fancy Cake",
+    "query": "Fancy Cake food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Fancy Cake food",
+    "sourceTitle": "File:Fancy cake by mom.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cakes__270",
+    "name": "Pineapple Customised 900g",
+    "query": "Pineapple food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Pineapple food",
+    "sourceTitle": "File:Pineapple Pastry.JPG",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "cakes__271",
+    "name": "Strawberry Customised 900g",
+    "query": "Strawberry food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Strawberry food",
+    "sourceTitle": "File:Fragaria vesca 5048.JPG",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "cakes__272",
+    "name": "Chocolate Customised 900g",
+    "query": "Chocolate food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Chocolate food",
+    "sourceTitle": "File:Bûche de Noël chocolat framboise maison.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "cakes__273",
+    "name": "Black Forest Customised 900g",
+    "query": "Black Forest food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Black Forest food",
+    "sourceTitle": "File:Black forest cake2022.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cakes__274",
+    "name": "Butterscotch Customised Cake 900g",
+    "query": "Butterscotch Cake food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Butterscotch Cake food",
+    "sourceTitle": "File:Cake 1.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cakes__275",
+    "name": "Eggfree Muffins",
+    "query": "Eggfree Muffins food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "cakes food",
+    "sourceTitle": "File:Piece of chocolate cake on a white plate decorated with chocolate sauce.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "cakes__276",
+    "name": "Spongy Cake",
+    "query": "Spongy Cake food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Spongy Cake food",
+    "sourceTitle": "File:Odia Sweets Arisa laddu chenna cake rajbhog.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cakes__277",
+    "name": "Dry Fruit Plum Cake 400g",
+    "query": "Dry Fruit Plum Cake food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Dry Fruit Plum Cake food",
+    "sourceTitle": "File:Mazurek orzechowy.jpg",
+    "license": "CC BY 3.0 pl"
+  },
+  {
+    "img": "cakes__282",
+    "name": "Dry Fruit Tart",
+    "query": "Dry Fruit Tart food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Dry Fruit Tart food",
+    "sourceTitle": "File:Baobab fruit pulp - dry detail.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cakes__283",
+    "name": "Dryfruit Muffin",
+    "query": "Dryfruit Muffin food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "cakes food",
+    "sourceTitle": "File:Piece of chocolate cake on a white plate decorated with chocolate sauce.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "cakes__284",
+    "name": "Cup Cakes",
+    "query": "Cup Cakes food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Cup Cakes food",
+    "sourceTitle": "File:Chocolate cake and Victoria sponge.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cakes__285",
+    "name": "Chocolate Muffins",
+    "query": "Chocolate Muffins food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Chocolate Muffins food",
+    "sourceTitle": "File:Cinnamon orange chocolate muffin. 01.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cakes__286",
+    "name": "Muffins 9pc",
+    "query": "Muffins food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Muffins food",
+    "sourceTitle": "File:Muffin NIH.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "cakes__287",
+    "name": "Muffins 6pc",
+    "query": "Muffins food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Muffins food",
+    "sourceTitle": "File:Muffin NIH.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "cakes__288",
+    "name": "Redvelvet Muffins",
+    "query": "Redvelvet Muffins food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "cakes food",
+    "sourceTitle": "File:Piece of chocolate cake on a white plate decorated with chocolate sauce.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "cakes__289",
+    "name": "Pineapple Slice",
+    "query": "Pineapple Slice food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Pineapple Slice food",
+    "sourceTitle": "File:A bowel of sliced Pineapple.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cakes__290",
+    "name": "Dryfruit Plum Cake 200g",
+    "query": "Dryfruit Plum Cake food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "cakes food",
+    "sourceTitle": "File:Piece of chocolate cake on a white plate decorated with chocolate sauce.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "cakes__291",
+    "name": "Offer Cakes 1.5kg Choco",
+    "query": "Cakes Choco food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Cakes Choco food",
+    "sourceTitle": "File:Choco Lava Cake Food by Ms Pranjali Kasambe DSCN9802 (2).jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cakes__292",
+    "name": "Offer Cakes 1.5kg Butterscotch",
+    "query": "Cakes Butterscotch food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Cakes Butterscotch food",
+    "sourceTitle": "File:Cake 1.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cakes__293",
+    "name": "Offer Cakes 1.5kg Pineapple",
+    "query": "Cakes Pineapple food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Cakes Pineapple food",
+    "sourceTitle": "File:Food Pineapple sandwich cookies 1.JPG",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "cakes__294",
+    "name": "Offer Cakes 1.5kg Strawberry",
+    "query": "Cakes Strawberry food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Cakes Strawberry food",
+    "sourceTitle": "File:Strawberry Cake.JPG",
+    "license": "Public domain"
+  },
+  {
+    "img": "cakes__295",
+    "name": "Crunchy Caramel Premium Cake 250g",
+    "query": "Crunchy Caramel Premium Cake food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "cakes food",
+    "sourceTitle": "File:Piece of chocolate cake on a white plate decorated with chocolate sauce.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "cakes__297",
+    "name": "Redvelvet Premium Cake 250g",
+    "query": "Redvelvet Premium Cake food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "cakes food",
+    "sourceTitle": "File:Piece of chocolate cake on a white plate decorated with chocolate sauce.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "cakes__300",
+    "name": "Premium Jar Cake Choco & Redvelvet",
+    "query": "Premium Jar Cake Choco Redvelvet food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "cakes food",
+    "sourceTitle": "File:Piece of chocolate cake on a white plate decorated with chocolate sauce.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "cakes__301",
+    "name": "Mini Cake",
+    "query": "Mini Cake food",
+    "catKey": "cakes",
+    "status": "ok",
+    "usedQuery": "Mini Cake food",
+    "sourceTitle": "File:Chocolate angel food cake with various toppings.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "pastries__302",
+    "name": "Hazelnut Mousse",
+    "query": "Hazelnut Mousse food",
+    "catKey": "pastries",
+    "status": "ok",
+    "usedQuery": "Hazelnut Mousse food",
+    "sourceTitle": "File:Hazelnut Kreme with Blackberry Mousse (4580333934).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "pastries__303",
+    "name": "Panda Pastry",
+    "query": "Panda Pastry food",
+    "catKey": "pastries",
+    "status": "ok",
+    "usedQuery": "Panda Pastry food",
+    "sourceTitle": "File:Cakes in sicily - Flickr - vic15.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "pastries__304",
+    "name": "Milky Butterscotch",
+    "query": "Milky Butterscotch food",
+    "catKey": "pastries",
+    "status": "ok",
+    "usedQuery": "pastries food",
+    "sourceTitle": "File:Ronjat - Le Livre de Pâtisserie, fig. 15.png",
+    "license": "Public domain"
+  },
+  {
+    "img": "pastries__306",
+    "name": "Regular Cake Rolls",
+    "query": "Cake Rolls food",
+    "catKey": "pastries",
+    "status": "ok",
+    "usedQuery": "Cake Rolls food",
+    "sourceTitle": "File:HK Sheung Wan MTR Station shop Maxim's Cake food Swiss Rolls Feb 2017 IX1.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "pastries__309",
+    "name": "KitKat Pastry",
+    "query": "KitKat Pastry food",
+    "catKey": "pastries",
+    "status": "ok",
+    "usedQuery": "KitKat Pastry food",
+    "sourceTitle": "File:Garuda Indonesia Snack Box Orange 2.JPG",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "pastries__311",
+    "name": "Angry Bird",
+    "query": "Angry Bird food",
+    "catKey": "pastries",
+    "status": "ok",
+    "usedQuery": "Angry Bird food",
+    "sourceTitle": "File:P.I.T.A. (1).JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "pastries__313",
+    "name": "Rasmalai Pastry",
+    "query": "Rasmalai Pastry food",
+    "catKey": "pastries",
+    "status": "ok",
+    "usedQuery": "pastries food",
+    "sourceTitle": "File:Ronjat - Le Livre de Pâtisserie, fig. 15.png",
+    "license": "Public domain"
+  },
+  {
+    "img": "pastries__314",
+    "name": "Rainbow Pastries",
+    "query": "Rainbow Pastries food",
+    "catKey": "pastries",
+    "status": "ok",
+    "usedQuery": "Rainbow Pastries food",
+    "sourceTitle": "File:Rainbow coloured pastry in Vizag.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "pastries__316",
+    "name": "Chocolate Truffle Pastry",
+    "query": "Chocolate Truffle Pastry food",
+    "catKey": "pastries",
+    "status": "ok",
+    "usedQuery": "Chocolate Truffle Pastry food",
+    "sourceTitle": "File:Dark Chocolate Truffle Pastry.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "pastries__317",
+    "name": "Donut",
+    "query": "Donut food",
+    "catKey": "pastries",
+    "status": "ok",
+    "usedQuery": "Donut food",
+    "sourceTitle": "File:Kyiv's fast food - Donut Lady.jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "pastries__318",
+    "name": "White Chocolate Round",
+    "query": "White Chocolate Round food",
+    "catKey": "pastries",
+    "status": "ok",
+    "usedQuery": "White Chocolate Round food",
+    "sourceTitle": "File:White Chocolate Raspberry New York Cheesecake.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "pastries__319",
+    "name": "Oreo Pastry",
+    "query": "Oreo Pastry food",
+    "catKey": "pastries",
+    "status": "ok",
+    "usedQuery": "Oreo Pastry food",
+    "sourceTitle": "File:Fried Dough food stand - Boston, MA - DSC03860.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "pastries__320",
+    "name": "Mango Pastry",
+    "query": "Mango Pastry food",
+    "catKey": "pastries",
+    "status": "ok",
+    "usedQuery": "Mango Pastry food",
+    "sourceTitle": "File:HK Causeway Bay Moreton Terrace 灣景大廈 Bay View Mansion bakery shop pudding Feb-2012.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "pastries__321",
+    "name": "Brownie",
+    "query": "Brownie food",
+    "catKey": "pastries",
+    "status": "ok",
+    "usedQuery": "Brownie food",
+    "sourceTitle": "File:Wikicamp, brownie aux noix.jpg",
+    "license": "CC BY 4.0"
+  },
+  {
+    "img": "pastries__323",
+    "name": "Fresh Fruit Dessert",
+    "query": "Fresh Fruit Dessert food",
+    "catKey": "pastries",
+    "status": "ok",
+    "usedQuery": "Fresh Fruit Dessert food",
+    "sourceTitle": "File:Fresh Fruit Dessert.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "pastries__324",
+    "name": "Cake Roll",
+    "query": "Cake Roll food",
+    "catKey": "pastries",
+    "status": "ok",
+    "usedQuery": "Cake Roll food",
+    "sourceTitle": "File:Macking roll cake 4.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "pastries__325",
+    "name": "Butterscotch Pastry",
+    "query": "Butterscotch Pastry food",
+    "catKey": "pastries",
+    "status": "ok",
+    "usedQuery": "Butterscotch Pastry food",
+    "sourceTitle": "File:Cake 1.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "pastries__326",
+    "name": "Chocolate Pastry",
+    "query": "Chocolate Pastry food",
+    "catKey": "pastries",
+    "status": "ok",
+    "usedQuery": "Chocolate Pastry food",
+    "sourceTitle": "File:Two Safeway Chocolate Eclairs (19043880936).jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "pastries__327",
+    "name": "Pineapple Pastry",
+    "query": "Pineapple Pastry food",
+    "catKey": "pastries",
+    "status": "ok",
+    "usedQuery": "Pineapple Pastry food",
+    "sourceTitle": "File:Pineapple Pastry.JPG",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "pastries__328",
+    "name": "Strawberry Pastry",
+    "query": "Strawberry Pastry food",
+    "catKey": "pastries",
+    "status": "ok",
+    "usedQuery": "Strawberry Pastry food",
+    "sourceTitle": "File:Fruit pastry with kiwi, strawberry and blackberry, 2007.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "pastries__329",
+    "name": "Black Forest Pastry",
+    "query": "Black Forest Pastry food",
+    "catKey": "pastries",
+    "status": "ok",
+    "usedQuery": "Black Forest Pastry food",
+    "sourceTitle": "File:Black Forest Pastry, Kolkata.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "pastries__330",
+    "name": "Crunchy Carmel Pastry",
+    "query": "Crunchy Carmel Pastry food",
+    "catKey": "pastries",
+    "status": "ok",
+    "usedQuery": "pastries food",
+    "sourceTitle": "File:Ronjat - Le Livre de Pâtisserie, fig. 15.png",
+    "license": "Public domain"
+  },
+  {
+    "img": "pastries__331",
+    "name": "Almond Pastry",
+    "query": "Almond Pastry food",
+    "catKey": "pastries",
+    "status": "ok",
+    "usedQuery": "Almond Pastry food",
+    "sourceTitle": "File:Tim Hortons, Almond Pastry -- before image.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "pastries__333",
+    "name": "Almond",
+    "query": "Almond food",
+    "catKey": "pastries",
+    "status": "ok",
+    "usedQuery": "Almond food",
+    "sourceTitle": "File:Almond with two kernels.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "pastries__335",
+    "name": "Chocolate Overload",
+    "query": "Chocolate Overload food",
+    "catKey": "pastries",
+    "status": "ok",
+    "usedQuery": "Chocolate Overload food",
+    "sourceTitle": "File:Overload.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "chat__336",
+    "name": "Pav Bhaji",
+    "query": "Pav Bhaji food",
+    "catKey": "chat",
+    "status": "ok",
+    "usedQuery": "Pav Bhaji food",
+    "sourceTitle": "File:Pav Bhaji (22831662039).jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "chat__337",
+    "name": "Spl Pav Bhaji",
+    "query": "Pav Bhaji food",
+    "catKey": "chat",
+    "status": "ok",
+    "usedQuery": "Pav Bhaji food",
+    "sourceTitle": "File:Pav Bhaji (22831662039).jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "chat__338",
+    "name": "Special Dahi Puri 4pc",
+    "query": "Dahi Puri food",
+    "catKey": "chat",
+    "status": "ok",
+    "usedQuery": "Dahi Puri food",
+    "sourceTitle": "File:Dahi paani puri.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "chat__339",
+    "name": "Pav Bun 6pcs",
+    "query": "Pav Bun food",
+    "catKey": "chat",
+    "status": "ok",
+    "usedQuery": "Pav Bun food",
+    "sourceTitle": "File:Bun Maska Pav.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "chat__340",
+    "name": "Paneer 2 Plates",
+    "query": "Paneer food",
+    "catKey": "chat",
+    "status": "ok",
+    "usedQuery": "Paneer food",
+    "sourceTitle": "File:Egyptian food Koshary.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "chat__341",
+    "name": "Cheese Pav Bhaji",
+    "query": "Cheese Pav Bhaji food",
+    "catKey": "chat",
+    "status": "ok",
+    "usedQuery": "Cheese Pav Bhaji food",
+    "sourceTitle": "File:Yummy Cheese Pav Bhajji and Medu Wada.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "chat__342",
+    "name": "Paneer Pav Bhaji",
+    "query": "Paneer Pav Bhaji food",
+    "catKey": "chat",
+    "status": "ok",
+    "usedQuery": "Paneer Pav Bhaji food",
+    "sourceTitle": "File:Mitha Pan.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "chat__343",
+    "name": "Baby Corn Pav Bhaji",
+    "query": "Baby Corn Pav Bhaji food",
+    "catKey": "chat",
+    "status": "ok",
+    "usedQuery": "chat food",
+    "sourceTitle": "File:Bhalla Papri Chaat with saunth chutney.jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "chat__344",
+    "name": "Mushroom Pav Bhaji",
+    "query": "Mushroom Pav Bhaji food",
+    "catKey": "chat",
+    "status": "ok",
+    "usedQuery": "chat food",
+    "sourceTitle": "File:Bhalla Papri Chaat with saunth chutney.jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "chat__345",
+    "name": "Extra Pav",
+    "query": "Extra Pav food",
+    "catKey": "chat",
+    "status": "ok",
+    "usedQuery": "Extra Pav food",
+    "sourceTitle": "File:Indian Bread in Butter Ocean.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "chat__346",
+    "name": "Pani Puri 8pcs",
+    "query": "Pani Puri food",
+    "catKey": "chat",
+    "status": "ok",
+    "usedQuery": "Pani Puri food",
+    "sourceTitle": "File:Pani Puri Food by Ms Ujwala Kasambe DSCN1250 (2).jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "chat__347",
+    "name": "Spl Pani Puri 6pcs",
+    "query": "Pani Puri food",
+    "catKey": "chat",
+    "status": "ok",
+    "usedQuery": "Pani Puri food",
+    "sourceTitle": "File:Pani Puri Food by Ms Ujwala Kasambe DSCN1250 (2).jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "chat__348",
+    "name": "Dahi Puri",
+    "query": "Dahi Puri food",
+    "catKey": "chat",
+    "status": "ok",
+    "usedQuery": "Dahi Puri food",
+    "sourceTitle": "File:Dahi paani puri.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "chat__349",
+    "name": "Samosa Chat",
+    "query": "Samosa Chat food",
+    "catKey": "chat",
+    "status": "ok",
+    "usedQuery": "Samosa Chat food",
+    "sourceTitle": "File:Samosa Chat.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "chat__350",
+    "name": "Papad Chat",
+    "query": "Papad Chat food",
+    "catKey": "chat",
+    "status": "ok",
+    "usedQuery": "Papad Chat food",
+    "sourceTitle": "File:Masala Papad 2.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "chat__351",
+    "name": "Aloo Chat",
+    "query": "Aloo Chat food",
+    "catKey": "chat",
+    "status": "ok",
+    "usedQuery": "Aloo Chat food",
+    "sourceTitle": "File:Aloo chat.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "chat__352",
+    "name": "Bhel Puri",
+    "query": "Bhel Puri food",
+    "catKey": "chat",
+    "status": "ok",
+    "usedQuery": "Bhel Puri food",
+    "sourceTitle": "File:Bhel Puri Chaat.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "chat__353",
+    "name": "Spl Bhel Puri",
+    "query": "Bhel Puri food",
+    "catKey": "chat",
+    "status": "ok",
+    "usedQuery": "Bhel Puri food",
+    "sourceTitle": "File:Bhel Puri Chaat.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "chat__355",
+    "name": "Dahi Papad",
+    "query": "Dahi Papad food",
+    "catKey": "chat",
+    "status": "ok",
+    "usedQuery": "Dahi Papad food",
+    "sourceTitle": "File:Kadhi, Bharwan baigan, papad, roti and dahi.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "chat__356",
+    "name": "Dahi Samosa",
+    "query": "Dahi Samosa food",
+    "catKey": "chat",
+    "status": "ok",
+    "usedQuery": "Dahi Samosa food",
+    "sourceTitle": "File:Dahi masala puri.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "milkshakes__187",
+    "name": "Redvelvet Shake",
+    "query": "Redvelvet Shake drink",
+    "catKey": "milkshakes",
+    "status": "ok",
+    "usedQuery": "milkshakes food",
+    "sourceTitle": "File:Milkshakes at Mels Diner.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "milkshakes__188",
+    "name": "Brownie with Oreo Shake",
+    "query": "Brownie with Oreo Shake drink",
+    "catKey": "milkshakes",
+    "status": "ok",
+    "usedQuery": "milkshakes food",
+    "sourceTitle": "File:Milkshakes at Mels Diner.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "milkshakes__193",
+    "name": "Almond Shake",
+    "query": "Almond Shake drink",
+    "catKey": "milkshakes",
+    "status": "ok",
+    "usedQuery": "Almond Shake drink",
+    "sourceTitle": "File:Oreo Thick Shake - Gujarat - SHAILI 018.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "milkshakes__194",
+    "name": "Dryfruit Shake",
+    "query": "Dryfruit Shake drink",
+    "catKey": "milkshakes",
+    "status": "ok",
+    "usedQuery": "milkshakes food",
+    "sourceTitle": "File:Milkshakes at Mels Diner.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "milkshakes__195",
+    "name": "Kitkat Milkshake",
+    "query": "Kitkat Milkshake drink",
+    "catKey": "milkshakes",
+    "status": "ok",
+    "usedQuery": "milkshakes food",
+    "sourceTitle": "File:Milkshakes at Mels Diner.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "milkshakes__197",
+    "name": "Strawberry Shake",
+    "query": "Strawberry Shake drink",
+    "catKey": "milkshakes",
+    "status": "ok",
+    "usedQuery": "Strawberry Shake drink",
+    "sourceTitle": "File:Strawberry milk shake.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "milkshakes__198",
+    "name": "Butterscotch Shake",
+    "query": "Butterscotch Shake drink",
+    "catKey": "milkshakes",
+    "status": "ok",
+    "usedQuery": "Butterscotch Shake drink",
+    "sourceTitle": "File:Oreo Thick Shake - Gujarat - SHAILI 018.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "milkshakes__199",
+    "name": "Chocolate Shake",
+    "query": "Chocolate Shake drink",
+    "catKey": "milkshakes",
+    "status": "ok",
+    "usedQuery": "Chocolate Shake drink",
+    "sourceTitle": "File:Chocolate milk shake.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "milkshakes__200",
+    "name": "Oreo Shake",
+    "query": "Oreo Shake drink",
+    "catKey": "milkshakes",
+    "status": "ok",
+    "usedQuery": "Oreo Shake drink",
+    "sourceTitle": "File:Burger King Pumpkin Spice Oreo Shake (22940227122).jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "milkshakes__201",
+    "name": "Mango Shake",
+    "query": "Mango Shake drink",
+    "catKey": "milkshakes",
+    "status": "ok",
+    "usedQuery": "Mango Shake drink",
+    "sourceTitle": "File:Mango Mastani and Mango Ice-Cream.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "milkshakes__202",
+    "name": "Banana Shake",
+    "query": "Banana Shake drink",
+    "catKey": "milkshakes",
+    "status": "ok",
+    "usedQuery": "Banana Shake drink",
+    "sourceTitle": "File:Banana shake at the Pyongyang Hotel Cafe (1st floor) (10195085415).jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "milkshakes__203",
+    "name": "Caramel Shake",
+    "query": "Caramel Shake drink",
+    "catKey": "milkshakes",
+    "status": "ok",
+    "usedQuery": "Caramel Shake drink",
+    "sourceTitle": "File:Oreo Thick Shake - Gujarat - SHAILI 018.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "milkshakes__209",
+    "name": "Dryfruit Shake (Spl)",
+    "query": "Dryfruit Shake drink",
+    "catKey": "milkshakes",
+    "status": "ok",
+    "usedQuery": "milkshakes food",
+    "sourceTitle": "File:Milkshakes at Mels Diner.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "milkshakes__210",
+    "name": "Cold Coffee",
+    "query": "Cold Coffee drink",
+    "catKey": "milkshakes",
+    "status": "ok",
+    "usedQuery": "Cold Coffee drink",
+    "sourceTitle": "File:The Vertue of the COFFEE Drink.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "milkshakes__211",
+    "name": "Banana",
+    "query": "Banana drink",
+    "catKey": "milkshakes",
+    "status": "ok",
+    "usedQuery": "Banana drink",
+    "sourceTitle": "File:Nation's Giant Hamburgers Banana Cream Pie + Drink (25447856045).jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "milkshakes__212",
+    "name": "Vanilla Milkshake",
+    "query": "Vanilla Milkshake drink",
+    "catKey": "milkshakes",
+    "status": "ok",
+    "usedQuery": "Vanilla Milkshake drink",
+    "sourceTitle": "File:Irish Violet Crumble.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "milkshakes__213",
+    "name": "Strawberry Milkshake",
+    "query": "Strawberry Milkshake drink",
+    "catKey": "milkshakes",
+    "status": "ok",
+    "usedQuery": "Strawberry Milkshake drink",
+    "sourceTitle": "File:Strawberry milkshake - close-up straw.jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "milkshakes__214",
+    "name": "Oreo Milkshake",
+    "query": "Oreo Milkshake drink",
+    "catKey": "milkshakes",
+    "status": "ok",
+    "usedQuery": "Oreo Milkshake drink",
+    "sourceTitle": "File:Burger King Pumpkin Spice Oreo Shake (22940227122).jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "milkshakes__215",
+    "name": "Butterscotch Milkshake",
+    "query": "Butterscotch Milkshake drink",
+    "catKey": "milkshakes",
+    "status": "ok",
+    "usedQuery": "Butterscotch Milkshake drink",
+    "sourceTitle": "File:Arkansas BBQ 001.jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "milkshakes__216",
+    "name": "Mango",
+    "query": "Mango drink",
+    "catKey": "milkshakes",
+    "status": "ok",
+    "usedQuery": "Mango drink",
+    "sourceTitle": "File:Rubicon mango drink.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "milkshakes__217",
+    "name": "Chocoroco Shake",
+    "query": "Chocoroco Shake drink",
+    "catKey": "milkshakes",
+    "status": "ok",
+    "usedQuery": "milkshakes food",
+    "sourceTitle": "File:Milkshakes at Mels Diner.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "lassies__357",
+    "name": "Sweet Lassi",
+    "query": "Sweet Lassi drink",
+    "catKey": "lassies",
+    "status": "ok",
+    "usedQuery": "Sweet Lassi drink",
+    "sourceTitle": "File:Sweet lassi with roohafza.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "lassies__358",
+    "name": "Salt Lassi",
+    "query": "Salt Lassi drink",
+    "catKey": "lassies",
+    "status": "ok",
+    "usedQuery": "Salt Lassi drink",
+    "sourceTitle": "File:Mint lassi.jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "lassies__359",
+    "name": "Vanilla Lassi",
+    "query": "Vanilla Lassi drink",
+    "catKey": "lassies",
+    "status": "ok",
+    "usedQuery": "lassies food",
+    "sourceTitle": "File:SWEET LASSY.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "lassies__361",
+    "name": "Mango Lassi",
+    "query": "Mango Lassi drink",
+    "catKey": "lassies",
+    "status": "ok",
+    "usedQuery": "Mango Lassi drink",
+    "sourceTitle": "File:Pakora with sauce, Mango Lassi for drink, Portland Indian Festival.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "lassies__362",
+    "name": "Butterscotch Lassi",
+    "query": "Butterscotch Lassi drink",
+    "catKey": "lassies",
+    "status": "ok",
+    "usedQuery": "lassies food",
+    "sourceTitle": "File:SWEET LASSY.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "lassies__364",
+    "name": "Dryfruit Lassi",
+    "query": "Dryfruit Lassi drink",
+    "catKey": "lassies",
+    "status": "ok",
+    "usedQuery": "lassies food",
+    "sourceTitle": "File:SWEET LASSY.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "juices__366",
+    "name": "Badam Milk",
+    "query": "Badam Milk drink",
+    "catKey": "juices",
+    "status": "ok",
+    "usedQuery": "Badam Milk drink",
+    "sourceTitle": "File:Badam Milk Drink.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "juices__368",
+    "name": "Spl Dryfruit Badam Milk",
+    "query": "Dryfruit Badam Milk drink",
+    "catKey": "juices",
+    "status": "ok",
+    "usedQuery": "juices food",
+    "sourceTitle": "File:Fruit juices in bottles.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cooldrinks__370",
+    "name": "Monster",
+    "query": "Monster energy drink can",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Monster energy drink can",
+    "sourceTitle": "File:Can of Monster Energy drink sold in China (0.33 l), on white background.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cooldrinks__371",
+    "name": "Monster Ultra",
+    "query": "Monster energy drink can",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Monster energy drink can",
+    "sourceTitle": "File:Can of Monster Energy drink sold in China (0.33 l), on white background.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cooldrinks__372",
+    "name": "Predator Energy",
+    "query": "energy drink can",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "energy drink can",
+    "sourceTitle": "File:Battery Energy Drink-can-bottle.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "cooldrinks__373",
+    "name": "500ml Water Bottle",
+    "query": "mineral water bottle",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "mineral water bottle",
+    "sourceTitle": "File:Kangso Mineral Water Bottling Factory - 01.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cooldrinks__374",
+    "name": "Coca Cola Tin 300ml",
+    "query": "Coca-Cola bottle",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Coca-Cola bottle",
+    "sourceTitle": "File:15-09-26-RalfR-WLC-0098 - Coca-Cola glass bottle (Germany).jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "cooldrinks__375",
+    "name": "1 Litre Coca Cola",
+    "query": "Coca-Cola bottle",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Coca-Cola bottle",
+    "sourceTitle": "File:15-09-26-RalfR-WLC-0098 - Coca-Cola glass bottle (Germany).jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "cooldrinks__376",
+    "name": "Coca Cola 600ml",
+    "query": "Coca-Cola bottle",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Coca-Cola bottle",
+    "sourceTitle": "File:15-09-26-RalfR-WLC-0098 - Coca-Cola glass bottle (Germany).jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "cooldrinks__377",
+    "name": "2.25L Coca Cola",
+    "query": "Coca-Cola bottle",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Coca-Cola bottle",
+    "sourceTitle": "File:15-09-26-RalfR-WLC-0098 - Coca-Cola glass bottle (Germany).jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "cooldrinks__378",
+    "name": "750ml Sprite",
+    "query": "Sprite bottle",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Sprite bottle",
+    "sourceTitle": "File:Sprite bottle Shenzhen China.jpeg",
+    "license": "CC0"
+  },
+  {
+    "img": "cooldrinks__379",
+    "name": "1L Sprite",
+    "query": "Sprite bottle",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Sprite bottle",
+    "sourceTitle": "File:Sprite bottle Shenzhen China.jpeg",
+    "license": "CC0"
+  },
+  {
+    "img": "cooldrinks__380",
+    "name": "600ml Sprite",
+    "query": "Sprite bottle",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Sprite bottle",
+    "sourceTitle": "File:Sprite bottle Shenzhen China.jpeg",
+    "license": "CC0"
+  },
+  {
+    "img": "cooldrinks__381",
+    "name": "1.25L Sprite",
+    "query": "Sprite bottle",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Sprite bottle",
+    "sourceTitle": "File:Sprite bottle Shenzhen China.jpeg",
+    "license": "CC0"
+  },
+  {
+    "img": "cooldrinks__382",
+    "name": "2.2L Sprite",
+    "query": "Sprite bottle",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Sprite bottle",
+    "sourceTitle": "File:Sprite bottle Shenzhen China.jpeg",
+    "license": "CC0"
+  },
+  {
+    "img": "cooldrinks__389",
+    "name": "Charged 250ml",
+    "query": "soda bottle",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "soda bottle",
+    "sourceTitle": "File:Beer bottles 2018 G1.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "cooldrinks__390",
+    "name": "Limca 600ml",
+    "query": "Limca bottle",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Limca bottle",
+    "sourceTitle": "File:Limca bottle in mussoorie.jpg",
+    "license": "CC BY 1.0"
+  },
+  {
+    "img": "cooldrinks__391",
+    "name": "Diet Coke",
+    "query": "Diet Coke can",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Diet Coke can",
+    "sourceTitle": "File:Diet Coke Mentos.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "cooldrinks__392",
+    "name": "Soda 750ml",
+    "query": "soda bottle",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "soda bottle",
+    "sourceTitle": "File:Beer bottles 2018 G1.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "cooldrinks__393",
+    "name": "Soda 1.2L",
+    "query": "soda bottle",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "soda bottle",
+    "sourceTitle": "File:Beer bottles 2018 G1.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "cooldrinks__394",
+    "name": "2L Water",
+    "query": "Water drink",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Water drink",
+    "sourceTitle": "File:Fresh water fountain.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "cooldrinks__395",
+    "name": "Smart Water",
+    "query": "mineral water bottle",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "mineral water bottle",
+    "sourceTitle": "File:Kangso Mineral Water Bottling Factory - 03.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cooldrinks__396",
+    "name": "Maaza 1.5L",
+    "query": "Maaza mango drink bottle",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Maaza mango drink bottle",
+    "sourceTitle": "File:Maaza bottles.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "cooldrinks__397",
+    "name": "1.75L Maaza",
+    "query": "Maaza mango drink bottle",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Maaza mango drink bottle",
+    "sourceTitle": "File:Maaza bottles.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "cooldrinks__398",
+    "name": "600ml Maaza",
+    "query": "Maaza mango drink bottle",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Maaza mango drink bottle",
+    "sourceTitle": "File:Maaza bottles.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "cooldrinks__399",
+    "name": "1L Maaza",
+    "query": "Maaza mango drink bottle",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Maaza mango drink bottle",
+    "sourceTitle": "File:Maaza bottles.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "cooldrinks__401",
+    "name": "Pulpy Orange 1L",
+    "query": "orange juice bottle",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "orange juice bottle",
+    "sourceTitle": "File:Fresh orange juice III.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cooldrinks__402",
+    "name": "Pulpy Orange 250ml",
+    "query": "orange juice bottle",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "orange juice bottle",
+    "sourceTitle": "File:Fresh orange juice III.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cooldrinks__403",
+    "name": "600ml Apple Pop",
+    "query": "apple juice bottle",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "apple juice bottle",
+    "sourceTitle": "File:Apple juice bottling, Colwall cricket pitch - geograph.org.uk - 1540184.jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "cooldrinks__408",
+    "name": "Soft Drink",
+    "query": "Soft Drink drink",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Soft Drink drink",
+    "sourceTitle": "File:Soft drink shelf 2.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cooldrinks__409",
+    "name": "Empty Glass",
+    "query": "Empty Glass drink",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Empty Glass drink",
+    "sourceTitle": "File:Through empty drinking glass 2.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cooldrinks__410",
+    "name": "Goli Soda",
+    "query": "soda bottle",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "soda bottle",
+    "sourceTitle": "File:Beer bottles 2018 G1.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "cooldrinks__412",
+    "name": "Spl Badam Milk with Loaded Nuts",
+    "query": "Badam Milk with Loaded Nuts drink",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "cooldrinks food",
+    "sourceTitle": "File:SWEET LASSY.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cooldrinks__414",
+    "name": "Soft Drink 300ml",
+    "query": "Soft Drink drink",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Soft Drink drink",
+    "sourceTitle": "File:Soft drink shelf 2.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cooldrinks__415",
+    "name": "Water Bottle 1L",
+    "query": "mineral water bottle",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "mineral water bottle",
+    "sourceTitle": "File:Kangso Mineral Water Bottling Factory - 03.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "scoopings__416",
+    "name": "Gud Bud",
+    "query": "Gud Bud food",
+    "catKey": "scoopings",
+    "status": "ok",
+    "usedQuery": "Gud Bud food",
+    "sourceTitle": "File:Gudbud - Diana Restaurant, Udupi - Karnataka - PXL6228.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "scoopings__417",
+    "name": "Special Gud Bud",
+    "query": "Gud Bud food",
+    "catKey": "scoopings",
+    "status": "ok",
+    "usedQuery": "Gud Bud food",
+    "sourceTitle": "File:Gudbud - Diana Restaurant, Udupi - Karnataka - PXL6228.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "scoopings__418",
+    "name": "Honeymoon",
+    "query": "Honeymoon food",
+    "catKey": "scoopings",
+    "status": "ok",
+    "usedQuery": "Honeymoon food",
+    "sourceTitle": "File:Honeymoon Marc van Riehl.jpg",
+    "license": "CC BY-SA 1.0"
+  },
+  {
+    "img": "scoopings__419",
+    "name": "Light House",
+    "query": "Light House food",
+    "catKey": "scoopings",
+    "status": "ok",
+    "usedQuery": "Light House food",
+    "sourceTitle": "File:Myanmar Tea House Food.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "scoopings__420",
+    "name": "3 in 1",
+    "query": "Scoopings food",
+    "catKey": "scoopings",
+    "status": "ok",
+    "usedQuery": "Scoopings food",
+    "sourceTitle": "File:CaramelCorn.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "scoopings__421",
+    "name": "Single Sunday",
+    "query": "Single Sunday food",
+    "catKey": "scoopings",
+    "status": "ok",
+    "usedQuery": "Single Sunday food",
+    "sourceTitle": "File:Annie Gordon Baillie in the Sunday Dispatch of London, England on October 28, 1888.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "scoopings__429",
+    "name": "Redvelvet",
+    "query": "Redvelvet food",
+    "catKey": "scoopings",
+    "status": "ok",
+    "usedQuery": "Redvelvet food",
+    "sourceTitle": "File:Homemade red velvet cake.jpg",
+    "license": "GFDL 1.2"
+  },
+  {
+    "img": "scoopings__430",
+    "name": "Oreo Shot with Brownie",
+    "query": "Oreo Shot with Brownie food",
+    "catKey": "scoopings",
+    "status": "ok",
+    "usedQuery": "scoopings food",
+    "sourceTitle": "File:CaramelCorn.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "scoopings__431",
+    "name": "Ferrero Rocher",
+    "query": "Ferrero Rocher food",
+    "catKey": "scoopings",
+    "status": "ok",
+    "usedQuery": "Ferrero Rocher food",
+    "sourceTitle": "File:Ferrero Rocher ak.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "scoopings__433",
+    "name": "Dryfruit Vanilla Scooping",
+    "query": "Dryfruit Vanilla Scooping food",
+    "catKey": "scoopings",
+    "status": "ok",
+    "usedQuery": "scoopings food",
+    "sourceTitle": "File:CaramelCorn.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "scoopings__434",
+    "name": "Dryfruit Butterscotch Scooping",
+    "query": "Dryfruit Butterscotch Scooping food",
+    "catKey": "scoopings",
+    "status": "ok",
+    "usedQuery": "scoopings food",
+    "sourceTitle": "File:CaramelCorn.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "scoopings__437",
+    "name": "Seethafal Real Fruit Scooping",
+    "query": "Seethafal Real Fruit Scooping food",
+    "catKey": "scoopings",
+    "status": "ok",
+    "usedQuery": "scoopings food",
+    "sourceTitle": "File:CaramelCorn.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "scoopings__439",
+    "name": "Kaju Kismiss",
+    "query": "Kaju Kismiss food",
+    "catKey": "scoopings",
+    "status": "ok",
+    "usedQuery": "scoopings food",
+    "sourceTitle": "File:CaramelCorn.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "scoopings__440",
+    "name": "Mango Scooping",
+    "query": "Mango Scooping food",
+    "catKey": "scoopings",
+    "status": "ok",
+    "usedQuery": "Mango Scooping food",
+    "sourceTitle": "File:Icecream Cone.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "scoopings__442",
+    "name": "Vanilla Scooping",
+    "query": "Vanilla Scooping food",
+    "catKey": "scoopings",
+    "status": "ok",
+    "usedQuery": "Vanilla Scooping food",
+    "sourceTitle": "File:ICEBUSH.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "scoopings__443",
+    "name": "Strawberry Scooping",
+    "query": "Strawberry Scooping food",
+    "catKey": "scoopings",
+    "status": "ok",
+    "usedQuery": "Strawberry Scooping food",
+    "sourceTitle": "File:Strawberry sorbet (4525439412).jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "breads__449",
+    "name": "Fruit Bread",
+    "query": "Fruit Bread food",
+    "catKey": "breads",
+    "status": "ok",
+    "usedQuery": "Fruit Bread food",
+    "sourceTitle": "File:Gathering bread-fruit, Panama, photo from The Encyclopedia of Food by Artemas Ward.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "breads__450",
+    "name": "Round Buns",
+    "query": "Round Buns food",
+    "catKey": "breads",
+    "status": "ok",
+    "usedQuery": "Round Buns food",
+    "sourceTitle": "File:Almtaler Zwieballen Mittermair Scharnstein-3374.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "breads__451",
+    "name": "Pav Bun",
+    "query": "Pav Bun food",
+    "catKey": "breads",
+    "status": "ok",
+    "usedQuery": "Pav Bun food",
+    "sourceTitle": "File:Bun Maska Pav.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "breads__452",
+    "name": "Rusk",
+    "query": "Rusk food",
+    "catKey": "breads",
+    "status": "ok",
+    "usedQuery": "Rusk food",
+    "sourceTitle": "File:Food - Rusks -- Smart-Servier.png",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "breads__453",
+    "name": "Brown Bread",
+    "query": "Brown Bread food",
+    "catKey": "breads",
+    "status": "ok",
+    "usedQuery": "Brown Bread food",
+    "sourceTitle": "File:Brown Bread with Oatmeal (4643220815).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "breads__454",
+    "name": "Fruit Elaichi Rusk",
+    "query": "Fruit Elaichi Rusk food",
+    "catKey": "breads",
+    "status": "ok",
+    "usedQuery": "breads food",
+    "sourceTitle": "File:Kifli made with spelt flour (Serbian cuisine).jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "combos__457",
+    "name": "Combo 8: Veg Sandwich + Lemon Mojito",
+    "query": "Veg Sandwich Lemon Mojito food",
+    "catKey": "combos",
+    "status": "ok",
+    "usedQuery": "combos food",
+    "sourceTitle": "File:KyleBuschToyotaMilwaukeeMile2009.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "combos__459",
+    "name": "Combo 10: Chicken Sandwich + Lemon Mojito",
+    "query": "Chicken Sandwich Lemon Mojito food",
+    "catKey": "combos",
+    "status": "ok",
+    "usedQuery": "combos food",
+    "sourceTitle": "File:KyleBuschToyotaMilwaukeeMile2009.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "combos__463",
+    "name": "Combo 3: Chicken Fried Rice Bowl + Chilli Chicken + Chicken Spring Roll + Soft Drink",
+    "query": "Chicken Fried Rice Bowl Chilli Chicken Chicken Spring Roll Soft Drink food",
+    "catKey": "combos",
+    "status": "ok",
+    "usedQuery": "combos food",
+    "sourceTitle": "File:KyleBuschToyotaMilwaukeeMile2009.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "combos__464",
+    "name": "Combo 4: Double Egg Fried Rice Bowl + Chicken Manchurian + Egg Puff + Soft Drink",
+    "query": "Double Egg Fried Rice Bowl Chicken Manchurian Egg Puff Soft Drink food",
+    "catKey": "combos",
+    "status": "ok",
+    "usedQuery": "combos food",
+    "sourceTitle": "File:KyleBuschToyotaMilwaukeeMile2009.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "combos__465",
+    "name": "Combo 5: Veg Manchurian Rice Bowl + Veg 65 + Veg Spring Roll + Soft Drink",
+    "query": "Veg Manchurian Rice Bowl Veg Veg Spring Roll Soft Drink food",
+    "catKey": "combos",
+    "status": "ok",
+    "usedQuery": "combos food",
+    "sourceTitle": "File:KyleBuschToyotaMilwaukeeMile2009.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "combos__466",
+    "name": "Combo 6: Kaju Paneer Rice Bowl + Veg Manchurian + Veg Spring Roll + Soft Drink",
+    "query": "Kaju Paneer Rice Bowl Veg Manchurian Veg Spring Roll Soft Drink food",
+    "catKey": "combos",
+    "status": "ok",
+    "usedQuery": "combos food",
+    "sourceTitle": "File:KyleBuschToyotaMilwaukeeMile2009.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "icecreams__470",
+    "name": "Black Forest",
+    "query": "Black Forest food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Black Forest food",
+    "sourceTitle": "File:Black forest cake2022.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__471",
+    "name": "Choco Vanilla 100ml",
+    "query": "Choco Vanilla food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Choco Vanilla food",
+    "sourceTitle": "File:Iced Vanilla and Strawberry Ice Cream with Choco chips.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__472",
+    "name": "Scoops Chocolate 100ml",
+    "query": "Scoops Chocolate food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Scoops Chocolate food",
+    "sourceTitle": "File:Chocolate Pea Protein Powder.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__473",
+    "name": "Kwality Walls Chocolate Feast",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__474",
+    "name": "Sunday Strawberry 90ml",
+    "query": "Sunday Strawberry food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Sunday Strawberry food",
+    "sourceTitle": "File:Sunday Supper Aug 2019 - Stierch 08.jpg",
+    "license": "CC BY 4.0"
+  },
+  {
+    "img": "icecreams__475",
+    "name": "Cassatta",
+    "query": "Cassatta food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__476",
+    "name": "Cadbury Crackle Feast",
+    "query": "Cadbury Crackle Feast food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__477",
+    "name": "Cornetto Double Chocolate",
+    "query": "Cornetto ice cream cone",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Cornetto ice cream cone",
+    "sourceTitle": "File:MaryLou & Cornetto (tm).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__478",
+    "name": "Butterscotch Cup",
+    "query": "Butterscotch Cup food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Butterscotch Cup food",
+    "sourceTitle": "File:Pair of Signature Kitchens Butterscotch Pudding (37331284235).jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "icecreams__479",
+    "name": "Sunday Chocolate 90ml",
+    "query": "Sunday Chocolate food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Sunday Chocolate food",
+    "sourceTitle": "File:Mother's Day - Sunday May 14th, 1950 - Whitman's Chocolates.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "icecreams__480",
+    "name": "Kesar Pista 90ml",
+    "query": "Kesar Pista food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Kesar Pista food",
+    "sourceTitle": "File:Falooda with Kesar pista.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__481",
+    "name": "Vanilla Cup",
+    "query": "Vanilla Cup food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Vanilla Cup food",
+    "sourceTitle": "File:Vanilla air A320 02.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "icecreams__482",
+    "name": "Kwality Walls Choco Brownie 700ml",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__483",
+    "name": "Kwality Walls American Nuts 700ml",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__484",
+    "name": "Vanilla Tub 700ml",
+    "query": "Vanilla Tub food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Vanilla Tub food",
+    "sourceTitle": "File:2019-12-25 01 15 23 An unopened tub of Turkey Hill Homemade Vanilla Premium Ice Cream in the Parkway Village section of Ewing Township, Mercer County, New Jersey.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__485",
+    "name": "Mango 700ml",
+    "query": "Mango food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Mango food",
+    "sourceTitle": "File:Mangos - single and halved.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__486",
+    "name": "Butterscotch 700ml",
+    "query": "Butterscotch food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Butterscotch food",
+    "sourceTitle": "File:Butterscotch-Candies.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "icecreams__487",
+    "name": "Chocolate Sensation 700ml",
+    "query": "Chocolate Sensation food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Chocolate Sensation food",
+    "sourceTitle": "File:All About Donuts.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "icecreams__488",
+    "name": "Fruit and Nut 700ml",
+    "query": "Fruit and Nut food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Fruit and Nut food",
+    "sourceTitle": "File:Brügge (B), Schokolade -- 2018 -- 8470.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__489",
+    "name": "Creme Caramel",
+    "query": "Creme Caramel food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Creme Caramel food",
+    "sourceTitle": "File:Crème Brûlée with Raspberries and Candle.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__491",
+    "name": "Aamras 70ml",
+    "query": "Aamras food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Aamras food",
+    "sourceTitle": "File:Aamras Custard.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__492",
+    "name": "Magnum Choco Truffle",
+    "query": "Magnum ice cream bar",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Magnum ice cream bar",
+    "sourceTitle": "File:Magnum ice cream bar held up to sun.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "icecreams__493",
+    "name": "Magnum Almond",
+    "query": "Magnum ice cream bar",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Magnum ice cream bar",
+    "sourceTitle": "File:Magnum ice cream bar held up to sun.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "icecreams__494",
+    "name": "Magnum Brownie",
+    "query": "Magnum ice cream bar",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Magnum ice cream bar",
+    "sourceTitle": "File:Magnum ice cream bar held up to sun.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "icecreams__495",
+    "name": "Sandwich",
+    "query": "Sandwich food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Sandwich food",
+    "sourceTitle": "File:Bologna sandwich.jpg",
+    "license": "CC BY 3.0"
+  },
+  {
+    "img": "icecreams__496",
+    "name": "Cornetto Butterscotch",
+    "query": "Cornetto ice cream cone",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Cornetto ice cream cone",
+    "sourceTitle": "File:MaryLou & Cornetto (tm).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__497",
+    "name": "Cornetto Vanilla",
+    "query": "Cornetto ice cream cone",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Cornetto ice cream cone",
+    "sourceTitle": "File:MaryLou & Cornetto (tm).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__498",
+    "name": "Cornetto Black Forest",
+    "query": "Cornetto ice cream cone",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Cornetto ice cream cone",
+    "sourceTitle": "File:MaryLou & Cornetto (tm).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__499",
+    "name": "Cornetto Oreo",
+    "query": "Cornetto ice cream cone",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Cornetto ice cream cone",
+    "sourceTitle": "File:MaryLou & Cornetto (tm).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__500",
+    "name": "Cornetto Double Chocolate (Alt)",
+    "query": "Cornetto ice cream cone",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Cornetto ice cream cone",
+    "sourceTitle": "File:MaryLou & Cornetto (tm).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__501",
+    "name": "Kesar Pista 700ml",
+    "query": "Kesar Pista food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Kesar Pista food",
+    "sourceTitle": "File:Falooda with Kesar pista.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__503",
+    "name": "Kwality Walls Tutti Frutti 700ml",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__504",
+    "name": "Kwality Walls Chocolate 700ml",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__505",
+    "name": "Kwality Walls Vanilla 700ml",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__506",
+    "name": "Mango",
+    "query": "Mango food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Mango food",
+    "sourceTitle": "File:Mangos - single and halved.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__507",
+    "name": "Butterscotch 375g",
+    "query": "Butterscotch food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Butterscotch food",
+    "sourceTitle": "File:Butterscotch-Candies.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "icecreams__508",
+    "name": "Dryfruit Rabri Kulfi",
+    "query": "Dryfruit Rabri Kulfi food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__510",
+    "name": "Choco Brownie 700ml",
+    "query": "Choco Brownie food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Choco Brownie food",
+    "sourceTitle": "File:Choco Gem Brownie.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__511",
+    "name": "Oreo Cup 100ml",
+    "query": "Oreo Cup food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Oreo Cup food",
+    "sourceTitle": "File:Tea with Oreo.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__512",
+    "name": "Tender Coconut 100ml",
+    "query": "Tender Coconut food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Tender Coconut food",
+    "sourceTitle": "File:Tender coconut 3.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__513",
+    "name": "Tender Coconut 500ml",
+    "query": "Tender Coconut food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Tender Coconut food",
+    "sourceTitle": "File:Tender coconut 3.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__515",
+    "name": "Trixy Cookie",
+    "query": "Trixy Cookie food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__516",
+    "name": "Desi Creamy Kulfi 700ml",
+    "query": "Desi Creamy Kulfi food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__517",
+    "name": "Kwality Walls Creamy Kulfi 700ml",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__518",
+    "name": "Oreo",
+    "query": "Oreo food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Oreo food",
+    "sourceTitle": "File:Oreo-Two-Cookies.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "icecreams__519",
+    "name": "Chokissimo Cornetto",
+    "query": "Cornetto ice cream cone",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Cornetto ice cream cone",
+    "sourceTitle": "File:MaryLou & Cornetto (tm).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__520",
+    "name": "Desi Kulfi Cup",
+    "query": "Desi Kulfi Cup food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__522",
+    "name": "Royal Kulfi",
+    "query": "Royal Kulfi food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Royal Kulfi food",
+    "sourceTitle": "File:KulfiFaluda VegTreatRoyal Mumbai.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__523",
+    "name": "Black Forest Feast 70ml",
+    "query": "Black Forest Feast food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Black Forest Feast food",
+    "sourceTitle": "File:Vegan Black Forest Brownies (3933949021).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__525",
+    "name": "Cornetto Butterscotch Cone",
+    "query": "Cornetto ice cream cone",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Cornetto ice cream cone",
+    "sourceTitle": "File:MaryLou & Cornetto (tm).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__527",
+    "name": "Kwality Walls Milky Cake 500ml",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__528",
+    "name": "Gulab Jamun 500ml",
+    "query": "Gulab Jamun food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Gulab Jamun food",
+    "sourceTitle": "File:Gulab Jamun Kerala.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__529",
+    "name": "Kwality Walls Boost Sandwich",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__530",
+    "name": "Cornetto Caramel",
+    "query": "Cornetto ice cream cone",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Cornetto ice cream cone",
+    "sourceTitle": "File:MaryLou & Cornetto (tm).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__531",
+    "name": "Kwality Walls Hazelnut Choc 500ml",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__532",
+    "name": "Majestic Kesar Pista",
+    "query": "Majestic Kesar Pista food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__533",
+    "name": "Kwality Walls Dryfruit 100ml",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__534",
+    "name": "Kwality Walls Choco Brownie 100ml",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__535",
+    "name": "Kwality Walls Divine Chocolate 100ml",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__538",
+    "name": "Dairy Chocolatey 900ml",
+    "query": "Dairy Chocolatey food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Dairy Chocolatey food",
+    "sourceTitle": "File:2020-06-03 19 38 14 A King Size Vanilla with Chocolatey Swirl Nestlé Drumstick in the Franklin Farm section of Oak Hill, Fairfax County, Virginia.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__540",
+    "name": "Dairy Vanilla 900ml",
+    "query": "Dairy Vanilla food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Dairy Vanilla food",
+    "sourceTitle": "File:RECALLED – Dairy Vanilla complete nutrition beverage powder packaged in 12.7 ounce cans (26859422383).jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "icecreams__541",
+    "name": "Dairy Kesar Kulfi",
+    "query": "Dairy Kesar Kulfi food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__542",
+    "name": "Dairy Malai Kulfi",
+    "query": "Dairy Malai Kulfi food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__543",
+    "name": "Dairy Vanilla 80ml",
+    "query": "Dairy Vanilla food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Dairy Vanilla food",
+    "sourceTitle": "File:RECALLED – Dairy Vanilla complete nutrition beverage powder packaged in 12.7 ounce cans (26859422383).jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "icecreams__545",
+    "name": "Dairy Vanilla 60ml",
+    "query": "Dairy Vanilla food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Dairy Vanilla food",
+    "sourceTitle": "File:RECALLED – Dairy Vanilla complete nutrition beverage powder packaged in 12.7 ounce cans (26859422383).jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "icecreams__546",
+    "name": "Dairy Pineapple 55ml",
+    "query": "Dairy Pineapple food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Dairy Pineapple food",
+    "sourceTitle": "File:HK SW 上環 Sheung Wan 德輔道西 88 Des Voeux Road West shop 惠康超級市場 Wellcome Supermarket goods August 2020 SS2 23.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__547",
+    "name": "Dairy Spinno 70ml",
+    "query": "Dairy Spinno food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__548",
+    "name": "Mega Tub Vanilla",
+    "query": "Mega Tub Vanilla food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__549",
+    "name": "Mega Tub Butterscotch",
+    "query": "Mega Tub Butterscotch food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__550",
+    "name": "Mega Tub Dryfruit",
+    "query": "Mega Tub Dryfruit food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__553",
+    "name": "Dairy Dryfruit Special",
+    "query": "Dairy Dryfruit food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__554",
+    "name": "Dairy Roasted Almond 900ml",
+    "query": "Dairy Roasted Almond food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Dairy Roasted Almond food",
+    "sourceTitle": "File:Džiaugsmas, 4 July 2025, goat milk ice cream.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "icecreams__559",
+    "name": "Dairy Gajar Halwa 500ml",
+    "query": "Dairy Gajar Halwa food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__562",
+    "name": "Dairy Cone Kaju",
+    "query": "Dairy Cone Kaju food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__563",
+    "name": "Dairy Dark Choco Cone",
+    "query": "Dairy Dark Choco Cone food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__564",
+    "name": "Butterscotch 70ml",
+    "query": "Butterscotch food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Butterscotch food",
+    "sourceTitle": "File:Butterscotch-Candies.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "icecreams__567",
+    "name": "Dairy Gulab Jamun 480ml",
+    "query": "Dairy Gulab Jamun food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__572",
+    "name": "Dairy Cassatta",
+    "query": "Dairy Cassatta food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__573",
+    "name": "Dairy Malai Kulfi 100ml",
+    "query": "Dairy Malai Kulfi food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__574",
+    "name": "Dairy Swinger Sundae",
+    "query": "Dairy Swinger Sundae food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__575",
+    "name": "Dairy Chocolatey 100ml",
+    "query": "Dairy Chocolatey food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Dairy Chocolatey food",
+    "sourceTitle": "File:2020-06-03 19 38 14 A King Size Vanilla with Chocolatey Swirl Nestlé Drumstick in the Franklin Farm section of Oak Hill, Fairfax County, Virginia.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__581",
+    "name": "Dairy Rajbhog 100ml",
+    "query": "Dairy Rajbhog food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__589",
+    "name": "Dairy Chocolatey 500ml",
+    "query": "Dairy Chocolatey food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Dairy Chocolatey food",
+    "sourceTitle": "File:2020-06-03 19 38 14 A King Size Vanilla with Chocolatey Swirl Nestlé Drumstick in the Franklin Farm section of Oak Hill, Fairfax County, Virginia.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__590",
+    "name": "Dairy Pista Chio",
+    "query": "Dairy Pista Chio food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__591",
+    "name": "Dairy Strawberry 500ml",
+    "query": "Dairy Strawberry food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Dairy Strawberry food",
+    "sourceTitle": "File:Multiple dairy cartons (226051).jpg",
+    "license": "CC BY 3.0"
+  },
+  {
+    "img": "icecreams__593",
+    "name": "Dairy Vanilla 500ml",
+    "query": "Dairy Vanilla food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Dairy Vanilla food",
+    "sourceTitle": "File:RECALLED – Dairy Vanilla complete nutrition beverage powder packaged in 12.7 ounce cans (26859422383).jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "icecreams__599",
+    "name": "Dairy Choco Royale",
+    "query": "Dairy Choco Royale food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__600",
+    "name": "Cream Bell Sacch Mucch Aam",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__601",
+    "name": "Cream Bell Matka Kulfi",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__602",
+    "name": "Cream Bell Kewra Kulfi",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__603",
+    "name": "Cream Bell Pista Kulfi",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__604",
+    "name": "Cream Bell Maxum",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__605",
+    "name": "Cream Bell Super Sundae",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__606",
+    "name": "Cream Bell Ripples",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__607",
+    "name": "Cream Bell Fantasia Arabian",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__608",
+    "name": "Cream Bell Manhattan",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__609",
+    "name": "Cream Bell Rajbhog Kulfi",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__610",
+    "name": "Cream Bell Butterscotch 750ml",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__611",
+    "name": "Cream Bell French Vanilla 750ml",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__612",
+    "name": "Cream Bell Chocolate 750ml",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__613",
+    "name": "Cream Bell Fantasia Belgium 750ml",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__614",
+    "name": "Cream Bell Kesari Rajbhog 750ml",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__615",
+    "name": "Cream Bell Shahi Kulfi",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__616",
+    "name": "Cream Bell Royal Rajwadi",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__617",
+    "name": "Cream Bell Kaju Kulfi 500ml",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__618",
+    "name": "Cream Bell Centre Treat",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__619",
+    "name": "Cream Bell Pista",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__620",
+    "name": "Cream Bell French Vanilla (Small)",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__621",
+    "name": "Butterscotch 90ml",
+    "query": "Butterscotch food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Butterscotch food",
+    "sourceTitle": "File:Butterscotch-Candies.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "icecreams__622",
+    "name": "Cream Bell Chocolate 90ml",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__623",
+    "name": "Cream Bell Mango Bar",
+    "query": "ice cream tub",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "ice cream tub",
+    "sourceTitle": "File:Forte's Ice Cream in three tubs.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__624",
+    "name": "Mega Star Mango Rush",
+    "query": "Mega Star Mango Rush food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__625",
+    "name": "Brownie (Ice Cream)",
+    "query": "Brownie food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Brownie food",
+    "sourceTitle": "File:Wikicamp, brownie aux noix.jpg",
+    "license": "CC BY 4.0"
+  },
+  {
+    "img": "icecreams__626",
+    "name": "Mega Star Choco Truffle",
+    "query": "Mega Star Choco Truffle food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__627",
+    "name": "Scoops Fruit Ninja",
+    "query": "Scoops Fruit Ninja food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__628",
+    "name": "Kesar Kulfi",
+    "query": "Kesar Kulfi food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Kesar Kulfi food",
+    "sourceTitle": "File:Mango Kulfi With Kesar.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__630",
+    "name": "Scoops Matka Kulfi",
+    "query": "Scoops Matka Kulfi food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__631",
+    "name": "Scoops Vanilla 500ml",
+    "query": "Scoops Vanilla food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Scoops Vanilla food",
+    "sourceTitle": "File:ICEBUSH.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "icecreams__632",
+    "name": "Scoops Butterscotch 500ml",
+    "query": "Scoops Butterscotch food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Scoops Butterscotch food",
+    "sourceTitle": "File:ButterScotch-Waffle-IceCream Scoop.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__633",
+    "name": "Scoops Strawberry 500ml",
+    "query": "Scoops Strawberry food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Scoops Strawberry food",
+    "sourceTitle": "File:Strawberry sorbet (4525439412).jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "icecreams__634",
+    "name": "Scoops Fresh Mango 500ml",
+    "query": "Scoops Fresh Mango food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Scoops Fresh Mango food",
+    "sourceTitle": "File:Liat Portal for Foodie Disorder - Israeli Breakfast with Mango and Avocado.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__635",
+    "name": "Scoops Chocolate 1L",
+    "query": "Scoops Chocolate food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Scoops Chocolate food",
+    "sourceTitle": "File:Chocolate Pea Protein Powder.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__639",
+    "name": "Scoops Dryfruit Temptation 500ml",
+    "query": "Scoops Dryfruit Temptation food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__643",
+    "name": "Scoops Dryfruit Temptation 1L",
+    "query": "Scoops Dryfruit Temptation food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__644",
+    "name": "Scoops Choco Roco 1L",
+    "query": "Scoops Choco Roco food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__645",
+    "name": "Scoops Offer Mango",
+    "query": "Scoops Mango food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Scoops Mango food",
+    "sourceTitle": "File:Icecream Cone.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "icecreams__646",
+    "name": "Scoops Offer American Nuts",
+    "query": "Scoops American Nuts food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Scoops American Nuts food",
+    "sourceTitle": "File:American homes and gardens (1911) (17536861943).jpg",
+    "license": "No restrictions"
+  },
+  {
+    "img": "icecreams__647",
+    "name": "Gud Bud Dryfruit",
+    "query": "Gud Bud Dryfruit food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__648",
+    "name": "Scoops Vanilla 1L",
+    "query": "Scoops Vanilla food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Scoops Vanilla food",
+    "sourceTitle": "File:ICEBUSH.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "icecreams__649",
+    "name": "Scoops Strawberry (Large)",
+    "query": "Scoops Strawberry food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Scoops Strawberry food",
+    "sourceTitle": "File:Strawberry sorbet (4525439412).jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "icecreams__650",
+    "name": "Scoops Chocolate 500ml",
+    "query": "Scoops Chocolate food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Scoops Chocolate food",
+    "sourceTitle": "File:Chocolate Pea Protein Powder.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__652",
+    "name": "Scoops Choco Roco 500ml",
+    "query": "Scoops Choco Roco food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__653",
+    "name": "Scoops Butterscotch 1L",
+    "query": "Scoops Butterscotch food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Scoops Butterscotch food",
+    "sourceTitle": "File:ButterScotch-Waffle-IceCream Scoop.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__655",
+    "name": "Vanilla No Sugar",
+    "query": "Vanilla No Sugar food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Vanilla No Sugar food",
+    "sourceTitle": "File:Vanilla air A320 02.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "icecreams__659",
+    "name": "Scoops Offer Cookies N Cream",
+    "query": "Scoops Cookies N Cream food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Scoops Cookies N Cream food",
+    "sourceTitle": "File:Thrifty ice cream - Circus Animal Cookies on cake cone.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__660",
+    "name": "Scoops Offer Kaju Kismiss",
+    "query": "Scoops Kaju Kismiss food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__663",
+    "name": "Mega Star Caramel Gold",
+    "query": "Mega Star Caramel Gold food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__664",
+    "name": "Mega Star Butterscotch",
+    "query": "Mega Star Butterscotch food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__666",
+    "name": "Froops Real Chikoo 650ml",
+    "query": "Froops Real Chikoo food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__667",
+    "name": "Froops Sitaphal 650ml",
+    "query": "Froops Sitaphal food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__668",
+    "name": "Froops Coconut 650ml",
+    "query": "Froops Coconut food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__669",
+    "name": "Tender Coconut 125ml",
+    "query": "Tender Coconut food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Tender Coconut food",
+    "sourceTitle": "File:Tender coconut 3.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "icecreams__670",
+    "name": "Froops Sitaphal 125ml",
+    "query": "Froops Sitaphal food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__672",
+    "name": "Froops Real Chikoo 125ml",
+    "query": "Froops Real Chikoo food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__673",
+    "name": "Froops Kala Jamun 700ml",
+    "query": "Froops Kala Jamun food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__674",
+    "name": "Froops Real Mango 650ml",
+    "query": "Froops Real Mango food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__676",
+    "name": "Froops Real Litchi 125ml",
+    "query": "Froops Real Litchi food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__677",
+    "name": "Froops Kala Jamun 125ml",
+    "query": "Froops Kala Jamun food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "icecreams__682",
+    "name": "Strawberry Sunday 100ml",
+    "query": "Strawberry Sunday food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "Strawberry Sunday food",
+    "sourceTitle": "File:Sunday Supper Aug 2019 - Stierch 08.jpg",
+    "license": "CC BY 4.0"
+  },
+  {
+    "img": "icecreams__683",
+    "name": "Mega Star Choco Brownie",
+    "query": "Mega Star Choco Brownie food",
+    "catKey": "icecreams",
+    "status": "ok",
+    "usedQuery": "icecreams food",
+    "sourceTitle": "File:NestleHQ.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "mojitos__684",
+    "name": "Virgin Mojito",
+    "query": "Virgin Mojito drink",
+    "catKey": "mojitos",
+    "status": "ok",
+    "usedQuery": "Virgin Mojito drink",
+    "sourceTitle": "File:Drinks - Virgin Mojito, Orange Juice.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "mojitos__685",
+    "name": "Blue Lagoon",
+    "query": "Blue Lagoon drink",
+    "catKey": "mojitos",
+    "status": "ok",
+    "usedQuery": "Blue Lagoon drink",
+    "sourceTitle": "File:Blue Lagoon at the Mandarin Oriental, Washington DC.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "mojitos__686",
+    "name": "Green Apple Mojito",
+    "query": "Green Apple Mojito drink",
+    "catKey": "mojitos",
+    "status": "ok",
+    "usedQuery": "mojitos food",
+    "sourceTitle": "File:Mojitos an der Food Safari vom 7. Mai 2012 - panoramio.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "mojitos__687",
+    "name": "Strawberry Mojito",
+    "query": "Strawberry Mojito drink",
+    "catKey": "mojitos",
+    "status": "ok",
+    "usedQuery": "Strawberry Mojito drink",
+    "sourceTitle": "File:Strawberry Mojito (Unsplash).jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "mojitos__688",
+    "name": "Watermelon Mojito",
+    "query": "Watermelon Mojito drink",
+    "catKey": "mojitos",
+    "status": "ok",
+    "usedQuery": "mojitos food",
+    "sourceTitle": "File:Mojitos an der Food Safari vom 7. Mai 2012 - panoramio.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "mojitos__689",
+    "name": "Peach Mojito",
+    "query": "Peach Mojito drink",
+    "catKey": "mojitos",
+    "status": "ok",
+    "usedQuery": "Peach Mojito drink",
+    "sourceTitle": "File:Peach yeung picture in 20203162.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "mojitos__690",
+    "name": "Red Wine Sangria",
+    "query": "Red Wine Sangria drink",
+    "catKey": "mojitos",
+    "status": "ok",
+    "usedQuery": "Red Wine Sangria drink",
+    "sourceTitle": "File:Glass of Sangria - Tinto Taperia 2026-05-17.jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "mojitos__691",
+    "name": "Fresh Lemon Soda",
+    "query": "soda bottle",
+    "catKey": "mojitos",
+    "status": "ok",
+    "usedQuery": "soda bottle",
+    "sourceTitle": "File:Beer bottles 2018 G1.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "mojitos__692",
+    "name": "Ginger Soda",
+    "query": "soda bottle",
+    "catKey": "mojitos",
+    "status": "ok",
+    "usedQuery": "soda bottle",
+    "sourceTitle": "File:Beer bottles 2018 G1.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "mojitos__693",
+    "name": "Lemon and Ginger Soda",
+    "query": "soda bottle",
+    "catKey": "mojitos",
+    "status": "ok",
+    "usedQuery": "soda bottle",
+    "sourceTitle": "File:Beer bottles 2018 G1.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "mojitos__694",
+    "name": "Strawberry Soda",
+    "query": "soda bottle",
+    "catKey": "mojitos",
+    "status": "ok",
+    "usedQuery": "soda bottle",
+    "sourceTitle": "File:Beer bottles 2018 G1.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "mojitos__695",
+    "name": "Green Apple Soda",
+    "query": "soda bottle",
+    "catKey": "mojitos",
+    "status": "ok",
+    "usedQuery": "soda bottle",
+    "sourceTitle": "File:Beer bottles 2018 G1.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "bakerycookies__697",
+    "name": "Butter Coconut Cookies",
+    "query": "Butter Coconut Cookies food",
+    "catKey": "bakerycookies",
+    "status": "ok",
+    "usedQuery": "Butter Coconut Cookies food",
+    "sourceTitle": "File:Kokos kuglice.jpg",
+    "license": "Copyrighted free use"
+  },
+  {
+    "img": "bakerycookies__698",
+    "name": "Butter Coconut Cookies (Large)",
+    "query": "Butter Coconut Cookies food",
+    "catKey": "bakerycookies",
+    "status": "ok",
+    "usedQuery": "Butter Coconut Cookies food",
+    "sourceTitle": "File:Kokos kuglice.jpg",
+    "license": "Copyrighted free use"
+  },
+  {
+    "img": "bakerycookies__700",
+    "name": "Salt Cookies",
+    "query": "Salt Cookies food",
+    "catKey": "bakerycookies",
+    "status": "ok",
+    "usedQuery": "Salt Cookies food",
+    "sourceTitle": "File:Haitian Dirt Biscuits.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "bakerycookies__701",
+    "name": "Almond Cookies",
+    "query": "Almond Cookies food",
+    "catKey": "bakerycookies",
+    "status": "ok",
+    "usedQuery": "Almond Cookies food",
+    "sourceTitle": "File:Almond Cookies (Unsplash).jpg",
+    "license": "CC0"
+  },
+  {
+    "img": "bakerycookies__702",
+    "name": "Fruit Cookie",
+    "query": "Fruit Cookie food",
+    "catKey": "bakerycookies",
+    "status": "ok",
+    "usedQuery": "Fruit Cookie food",
+    "sourceTitle": "File:Cookie, wine, pastry (i).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "bakerycookies__704",
+    "name": "Chocolate Chip Cookies",
+    "query": "Chocolate Chip Cookies food",
+    "catKey": "bakerycookies",
+    "status": "ok",
+    "usedQuery": "Chocolate Chip Cookies food",
+    "sourceTitle": "File:Choc-Chip-Cookie.jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "bakerycookies__707",
+    "name": "Butter Milk Cookies",
+    "query": "Butter Milk Cookies food",
+    "catKey": "bakerycookies",
+    "status": "ok",
+    "usedQuery": "Butter Milk Cookies food",
+    "sourceTitle": "File:Vanilla pudding (1129124791).jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "general__710",
+    "name": "Spoons and Forks 10pcs",
+    "query": "Spoons and Forks food",
+    "catKey": "general",
+    "status": "ok",
+    "usedQuery": "Spoons and Forks food",
+    "sourceTitle": "File:African Fork, spoon and knife.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "general__711",
+    "name": "Paper Plates",
+    "query": "Paper Plates food",
+    "catKey": "general",
+    "status": "ok",
+    "usedQuery": "Paper Plates food",
+    "sourceTitle": "File:A funnel cake on a paper plate.jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "general__713",
+    "name": "Lays Cream Onion",
+    "query": "Lays Cream Onion food",
+    "catKey": "general",
+    "status": "ok",
+    "usedQuery": "Lays Cream Onion food",
+    "sourceTitle": "File:2020-02-12 03 45 26 Lay's Sour Cream & Onion flavored Potato Chips in the Dulles section of Sterling, Loudoun County, Virginia.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "general__714",
+    "name": "Lays Tomato",
+    "query": "Lays Tomato food",
+    "catKey": "general",
+    "status": "ok",
+    "usedQuery": "Lays Tomato food",
+    "sourceTitle": "File:Pepsico - Lays - Spanish Tomato Tango - Potato Chips - Howrah 2015-04-26 8488.JPG",
+    "license": "CC BY 3.0"
+  },
+  {
+    "img": "general__716",
+    "name": "Lays Magic Masala",
+    "query": "Lays Magic Masala food",
+    "catKey": "general",
+    "status": "ok",
+    "usedQuery": "general food",
+    "sourceTitle": "File:Khan General Food Store - Hollings Road - geograph.org.uk - 2170196.jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "general__718",
+    "name": "Kracklite Salt",
+    "query": "Kracklite Salt food",
+    "catKey": "general",
+    "status": "ok",
+    "usedQuery": "general food",
+    "sourceTitle": "File:Khan General Food Store - Hollings Road - geograph.org.uk - 2170196.jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "general__719",
+    "name": "Kracklite Herbs",
+    "query": "Kracklite Herbs food",
+    "catKey": "general",
+    "status": "ok",
+    "usedQuery": "general food",
+    "sourceTitle": "File:Khan General Food Store - Hollings Road - geograph.org.uk - 2170196.jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "general__720",
+    "name": "Kracklite Crunchy Cheese",
+    "query": "Kracklite Crunchy Cheese food",
+    "catKey": "general",
+    "status": "ok",
+    "usedQuery": "general food",
+    "sourceTitle": "File:Khan General Food Store - Hollings Road - geograph.org.uk - 2170196.jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "general__721",
+    "name": "Kracklite Chilli Pepper",
+    "query": "Kracklite Chilli Pepper food",
+    "catKey": "general",
+    "status": "ok",
+    "usedQuery": "general food",
+    "sourceTitle": "File:Khan General Food Store - Hollings Road - geograph.org.uk - 2170196.jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "general__724",
+    "name": "Royalty Mango",
+    "query": "Royalty Mango food",
+    "catKey": "general",
+    "status": "ok",
+    "usedQuery": "Royalty Mango food",
+    "sourceTitle": "File:Manoshake.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "general__725",
+    "name": "Veneto Red Wine 375ml",
+    "query": "Veneto Red Wine food",
+    "catKey": "general",
+    "status": "ok",
+    "usedQuery": "Veneto Red Wine food",
+    "sourceTitle": "File:Schwappender Wein.jpg",
+    "license": "CC BY 3.0 de"
+  },
+  {
+    "img": "general__726",
+    "name": "Semivin Red Wine 750ml",
+    "query": "Semivin Red Wine food",
+    "catKey": "general",
+    "status": "ok",
+    "usedQuery": "general food",
+    "sourceTitle": "File:Khan General Food Store - Hollings Road - geograph.org.uk - 2170196.jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "general__727",
+    "name": "J&J 750ml",
+    "query": "J J food",
+    "catKey": "general",
+    "status": "ok",
+    "usedQuery": "J J food",
+    "sourceTitle": "File:Food Hall at SM J Mall (2024-10-25).jpg",
+    "license": "CC BY 4.0"
+  },
+  {
+    "img": "general__728",
+    "name": "Kissan Jam 100g",
+    "query": "Kissan Jam food",
+    "catKey": "general",
+    "status": "ok",
+    "usedQuery": "general food",
+    "sourceTitle": "File:Khan General Food Store - Hollings Road - geograph.org.uk - 2170196.jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "general__729",
+    "name": "Foodrite Mixed Jam 100g",
+    "query": "Foodrite Mixed Jam food",
+    "catKey": "general",
+    "status": "ok",
+    "usedQuery": "general food",
+    "sourceTitle": "File:Khan General Food Store - Hollings Road - geograph.org.uk - 2170196.jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "general__730",
+    "name": "Kissan Jam 200g",
+    "query": "Kissan Jam food",
+    "catKey": "general",
+    "status": "ok",
+    "usedQuery": "general food",
+    "sourceTitle": "File:Khan General Food Store - Hollings Road - geograph.org.uk - 2170196.jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "general__731",
+    "name": "Jam 500g",
+    "query": "Jam food",
+    "catKey": "general",
+    "status": "ok",
+    "usedQuery": "Jam food",
+    "sourceTitle": "File:Jam Kruipbraam.jpeg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "general__732",
+    "name": "Foodrite Mixed Jam 500g",
+    "query": "Foodrite Mixed Jam food",
+    "catKey": "general",
+    "status": "ok",
+    "usedQuery": "general food",
+    "sourceTitle": "File:Khan General Food Store - Hollings Road - geograph.org.uk - 2170196.jpg",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "indiansnacks__733",
+    "name": "Chakli 200g",
+    "query": "Chakli food",
+    "catKey": "indiansnacks",
+    "status": "ok",
+    "usedQuery": "Chakli food",
+    "sourceTitle": "File:Chakli.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "indiansnacks__734",
+    "name": "Chekodi 500g",
+    "query": "Chekodi food",
+    "catKey": "indiansnacks",
+    "status": "ok",
+    "usedQuery": "Chekodi food",
+    "sourceTitle": "File:Chekodi.jpg",
+    "license": "CC BY 3.0"
+  },
+  {
+    "img": "indiansnacks__735",
+    "name": "Dalmudi 250g",
+    "query": "Dalmudi food",
+    "catKey": "indiansnacks",
+    "status": "ok",
+    "usedQuery": "indiansnacks food",
+    "sourceTitle": "File:Paneer Pakora.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "indiansnacks__736",
+    "name": "Boondi 250g",
+    "query": "Boondi food",
+    "catKey": "indiansnacks",
+    "status": "ok",
+    "usedQuery": "Boondi food",
+    "sourceTitle": "File:Boondi Mithai.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "indiansnacks__737",
+    "name": "Ribbon Murukku 125g",
+    "query": "Ribbon Murukku food",
+    "catKey": "indiansnacks",
+    "status": "ok",
+    "usedQuery": "Ribbon Murukku food",
+    "sourceTitle": "File:Diwali Sweets and Snacks.png",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "indiansnacks__738",
+    "name": "Butter Murukku 250g",
+    "query": "Butter Murukku food",
+    "catKey": "indiansnacks",
+    "status": "ok",
+    "usedQuery": "Butter Murukku food",
+    "sourceTitle": "File:Butter murukku.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "indiansnacks__739",
+    "name": "Sev Bhujia 250g",
+    "query": "Sev Bhujia food",
+    "catKey": "indiansnacks",
+    "status": "ok",
+    "usedQuery": "indiansnacks food",
+    "sourceTitle": "File:Paneer Pakora.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "indiansnacks__740",
+    "name": "Masala Biscuits",
+    "query": "Masala Biscuits food",
+    "catKey": "indiansnacks",
+    "status": "ok",
+    "usedQuery": "Masala Biscuits food",
+    "sourceTitle": "File:Marie biscuit chaat, kolkata, west bengal.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "indiansnacks__741",
+    "name": "Little Hearts",
+    "query": "Little Hearts food",
+    "catKey": "indiansnacks",
+    "status": "ok",
+    "usedQuery": "Little Hearts food",
+    "sourceTitle": "File:Brownie Heart (12471356383).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "indiansnacks__742",
+    "name": "Masala Chickpea",
+    "query": "Masala Chickpea food",
+    "catKey": "indiansnacks",
+    "status": "ok",
+    "usedQuery": "Masala Chickpea food",
+    "sourceTitle": "File:Chickpea delights.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "indiansnacks__743",
+    "name": "Tasty Nuts",
+    "query": "Tasty Nuts food",
+    "catKey": "indiansnacks",
+    "status": "ok",
+    "usedQuery": "Tasty Nuts food",
+    "sourceTitle": "File:Tasty Food Abundance in Healthy Europe.png",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "indiansnacks__744",
+    "name": "Masala Chana Dal",
+    "query": "Masala Chana Dal food",
+    "catKey": "indiansnacks",
+    "status": "ok",
+    "usedQuery": "Masala Chana Dal food",
+    "sourceTitle": "File:Rice Kulche and Chana Dal.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "indiansnacks__745",
+    "name": "Masala Green Peas",
+    "query": "Masala Green Peas food",
+    "catKey": "indiansnacks",
+    "status": "ok",
+    "usedQuery": "Masala Green Peas food",
+    "sourceTitle": "File:Air fried masala green peas.JPG",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "indiansnacks__746",
+    "name": "Mixture 250g",
+    "query": "Mixture food",
+    "catKey": "indiansnacks",
+    "status": "ok",
+    "usedQuery": "Mixture food",
+    "sourceTitle": "File:Salad platter.jpg",
+    "license": "GFDL 1.2"
+  },
+  {
+    "img": "cooldrinks__383",
+    "name": "Thums Up Tin",
+    "query": "Thums Up cans",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Thums Up cans",
+    "sourceTitle": "File:Thum's Up (15124224444).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "cooldrinks__384",
+    "name": "750ml Thums Up",
+    "query": "Thums Up cans",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Thums Up cans",
+    "sourceTitle": "File:Thum's Up (15124224444).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "cooldrinks__385",
+    "name": "1L Thums Up",
+    "query": "Thums Up cans",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Thums Up cans",
+    "sourceTitle": "File:Thum's Up (15124224444).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "cooldrinks__386",
+    "name": "600ml Thums Up",
+    "query": "Thums Up cans",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Thums Up cans",
+    "sourceTitle": "File:Thum's Up (15124224444).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "cooldrinks__387",
+    "name": "1.25L Thums Up",
+    "query": "Thums Up cans",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Thums Up cans",
+    "sourceTitle": "File:Thum's Up (15124224444).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "cooldrinks__388",
+    "name": "2.25L Thums Up",
+    "query": "Thums Up cans",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Thums Up cans",
+    "sourceTitle": "File:Thum's Up (15124224444).jpg",
+    "license": "CC BY 2.0"
+  },
+  {
+    "img": "cooldrinks__413",
+    "name": "Drink 250ml",
+    "query": "soft drink glass",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "soft drink glass",
+    "sourceTitle": "File:Solo (Australian soft drink) 2.jpg",
+    "license": "CC0"
+  }
+]

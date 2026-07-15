@@ -255,8 +255,8 @@ const CATEGORIES = [
       ['Monster', 125], ['Monster Ultra', 110], ['Predator Energy', 50], ['500ml Water Bottle', 10],
       ['Coca Cola Tin 300ml', 40], ['1 Litre Coca Cola', 50], ['Coca Cola 600ml', 40], ['2.25L Coca Cola', 99],
       ['750ml Sprite', 40], ['1L Sprite', 50], ['600ml Sprite', 40], ['1.25L Sprite', 68], ['2.2L Sprite', 100],
-      ['Thumbs Up Tin', 40], ['750ml Thumbs Up', 45], ['1L Thumbs Up', 55], ['600ml Thumbs Up', 40],
-      ['1.25L Thumbs Up', 68], ['2.25L Thumbs Up', 100], ['Charged 250ml', 20], ['Limca 600ml', 38],
+      ['Thums Up Tin', 40], ['750ml Thums Up', 45], ['1L Thums Up', 55], ['600ml Thums Up', 40],
+      ['1.25L Thums Up', 68], ['2.25L Thums Up', 100], ['Charged 250ml', 20], ['Limca 600ml', 38],
       ['Diet Coke', 40], ['Soda 750ml', 20], ['Soda 1.2L', 30], ['2L Water', 30], ['Smart Water', 50],
       ['Maaza 1.5L', 90], ['1.75L Maaza', 95], ['600ml Maaza', 42], ['1L Maaza', 75], ['Magic Lassi 200ml', 30],
       ['Pulpy Orange 1L', 90], ['Pulpy Orange 250ml', 25], ['600ml Apple Pop', 30], ['Appy Fizz 500ml', 35],
@@ -295,8 +295,8 @@ const CATEGORIES = [
   {
     key: 'combos', name: 'Combo Offers', icon: '🍱',
     subcats: [{ name: 'Combo Offers', items: [
-      ['Combo 1: Chicken Pizza + Chicken Burger + Chicken Sandwich + Thumbs Up 600ml', 300],
-      ['Combo 1: Veg Pizza + Veg Burger + Veg Sandwich + Thumbs Up 600ml', 300],
+      ['Combo 1: Chicken Pizza + Chicken Burger + Chicken Sandwich + Thums Up 600ml', 300],
+      ['Combo 1: Veg Pizza + Veg Burger + Veg Sandwich + Thums Up 600ml', 300],
       ['Combo 8: Veg Sandwich + Lemon Mojito', 120],
       ['Combo 9: Veg Corn Sandwich + Soft Drink 300ml', 120],
       ['Combo 10: Chicken Sandwich + Lemon Mojito', 120],

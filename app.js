@@ -15,6 +15,7 @@ function isNonVeg(name) { return NONVEG_WORDS.test(name); }
 
 // Flatten CATEGORIES into a searchable item list with stable ids.
 const ITEMS = [];
+let __gi = 0;
 CATEGORIES.forEach(cat => {
   cat.subcats.forEach(sub => {
     sub.items.forEach(([name, price], i) => {
@@ -22,6 +23,7 @@ CATEGORIES.forEach(cat => {
         id: `${cat.key}__${sub.name}__${i}__${name}`.replace(/\s+/g, '_'),
         name, price, cat: cat.key, catName: cat.name, sub: sub.name,
         veg: !isNonVeg(name),
+        img: `${cat.key}__${__gi++}`,
       });
     });
   });
@@ -126,7 +128,7 @@ function itemRow(item, delayIndex) {
   const cls = delayIndex != null ? 'item-row item-row-enter' : 'item-row';
   const style = delayIndex != null ? ` style="animation-delay:${Math.min(delayIndex * 25, 500)}ms"` : '';
   return `<div class="${cls}" data-id="${item.id}"${style}>
-    <img class="item-thumb" src="images/${item.cat}.jpg" alt="" loading="lazy" />
+    <img class="item-thumb" src="images/items/${item.img}.jpg" alt="" loading="lazy" onerror="this.onerror=null;this.src='images/${item.cat}.jpg'" />
     <span class="veg-dot ${item.veg ? 'veg' : 'nonveg'}" title="${item.veg ? 'Veg' : 'Non-Veg'}"></span>
     <div class="item-info">
       <div class="item-name">${item.name}</div>
