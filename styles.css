@@ -15,7 +15,11 @@
 * { box-sizing: border-box; }
 html, body {
   margin: 0; padding: 0;
-  background: radial-gradient(circle at 50% -10%, #2a0d0f 0%, var(--bg) 55%);
+  background:
+    radial-gradient(circle at 15% 0%, rgba(224,32,44,0.55) 0%, transparent 45%),
+    radial-gradient(circle at 100% 15%, rgba(163,20,29,0.5) 0%, transparent 40%),
+    linear-gradient(160deg, #2a0206 0%, #0a0a0a 38%, #050505 100%);
+  background-attachment: fixed;
   color: var(--white);
   font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
   min-height: 100vh;
@@ -80,12 +84,13 @@ button { font-family: inherit; cursor: pointer; }
 .cat-card {
   background-color: var(--bg-card);
   background-size: cover; background-position: center;
-  border: 1px solid #33191b; border-radius: var(--radius);
+  border: 1px solid var(--red-dark); border-radius: var(--radius);
   padding: 20px 12px; min-height: 116px; display: flex; flex-direction: column; align-items: center;
   justify-content: flex-end; gap: 4px;
   color: var(--white); transition: transform .15s, box-shadow .15s, border-color .15s;
+  box-shadow: 0 4px 14px rgba(163,20,29,0.25);
 }
-.cat-card:hover { transform: translateY(-4px); border-color: var(--red); box-shadow: 0 10px 24px var(--red-glow); }
+.cat-card:hover { transform: translateY(-4px); border-color: var(--red); box-shadow: 0 10px 26px var(--red-glow); }
 .cat-icon { font-size: 34px; filter: drop-shadow(0 2px 6px rgba(0,0,0,0.6)); }
 .cat-name { font-weight: 700; font-size: 14px; text-align: center; }
 .cat-count { font-size: 11px; color: var(--muted); }
@@ -224,7 +229,11 @@ button { font-family: inherit; cursor: pointer; }
   background: none; color: var(--gold); font-size: 12px;
 }
 
-footer.site-footer { text-align: center; color: var(--muted); font-size: 12px; padding: 20px; }
+footer.site-footer {
+  text-align: center; color: var(--white); font-size: 12px; padding: 22px;
+  background: linear-gradient(90deg, var(--red-dark), var(--red), var(--red-dark));
+  border-top: 2px solid #000; font-weight: 700; letter-spacing: 0.5px;
+}
 
 @media (max-width: 520px) {
   .topbar { flex-wrap: wrap; }
