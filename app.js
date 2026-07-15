@@ -322,6 +322,10 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!$('#searchView').classList.contains('hidden')) renderSearch(searchQuery);
   });
 
+  $('#tagBar').querySelectorAll('span[data-cat]').forEach(tag => {
+    tag.addEventListener('click', () => openCategory(tag.dataset.cat));
+  });
+
   $('#cartBar').addEventListener('click', openCartDrawer);
   $('#cartClose').addEventListener('click', closeCartDrawer);
   $('#checkoutBtn').addEventListener('click', openCheckout);
