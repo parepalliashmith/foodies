@@ -24,8 +24,48 @@ html, body {
   min-height: 100vh;
   line-height: 1.5;
 }
-button { font-family: inherit; cursor: pointer; }
+button { font-family: inherit; cursor: pointer; transition: transform .1s ease; }
+button:active { transform: scale(0.94); }
 .hidden { display: none !important; }
+
+/* ---------- Splash / welcome screen ---------- */
+#splashScreen {
+  position: fixed; inset: 0; z-index: 100;
+  background: radial-gradient(circle at 50% 30%, #1a0405 0%, #050505 75%);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 10px; cursor: pointer;
+  animation: splashFadeOut 0.5s ease forwards;
+  animation-play-state: paused;
+}
+#splashScreen.dismiss { animation-play-state: running; pointer-events: none; }
+.splash-logo-svg {
+  width: min(88vw, 480px); height: auto;
+  animation: splashLogoIn 0.9s cubic-bezier(.34,1.56,.64,1) both;
+}
+.splash-welcome {
+  font-size: 22px; font-weight: 800; color: var(--gold); letter-spacing: 1px;
+  animation: splashTextIn 0.6s ease 0.5s both;
+}
+.splash-tap {
+  font-size: 12px; color: var(--muted); letter-spacing: 1px; text-transform: uppercase;
+  animation: splashTextIn 0.6s ease 0.8s both, splashPulse 1.6s ease 1.4s infinite;
+}
+@keyframes splashLogoIn {
+  0% { opacity: 0; transform: scale(0.6) translateY(20px); }
+  100% { opacity: 1; transform: scale(1) translateY(0); }
+}
+@keyframes splashTextIn {
+  0% { opacity: 0; transform: translateY(10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes splashPulse {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+@keyframes splashFadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; visibility: hidden; }
+}
 
 /* ---------- Header ---------- */
 .topbar {
@@ -93,8 +133,14 @@ button { font-family: inherit; cursor: pointer; }
   justify-content: flex-end; gap: 4px;
   color: var(--white); transition: transform .15s, box-shadow .15s, border-color .15s;
   box-shadow: 0 4px 14px rgba(163,20,29,0.25);
+  opacity: 0; animation: catCardIn 0.5s ease both;
 }
 .cat-card:hover { transform: translateY(-4px); border-color: var(--red); box-shadow: 0 10px 26px var(--red-glow); }
+.cat-card:active { transform: scale(0.95); }
+@keyframes catCardIn {
+  0% { opacity: 0; transform: translateY(16px) scale(0.94); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
 .cat-icon { font-size: 34px; filter: drop-shadow(0 2px 6px rgba(0,0,0,0.6)); }
 .cat-name { font-weight: 700; font-size: 14px; text-align: center; }
 .cat-count { font-size: 11px; color: var(--muted); }

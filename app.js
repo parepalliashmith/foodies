@@ -53,9 +53,9 @@ function cartTotal() {
 // ---------- Rendering: category grid ----------
 function renderCategories() {
   const grid = $('#categoryGrid');
-  grid.innerHTML = CATEGORIES.map(cat => {
+  grid.innerHTML = CATEGORIES.map((cat, i) => {
     const count = cat.subcats.reduce((n, s) => n + s.items.length, 0);
-    return `<button class="cat-card" data-cat="${cat.key}" style="background-image:linear-gradient(180deg, rgba(10,6,6,0.35), rgba(10,6,6,0.92)), url('images/${cat.key}.jpg')">
+    return `<button class="cat-card" data-cat="${cat.key}" style="background-image:linear-gradient(180deg, rgba(10,6,6,0.35), rgba(10,6,6,0.92)), url('images/${cat.key}.jpg'); animation-delay:${Math.min(i * 40, 600)}ms">
       <span class="cat-icon">${cat.icon}</span>
       <span class="cat-name">${cat.name}</span>
       <span class="cat-count">${count} items</span>
@@ -367,9 +367,22 @@ function renderOrders() {
 }
 
 // ---------- Wire up ----------
+function dismissSplash() {
+  const splash = $('#splashScreen');
+  if (!splash || splash.classList.contains('dismiss')) return;
+  splash.classList.add('dismiss');
+  setTimeout(() => splash.remove(), 550);
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   renderCategories();
   updateCartBar();
+
+  const splash = $('#splashScreen');
+  if (splash) {
+    splash.addEventListener('click', dismissSplash);
+    setTimeout(dismissSplash, 2600);
+  }
 
   $('#backToHome').addEventListener('click', goHome);
   $('#logoHome').addEventListener('click', goHome);
