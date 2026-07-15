@@ -84,12 +84,13 @@ function renderCategoryItems() {
     body.innerHTML = `<p class="empty-note">Coming soon — ask staff for availability.</p>`;
     return;
   }
+  let n = 0;
   body.innerHTML = cat.subcats.map(sub => {
     const items = sub.items.filter(([name]) => !vegOnly || !isNonVeg(name));
     if (!items.length) return '';
     return `<h3 class="subcat-title">${sub.name}</h3>
       <div class="item-list">
-        ${items.map(([name, price], i) => itemRow(findItem(cat.key, sub.name, i, name))).join('')}
+        ${items.map(([name, price], i) => itemRow(findItem(cat.key, sub.name, i, name), n++)).join('')}
       </div>`;
   }).join('');
   wireItemRows(body);
@@ -100,9 +101,11 @@ function findItem(catKey, subName, i, name) {
     ITEMS.find(it => it.cat === catKey && it.sub === subName)[i];
 }
 
-function itemRow(item) {
+function itemRow(item, delayIndex) {
   const qty = cart[item.id] || 0;
-  return `<div class="item-row" data-id="${item.id}">
+  const cls = delayIndex != null ? 'item-row item-row-enter' : 'item-row';
+  const style = delayIndex != null ? ` style="animation-delay:${Math.min(delayIndex * 25, 500)}ms"` : '';
+  return `<div class="${cls}" data-id="${item.id}"${style}>
     <span class="veg-dot ${item.veg ? 'veg' : 'nonveg'}" title="${item.veg ? 'Veg' : 'Non-Veg'}"></span>
     <div class="item-info">
       <div class="item-name">${item.name}</div>
