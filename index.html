@@ -13,9 +13,27 @@
 
 <header class="topbar">
   <div class="logo" id="logoHome">
-    <div class="logo-badge">🍕</div>
+    <svg class="logo-badge-svg" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <path id="arcTopSm" d="M 12,64 A 48,48 0 0 1 108,64" />
+        <path id="arcBotSm" d="M 14,70 A 46,46 0 0 0 106,70" />
+      </defs>
+      <circle cx="60" cy="60" r="56" fill="#0a0a0a" stroke="#ffb703" stroke-width="3"/>
+      <circle cx="42" cy="60" r="32" fill="#ff8a00"/>
+      <circle cx="78" cy="60" r="32" fill="#e0202c"/>
+      <text x="42" y="71" font-size="26" text-anchor="middle">🍔</text>
+      <text x="78" y="71" font-size="26" text-anchor="middle">🍕</text>
+      <text font-size="8" font-weight="800" fill="#fff" letter-spacing="0.5">
+        <textPath href="#arcTopSm" startOffset="50%" text-anchor="middle">BY RAVI BAKERS INN</textPath>
+      </text>
+      <text font-size="7.5" font-weight="800" fill="#fff" letter-spacing="0.5">
+        <textPath href="#arcBotSm" startOffset="50%" text-anchor="middle">TRUST SINCE 2001</textPath>
+      </text>
+    </svg>
     <div class="logo-text">
-      <div class="brand">Foodies</div>
+      <svg class="brand-svg" viewBox="0 0 210 46" xmlns="http://www.w3.org/2000/svg">
+        <text x="2" y="36" font-family="Georgia, 'Times New Roman', serif" font-weight="900" font-size="38" fill="#e0202c" stroke="#000" stroke-width="2.4" paint-order="stroke" style="font-style:italic">Foodies</text>
+      </svg>
       <div class="tagline">By Ravi Bakers Inn · Trust Since 2001</div>
     </div>
   </div>
@@ -28,9 +46,34 @@
 
 <main>
   <section id="homeView">
+    <div class="hero-banner">
+      <svg class="hero-logo-svg" viewBox="0 0 640 230" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <path id="arcTopBig" d="M 20,150 A 120,120 0 0 1 260,150" />
+          <path id="arcBotBig" d="M 24,162 A 116,116 0 0 0 256,162" />
+        </defs>
+        <circle cx="140" cy="150" r="76" fill="#0a0a0a" stroke="#ffb703" stroke-width="4"/>
+        <circle cx="104" cy="150" r="46" fill="#ff8a00"/>
+        <circle cx="176" cy="150" r="46" fill="#e0202c"/>
+        <text x="104" y="168" font-size="40" text-anchor="middle">🍔</text>
+        <text x="176" y="168" font-size="40" text-anchor="middle">🍕</text>
+        <text font-size="12" font-weight="800" fill="#fff" letter-spacing="1">
+          <textPath href="#arcTopBig" startOffset="50%" text-anchor="middle">BY RAVI BAKERS INN</textPath>
+        </text>
+        <text font-size="11" font-weight="800" fill="#fff" letter-spacing="1">
+          <textPath href="#arcBotBig" startOffset="50%" text-anchor="middle">TRUST SINCE 2001</textPath>
+        </text>
+        <text x="230" y="15" font-size="26">🍧</text>
+        <text x="420" y="150" font-family="Georgia, 'Times New Roman', serif" font-weight="900" font-size="120" fill="#e0202c" stroke="#000" stroke-width="6" paint-order="stroke" text-anchor="middle" style="font-style:italic">Foodies</text>
+        <text x="500" y="45" font-size="34">🍹</text>
+      </svg>
+      <div class="tag-bar">
+        <span>BAKERY</span><span>SWEETS</span><span>PIZZA</span><span>BURGER</span><span>FASTFOOD</span><span>JUICE</span>
+        <span>MILKSHAKES</span><span>COLD COFFEE</span><span>SNACK</span><span>BIRYANI</span><span>CHAT</span>
+      </div>
+    </div>
     <div class="hero">
       <h1>What are you craving today?</h1>
-      <p>Bakery · Sweets · Pizza · Burger · Fastfood · Juice · Milkshakes · Cold Coffee · Snack · Biryani · Chat</p>
     </div>
     <div class="category-grid" id="categoryGrid"></div>
   </section>

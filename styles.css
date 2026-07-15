@@ -37,22 +37,24 @@ button { font-family: inherit; cursor: pointer; }
   box-shadow: 0 4px 20px rgba(0,0,0,0.6);
 }
 .logo { display: flex; align-items: center; gap: 10px; cursor: pointer; }
-.logo-badge {
-  width: 46px; height: 46px; border-radius: 50%;
-  background: conic-gradient(from 210deg, var(--red), var(--gold), var(--red));
-  display: flex; align-items: center; justify-content: center;
-  font-size: 20px; box-shadow: 0 0 16px var(--red-glow);
-  border: 2px solid #000;
-}
+.logo-badge-svg { width: 48px; height: 48px; flex: none; filter: drop-shadow(0 0 10px var(--red-glow)); }
 .logo-text { line-height: 1.1; }
-.logo-text .brand {
-  font-size: 22px; font-weight: 900; letter-spacing: 1px;
-  background: linear-gradient(180deg, #fff 0%, #ffcf4d 55%, var(--red) 100%);
-  -webkit-background-clip: text; background-clip: text; color: transparent;
-  text-shadow: 0 2px 10px rgba(224,32,44,0.5);
-  font-family: Georgia, 'Times New Roman', serif;
+.logo-text .brand-svg { width: 118px; height: auto; display: block; }
+.logo-text .tagline { font-size: 9px; color: var(--muted); letter-spacing: 1.5px; text-transform: uppercase; margin-top: 2px; }
+
+/* ---------- Hero banner (home logo + tag bar) ---------- */
+.hero-banner { text-align: center; padding: 18px 16px 6px; }
+.hero-logo-svg { width: 100%; max-width: 520px; height: auto; }
+.tag-bar {
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 0;
+  background: #000; border: 1px solid var(--red-dark); border-radius: 999px;
+  max-width: 640px; margin: 6px auto 0; padding: 8px 6px; box-shadow: 0 4px 16px rgba(0,0,0,0.5);
 }
-.logo-text .tagline { font-size: 9px; color: var(--muted); letter-spacing: 1.5px; text-transform: uppercase; }
+.tag-bar span {
+  color: #fff; font-size: 10.5px; font-weight: 800; letter-spacing: 0.5px;
+  padding: 3px 10px; border-right: 1px solid #3a1414;
+}
+.tag-bar span:last-child { border-right: none; }
 
 .search-wrap { flex: 1; display: flex; align-items: center; gap: 10px; }
 .search-wrap input {
