@@ -62,7 +62,27 @@ function renderCategories() {
     </button>`;
   }).join('');
   grid.querySelectorAll('.cat-card').forEach(btn => {
-    btn.addEventListener('click', () => openCategory(btn.dataset.cat));
+    btn.addEventListener('click', (e) => {
+      cardTapFx(btn, e);
+      setTimeout(() => openCategory(btn.dataset.cat), 160);
+    });
+  });
+}
+
+function cardTapFx(btn, e) {
+  const rect = btn.getBoundingClientRect();
+  const size = Math.max(rect.width, rect.height) * 1.8;
+  const ripple = document.createElement('span');
+  ripple.className = 'card-ripple';
+  ripple.style.width = ripple.style.height = `${size}px`;
+  ripple.style.left = `${(e.clientX ?? rect.left + rect.width / 2) - rect.left - size / 2}px`;
+  ripple.style.top = `${(e.clientY ?? rect.top + rect.height / 2) - rect.top - size / 2}px`;
+  btn.appendChild(ripple);
+  ripple.addEventListener('animationend', () => ripple.remove());
+
+  btn.classList.add('card-tap');
+  btn.addEventListener('animationend', function handler(ev) {
+    if (ev.animationName === 'cardTapBounce') { btn.classList.remove('card-tap'); btn.removeEventListener('animationend', handler); }
   });
 }
 

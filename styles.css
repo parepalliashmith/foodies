@@ -134,9 +134,34 @@ button:active { transform: scale(0.94); }
   color: var(--white); transition: transform .15s, box-shadow .15s, border-color .15s;
   box-shadow: 0 4px 14px rgba(163,20,29,0.25);
   opacity: 0; animation: catCardIn 0.5s ease both;
+  position: relative; overflow: hidden;
 }
 .cat-card:hover { transform: translateY(-4px); border-color: var(--red); box-shadow: 0 10px 26px var(--red-glow); }
 .cat-card:active { transform: scale(0.95); }
+.cat-card.card-tap { animation: cardTapBounce 0.45s cubic-bezier(.34,1.56,.64,1) !important; border-color: var(--gold); }
+.cat-card.card-tap .cat-icon { animation: iconPop 0.45s ease; }
+.card-ripple {
+  position: absolute; border-radius: 50%; pointer-events: none;
+  background: radial-gradient(circle, rgba(255,255,255,0.6) 0%, rgba(255,183,3,0.4) 35%, rgba(224,32,44,0.25) 60%, transparent 72%);
+  transform: scale(0); opacity: 0.95;
+  animation: rippleExpand 0.55s ease-out forwards;
+}
+@keyframes rippleExpand {
+  0% { transform: scale(0); opacity: 0.95; }
+  100% { transform: scale(1); opacity: 0; }
+}
+@keyframes cardTapBounce {
+  0% { transform: scale(1); box-shadow: 0 4px 14px rgba(163,20,29,0.25); }
+  30% { transform: scale(0.91); box-shadow: 0 0 0 rgba(224,32,44,0); }
+  60% { transform: scale(1.07); box-shadow: 0 0 30px var(--red-glow); }
+  100% { transform: scale(1); box-shadow: 0 4px 14px rgba(163,20,29,0.25); }
+}
+@keyframes iconPop {
+  0% { transform: scale(1) rotate(0deg); }
+  40% { transform: scale(1.4) rotate(-10deg); }
+  70% { transform: scale(0.95) rotate(5deg); }
+  100% { transform: scale(1) rotate(0deg); }
+}
 @keyframes catCardIn {
   0% { opacity: 0; transform: translateY(16px) scale(0.94); }
   100% { opacity: 1; transform: translateY(0) scale(1); }
