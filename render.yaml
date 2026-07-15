@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: foodies
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: false

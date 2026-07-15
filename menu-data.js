@@ -1,0 +1,438 @@
+// Foodies — full menu data, transcribed from the outlet's POS export.
+// Structure: CATEGORIES[] -> { key, name, icon, subcats: [{ name, items: [[itemName, price], ...] }] }
+// Veg/Non-Veg is auto-detected from the item name (see isNonVeg in app.js) — flag manually via `nv:true/false` on an item tuple only when the heuristic would be wrong.
+
+const CATEGORIES = [
+  {
+    key: 'pizza', name: 'Pizza', icon: '🍕',
+    subcats: [
+      { name: 'Non-Veg Pizza', items: [
+        ['Triple Chicken Feast', 249], ['Stuffed Crust Pizza', 249], ['Mini Pizza Chicken', 120],
+        ['Extra Cheese', 20], ['Golden Chicken Pizza', 200], ['Chicken Farmhouse Pizza', 200],
+        ['Chicken Patlak Pizza', 230], ['Italian Chicken Pizza', 220], ['Stuffed Crust Pizza (Large)', 240],
+        ['Chef Spl Fried Chicken Pizza', 290], ['Country Chicken Pizza', 180], ['Double Cheese Chicken Pizza', 220],
+      ]},
+      { name: 'Veg Pizza', items: [
+        ['Paneer Delight Pizza', 190], ['Veggie Pizza', 140], ['Veg Double Cheese Pizza', 180],
+        ['Veg Farmhouse Pizza', 180], ['Veggie Supreme Pizza', 180], ['Veg Golden Pizza', 180],
+        ['Bakery Spl Veg Pizza', 220], ['Foodies Spl Veg Pizza', 259], ['Veg Cheesy Pizza Fries', 175],
+        ['Mini Pizza Veg', 99], ['Extra Cheese', 20],
+      ]},
+    ],
+  },
+  {
+    key: 'burger', name: 'Burger', icon: '🍔',
+    subcats: [{ name: 'Burger', items: [
+      ['Chef Spl Chicken Burger', 110], ['Kuro Chicken Burger', 70], ['Kuro Veg Burger', 60],
+      ['Chef Spl Veg Double Loaded Burger', 90], ['Veg Hot Dog', 50], ['Veg Dinner Rolls', 50],
+      ['Chicken Hot Dog', 60], ['Chicken Dinner Rolls', 60], ['Veggie Burger', 70],
+      ['Veg Cheese Shot Burger', 80], ['Creamy Mushroom Burger', 80], ['Veg Golden Delight Burger', 80],
+      ['Paneer Surprise Burger', 90], ['Chicken Fried Burger', 80], ['Chicken Cheese Burst Burger', 90],
+      ['Chicken Paradise Burger', 85], ['Chicken Corn Burger', 85], ['Butter Egg Burger', 80],
+    ]}],
+  },
+  {
+    key: 'sandwich', name: 'Sandwich', icon: '🥪',
+    subcats: [{ name: 'Sandwich', items: [
+      ['Chicken Sandwich', 80], ['Chicken Masala Sandwich', 90], ['Chicken Cheese Sandwich', 90],
+      ['Chicken Club Sandwich', 90], ['Egg Sandwich', 80], ['Veg Sandwich', 70],
+      ['Veg Masala Sandwich', 80], ['Paneer Sandwich', 85], ['Veg Club Sandwich', 90], ['Veg Cheese Sandwich', 85],
+    ]}],
+  },
+  {
+    key: 'starters', name: 'Starters', icon: '🍢',
+    subcats: [
+      { name: 'Veg Starters', items: [
+        ['Crispy Corn', 160], ['Gobi Manchurian', 100], ['Chilli Gobi', 110], ['Gobi 65', 120],
+        ['Shoti Mushroom', 110], ['Crispy Babycorn', 180], ['Veg Manchuria', 90], ['Veg Cheese Manchuria', 95],
+        ['Veg Chilli 65', 110], ['Baby Corn Manchuria', 110], ['Chilli Babycorn', 120], ['Baby Corn 65', 125],
+        ['Mushroom Manchuria', 100], ['Chilli Mushroom', 110], ['Mushroom 65', 120], ['Paneer Manchuria', 120],
+        ['Paneer 65', 140], ['Chilli Paneer', 135], ['Paneer Majestic', 190],
+      ]},
+      { name: 'Non-Veg Starters', items: [
+        ['Egg Manchuria', 90], ['Chicken Kaju Pokodi', 180], ['Chicken Manchuria', 110], ['Kabab 1 Pc', 60],
+        ['Chilli Chicken', 120], ['Chicken 65', 120], ['Chicken Majestic', 200], ['Dragon Chicken', 220],
+        ['Ginger Chicken', 170], ['Kabab 2 Pieces', 120], ['Chicken Wings 3 Pieces', 160], ['Chicken Lollipop 3 Pieces', 140],
+      ]},
+    ],
+  },
+  {
+    key: 'friedrice', name: 'Fried Rice', icon: '🍚',
+    subcats: [
+      { name: 'Veg Fried Rice', items: [
+        ['Schezwan Veg Fried Rice', 135], ['Veg Fried Rice', 90], ['Jeera Fried Rice', 95],
+        ['Lemon Fried Rice', 90], ['Tomato Fried Rice', 95], ['Veg Manchurian Fried Rice', 110],
+        ['Gobi Fried Rice', 90], ['Kaju Paneer Fried Rice', 135], ['Kaju Capsicum Fried Rice', 135],
+        ['Kaju Mushroom Fried Rice', 135], ['Kaju Spl Veg Fried Rice', 110],
+      ]},
+      { name: 'Non-Veg Fried Rice', items: [
+        ['Chicken 65 Rice', 145], ['Apollo Chicken Rice', 155], ['Chicken Majestic Rice', 155],
+        ['Chicken Fried Rice', 120], ['Spl Kaju Chicken Fried Rice', 130], ['Chicken Schezwan Rice', 120],
+        ['Egg Fried Rice', 100], ['Double Egg Fried Rice', 110],
+      ]},
+    ],
+  },
+  {
+    key: 'biryani', name: 'Biryani', icon: '🍛',
+    subcats: [{ name: 'Biryani', items: [
+      ['Veg Biryani', 160], ['Egg Biryani', 150], ['Chicken Dum Biryani', 170],
+      ['Chicken Fried Piece Biryani', 240], ['Spl Chicken Biryani Boneless', 220], ['Wings Biryani', 300],
+    ]}],
+  },
+  {
+    key: 'todayspecial', name: "Today Special", icon: '⭐',
+    subcats: [{ name: 'Non-Veg Special Menu', items: [
+      ['Ginger Chicken', 170], ['Schezwan Chicken', 180], ['Garlic Chicken', 170], ['Corn Chicken', 180],
+      ['Crispy Chicken', 180], ['Marinate Chicken', 220], ['Hong Kong Chicken', 180], ['Chicken Majestic', 200],
+      ['Apollo Chicken', 200], ['Chicken 555', 200], ['Chicken 91', 210], ['Dragon Chicken', 220],
+      ['Kaju Basket Chicken', 230], ['Pepper Chicken', 190], ['KFC Style Fried Wings 3pcs', 180],
+      ['KFC Kabab 2pc', 180], ['Kung Pao Chicken', 200], ['Honey Chicken', 180], ['Chicken Majestic (Special)', 200],
+      ['Pepper Chicken (Special)', 200],
+    ]}],
+  },
+  {
+    key: 'noodles', name: 'Noodles', icon: '🍜',
+    subcats: [
+      { name: 'Veg Noodles', items: [
+        ['Paneer Noodles', 90], ['Veg Manchurian Noodles', 80], ['Paneer Noodles (Regular)', 80],
+        ['Veg Noodles', 70], ['Veg Masala Noodles', 80], ['Veg Jeera Noodles', 80],
+        ['Veg Lemon Fresh Noodles', 80], ['Veg Hot Corn Noodles', 85], ['Veg Sweet Corn Noodles', 85],
+        ['Veg Crispy Fresh Noodles', 80], ['Veg Singapore Noodles', 90], ['Veg Hongkong Noodles', 100],
+      ]},
+      { name: 'Non-Veg Noodles', items: [
+        ['Chicken Noodles', 90], ['Chicken Masala Noodles', 100], ['Chicken Jeera Noodles', 100],
+        ['Chicken Lemon Fresh Noodles', 100], ['Chicken Hot Corn Noodles', 100], ['Chicken Schezwan Noodles', 110],
+        ['Egg Noodles', 90], ['Double Egg Noodles', 100],
+      ]},
+    ],
+  },
+  {
+    key: 'puffsrolls', name: 'Puffs N Rolls', icon: '🥐',
+    subcats: [{ name: 'Puffs N Rolls', items: [
+      ['Spl Dillpasandh with Dryfruits', 60], ['Foodies Spl Chicken Puff', 40], ['Dillpasandh Round 4pcs', 50],
+      ['Chicken Swirls', 60], ['Chicken Cheese Bomb', 40], ['Paneer Cheese Bomb', 40], ['Veg Puff', 20],
+      ['Egg Puff', 20], ['Paneer Puff', 30], ['Aloo Samosa', 15], ['Chicken Puff', 30], ['Chicken Roll', 35],
+    ]}],
+  },
+  {
+    key: 'momos', name: 'Momos', icon: '🥟',
+    subcats: [{ name: 'Momos', items: [
+      ['Veg Steam Momos 6pcs', 110], ['Paneer Steamed Momos 6pcs', 110],
+      ['Chicken Steamed Momos 6pcs', 110], ['Chilli Chicken Steamed Momos 6pcs', 110],
+    ]}],
+  },
+  {
+    key: 'wraps', name: 'Wraps', icon: '🌯',
+    subcats: [
+      { name: 'Veg Wraps', items: [
+        ['Veg Wrap', 60], ['Veg Cheese Wrap', 70], ['Veg Masala Wrap', 70],
+        ['Veg Corn Wrap', 80], ['Paneer Wrap', 80], ['Fries Wrap', 80],
+      ]},
+      { name: 'Non-Veg Wraps', items: [
+        ['Chicken Wrap', 70], ['Chicken Cheese Wrap', 80], ['Chicken Masala Wrap', 80],
+        ['Chicken 65 Wrap', 90], ['Crunchy Chicken Wrap', 95],
+      ]},
+    ],
+  },
+  {
+    key: 'kids', name: 'Kids Menu', icon: '🧸',
+    subcats: [{ name: 'Kids Menu', items: [
+      ['Chicken Samosa 4pcs', 70], ['Veg Cheese Nuggets 8pc', 130], ['Cheese Fries', 99], ['Smilies', 60],
+      ['Potato Wedges 8pcs', 80], ['Plain Cheese Burger', 49], ['Plain Cheese Pizza', 90],
+      ['Veg Cheese Pops 8pcs', 100], ['Chicken Nuggets 8pcs', 130], ['Corn Samosa 4pcs', 60],
+      ['Chicken Spring Rolls', 80], ['Veg Spring Rolls', 70], ['French Fries', 60],
+    ]}],
+  },
+  {
+    key: 'milkshakes', name: 'Milk Shakes', icon: '🥤',
+    subcats: [
+      { name: 'Milk Shakes', items: [
+        ['Redvelvet Shake', 140], ['Brownie with Oreo Shake', 150], ['Black Current Shake', 100],
+        ['Cold Coffee Shake', 100], ['Belgium Chocolate Shake', 120], ['Carmel Shake', 100],
+        ['Almond Shake', 100], ['Dryfruit Shake', 140], ['Kitkat Milkshake', 130], ['Vanilla Shake', 89],
+        ['Strawberry Shake', 89], ['Butterscotch Shake', 90], ['Chocolate Shake', 100], ['Oreo Shake', 100],
+        ['Mango Shake', 90], ['Banana Shake', 90],
+      ]},
+      { name: 'Spl Dryfruit Milk Shakes', items: [
+        ['Caramel Shake', 100], ['Honey Almond Shake', 100], ['Pista Shake', 100], ['Black Current Shake (Spl)', 100],
+        ['Belgium Dark Shake', 120], ['Kitkat Shake', 129], ['Dryfruit Shake (Spl)', 140], ['Cold Coffee', 100],
+      ]},
+      { name: 'Regular Shakes', items: [
+        ['Banana', 90], ['Vanilla Milkshake', 89], ['Strawberry Milkshake', 90], ['Oreo Milkshake', 100],
+        ['Butterscotch Milkshake', 90], ['Mango', 90], ['Chocoroco Shake', 100],
+      ]},
+    ],
+  },
+  {
+    key: 'cakes', name: 'Cakes', icon: '🎂',
+    subcats: [
+      { name: '500 Gms', items: [
+        ['Twin Choco Cake 500g', 550], ['Golden Fantasy 500g', 550], ['Choco Almond', 500],
+        ['Crunchy Carmel 500g', 500], ['Honey Almond', 400], ['Red Velvet', 600], ['Eggless Pastry 500g', 400],
+        ['Fresh Fruit Cake 500g', 400], ['Milky Butterscotch 500g', 450], ['Selfie Cake 500g', 400],
+        ['Customised Cake', 100], ['Choco Chips 500g', 450], ['KitKat Customised 500g', 700],
+        ['Butterscotch 500g', 350], ['Vanilla 500g', 300], ['Strawberry 500g', 300], ['Chocolate 500g', 400],
+        ['Pineapple 500g', 300], ['Black Forest 500g', 400], ['Extra Topping', 50], ['White Forest 500g', 400],
+        ['Fondant Cake 500g', 600],
+      ]},
+      { name: '1 Kg Size', items: [
+        ['Twin Choco Cake 1kg', 1000], ['KitKat Customised Cake 1kg', 1400], ['Honey Almond 1kg', 850],
+        ['Chocolate Truffle 1kg', 750], ['Red Velvet 1kg', 1100], ['Milky Butterscotch 1kg', 850],
+        ['Extra Toppings', 50], ['Eggless Pastry 1kg', 800], ['Oreo 1kg', 700], ['Fresh Fruit Cake 1kg', 750],
+        ['Choco Chips 1kg', 900], ['Choco Strawberry Combination 1kg', 800], ['Butterscotch 1kg', 650],
+        ['Pineapple 1kg', 600], ['Crunchy Carmel 1kg', 900], ['Strawberry 1kg', 600], ['Black Forest 1kg', 750],
+        ['White Forest 1kg', 800], ['Selfie Cake 1kg', 750], ['Customised Cake (1kg)', 100], ['Milky Butterscotch 1kg (Spl)', 850],
+      ]},
+      { name: 'Regular Cakes', items: [
+        ['Fancy Cake Half Kg', 180], ['Half Kg Size Regular Cake', 150], ['Eggless 500g Regular Cake', 250],
+        ['1kg Regular Cake', 300], ['1.5kg Regular Cake', 450], ['2kg Size Regular Cake', 600],
+        ['Eggless 1kg Regular', 500], ['2kg Regular Cake (Spl)', 600], ['1kg Fancy Cake', 350],
+      ]},
+      { name: 'Customised Cake', items: [
+        ['Pineapple Customised 900g', 480], ['Strawberry Customised 900g', 480], ['Chocolate Customised 900g', 550],
+        ['Black Forest Customised 900g', 550], ['Butterscotch Customised Cake 900g', 500],
+      ]},
+      { name: 'Spongy Cake', items: [
+        ['Eggfree Muffins', 100], ['Spongy Cake', 70], ['Dry Fruit Plum Cake 400g', 200],
+        ['Egg Free Dry Fruit Plum Cake', 300], ['Christmas Spl Dry Fruit Plum Cake', 280], ['Spl Ghee Pudding Cake', 100],
+        ['Dry Fruit Muffin Wrap', 80], ['Dry Fruit Tart', 60], ['Dryfruit Muffin', 40], ['Cup Cakes', 80],
+        ['Chocolate Muffins', 80], ['Muffins 9pc', 50], ['Muffins 6pc', 40], ['Redvelvet Muffins', 140],
+        ['Pineapple Slice', 90], ['Dryfruit Plum Cake 200g', 100],
+      ]},
+      { name: 'Offer Cakes', items: [
+        ['Offer Cakes 1.5kg Choco', 950], ['Offer Cakes 1.5kg Butterscotch', 750],
+        ['Offer Cakes 1.5kg Pineapple', 750], ['Offer Cakes 1.5kg Strawberry', 750],
+      ]},
+      { name: 'Ice Cream Cakes', items: [
+        ['Crunchy Caramel Premium Cake 250g', 130], ['German Chocolate Premium Cake 250g', 120],
+        ['Redvelvet Premium Cake 250g', 120], ['Black Forest Premium Cake 250g', 120],
+        ['Orange Premium Cake 250g', 120], ['Premium Jar Cake Choco & Redvelvet', 180],
+      ]},
+      { name: 'Mini Cakes', items: [['Mini Cake', 160]] },
+    ],
+  },
+  {
+    key: 'pastries', name: 'Pastries', icon: '🧁',
+    subcats: [{ name: 'Pastries', items: [
+      ['Hazelnut Mousse', 120], ['Panda Pastry', 80], ['Milky Butterscotch', 80], ['Red Velvet Pastry', 70],
+      ['Regular Cake Rolls', 20], ['German Nut Dessert', 100], ['Honey Almond Pastry Round', 90],
+      ['KitKat Pastry', 80], ['Choco Butterscotch', 80], ['Angry Bird', 80], ['Strawberry Pine Choco Combo', 50],
+      ['Rasmalai Pastry', 70], ['Rainbow Pastries', 70], ['Mousse Cone Dessert', 30], ['Chocolate Truffle Pastry', 120],
+      ['Donut', 60], ['White Chocolate Round', 80], ['Oreo Pastry', 60], ['Mango Pastry', 50], ['Brownie', 40],
+      ['Complementary Item', 0], ['Fresh Fruit Dessert', 80], ['Cake Roll', 30], ['Butterscotch Pastry', 50],
+      ['Chocolate Pastry', 60], ['Pineapple Pastry', 40], ['Strawberry Pastry', 40], ['Black Forest Pastry', 60],
+      ['Crunchy Carmel Pastry', 80], ['Almond Pastry', 70], ['White Forest Pastry', 60], ['Almond', 70],
+      ['Choco Truffle Nut', 80], ['Chocolate Overload', 100],
+    ]}],
+  },
+  {
+    key: 'chat', name: 'Chat', icon: '🥙',
+    subcats: [{ name: 'Chat', items: [
+      ['Pav Bhaji', 50], ['Spl Pav Bhaji', 60], ['Special Dahi Puri 4pc', 30], ['Pav Bun 6pcs', 0],
+      ['Paneer 2 Plates', 0], ['Cheese Pav Bhaji', 60], ['Paneer Pav Bhaji', 60], ['Baby Corn Pav Bhaji', 60],
+      ['Mushroom Pav Bhaji', 60], ['Extra Pav', 10], ['Pani Puri 8pcs', 20], ['Spl Pani Puri 6pcs', 30],
+      ['Dahi Puri', 30], ['Samosa Chat', 30], ['Papad Chat', 30], ['Aloo Chat', 30], ['Bhel Puri', 30],
+      ['Spl Bhel Puri', 40], ['Cheese Bhel Puri', 40], ['Dahi Papad', 30], ['Dahi Samosa', 30],
+    ]}],
+  },
+  {
+    key: 'lassies', name: 'Lassies', icon: '🥛',
+    subcats: [{ name: 'Lassies', items: [
+      ['Sweet Lassi', 60], ['Salt Lassi', 50], ['Vanilla Lassi', 70], ['Strawberry Lassi', 70],
+      ['Mango Lassi', 70], ['Butterscotch Lassi', 75], ['Chocolate Lassi', 80], ['Dryfruit Lassi', 90],
+    ]}],
+  },
+  {
+    key: 'juices', name: 'Juices', icon: '🧃',
+    subcats: [{ name: 'Juices', items: [
+      ['Fruit Salad with Ice Cream', 80], ['Badam Milk', 40], ['Royal Badam Milk', 80],
+      ['Spl Dryfruit Badam Milk', 90], ['Spl Fruit Salad with Ice Cream', 95],
+    ]}],
+  },
+  {
+    key: 'cooldrinks', name: 'Cool Drinks', icon: '🥤',
+    subcats: [{ name: 'Cool Drinks', items: [
+      ['Monster', 125], ['Monster Ultra', 110], ['Predator Energy', 50], ['500ml Water Bottle', 10],
+      ['Coca Cola Tin 300ml', 40], ['1 Litre Coca Cola', 50], ['Coca Cola 600ml', 40], ['2.25L Coca Cola', 99],
+      ['750ml Sprite', 40], ['1L Sprite', 50], ['600ml Sprite', 40], ['1.25L Sprite', 68], ['2.2L Sprite', 100],
+      ['Thumbs Up Tin', 40], ['750ml Thumbs Up', 45], ['1L Thumbs Up', 55], ['600ml Thumbs Up', 40],
+      ['1.25L Thumbs Up', 68], ['2.25L Thumbs Up', 100], ['Charged 250ml', 20], ['Limca 600ml', 38],
+      ['Diet Coke', 40], ['Soda 750ml', 20], ['Soda 1.2L', 30], ['2L Water', 30], ['Smart Water', 50],
+      ['Maaza 1.5L', 90], ['1.75L Maaza', 95], ['600ml Maaza', 42], ['1L Maaza', 75], ['Magic Lassi 200ml', 30],
+      ['Pulpy Orange 1L', 90], ['Pulpy Orange 250ml', 25], ['600ml Apple Pop', 30], ['Appy Fizz 500ml', 35],
+      ['Appy Fizz 1L', 60], ['Zeera Drink', 20], ['Fruit Salad with Ice Cream', 70], ['Soft Drink', 15],
+      ['Empty Glass', 4], ['Goli Soda', 45], ['Extra Topping Ice Cream', 10], ['Spl Badam Milk with Loaded Nuts', 100],
+      ['Drink 250ml', 20], ['Soft Drink 300ml', 30], ['Water Bottle 1L', 20],
+    ]}],
+  },
+  {
+    key: 'scoopings', name: 'Scoopings', icon: '🍨',
+    subcats: [
+      { name: 'Combination Ice Creams', items: [
+        ['Gud Bud', 90], ['Special Gud Bud', 95], ['Honeymoon', 100], ['Light House', 100], ['3 in 1', 110],
+        ['Single Sunday', 110], ['Double Sunday', 90], ['Dashing Delight', 95], ['Foodies Special', 120],
+      ]},
+      { name: 'Special Combination Ice Creams', items: [
+        ['Nutty Delight', 120], ['German Delight Chocolate', 120], ['Nut Overload', 130], ['Brownie Break', 139],
+        ['Redvelvet', 129], ['Oreo Shot with Brownie', 139], ['Ferrero Rocher', 149],
+      ]},
+      { name: 'Single Flavour Scooping', items: [
+        ['Sapota Scooping', 80], ['Dryfruit Vanilla Scooping', 60], ['Dryfruit Butterscotch Scooping', 70],
+        ['Caramel Nut Scooping', 75], ['Black Forest Scooping', 75], ['Seethafal Real Fruit Scooping', 80],
+        ['Honey Almond Scooping', 80], ['Kaju Kismiss', 80], ['Mango Scooping', 50], ['Pista Scooping', 60],
+        ['Vanilla Scooping', 50], ['Strawberry Scooping', 50], ['Butterscotch Scooping', 60],
+        ['Belgium Dark Chocolate Scooping', 80], ['Black Current Scooping', 60], ['Chocolate with Choco Chips Scooping', 70],
+      ]},
+    ],
+  },
+  {
+    key: 'breads', name: 'Breads', icon: '🍞',
+    subcats: [{ name: 'Breads', items: [
+      ['Milk Bread Big Size', 45], ['Fruit Bread', 20], ['Round Buns', 20], ['Pav Bun', 35],
+      ['Rusk', 30], ['Brown Bread', 40], ['Fruit Elaichi Rusk', 30],
+    ]}],
+  },
+  {
+    key: 'combos', name: 'Combo Offers', icon: '🍱',
+    subcats: [{ name: 'Combo Offers', items: [
+      ['Combo 1: Chicken Pizza + Chicken Burger + Chicken Sandwich + Thumbs Up 600ml', 300],
+      ['Combo 1: Veg Pizza + Veg Burger + Veg Sandwich + Thumbs Up 600ml', 300],
+      ['Combo 8: Veg Sandwich + Lemon Mojito', 120],
+      ['Combo 9: Veg Corn Sandwich + Soft Drink 300ml', 120],
+      ['Combo 10: Chicken Sandwich + Lemon Mojito', 120],
+      ['Combo 11: Chicken Club Sandwich + Soft Drink 300ml', 120],
+      ['Combo 2: Chicken King Supreme Burger 2-in-1', 190],
+      ['Combo 2: Veg King Supreme Burgers 2-in-1', 190],
+      ['Combo 3: Chicken Fried Rice Bowl + Chilli Chicken + Chicken Spring Roll + Soft Drink', 290],
+      ['Combo 4: Double Egg Fried Rice Bowl + Chicken Manchurian + Egg Puff + Soft Drink', 250],
+      ['Combo 5: Veg Manchurian Rice Bowl + Veg 65 + Veg Spring Roll + Soft Drink', 260],
+      ['Combo 6: Kaju Paneer Rice Bowl + Veg Manchurian + Veg Spring Roll + Soft Drink', 220],
+      ['Combo 7: Chicken Corn Noodles + Chicken Puff + Soft Drink', 160],
+      ['Combo 7: Veg Noodles + Veg Puff + Soft Drink', 150],
+      ['Chicken Pizza + Fries + Soft Drink Combo', 180],
+    ]}],
+  },
+  {
+    key: 'icecreams', name: 'Ice Creams', icon: '🍦',
+    subcats: [{ name: 'Ice Creams', items: [
+      ['Black Forest', 50], ['Choco Vanilla 100ml', 35], ['Scoops Chocolate 100ml', 20],
+      ['Kwality Walls Chocolate Feast', 35], ['Sunday Strawberry 90ml', 20], ['Cassatta', 70],
+      ['Cadbury Crackle Feast', 60], ['Cornetto Double Chocolate', 40], ['Butterscotch Cup', 30],
+      ['Sunday Chocolate 90ml', 25], ['Kesar Pista 90ml', 35], ['Vanilla Cup', 20],
+      ['Kwality Walls Choco Brownie 700ml', 180], ['Kwality Walls American Nuts 700ml', 160],
+      ['Vanilla Tub 700ml', 150], ['Mango 700ml', 180], ['Butterscotch 700ml', 180],
+      ['Chocolate Sensation 700ml', 259], ['Fruit and Nut 700ml', 259], ['Creme Caramel', 259],
+      ['Oreo Tub 700ml', 299], ['Aamras 70ml', 30], ['Magnum Choco Truffle', 99], ['Magnum Almond', 99],
+      ['Magnum Brownie', 99], ['Sandwich', 35], ['Cornetto Butterscotch', 45], ['Cornetto Vanilla', 35],
+      ['Cornetto Black Forest', 65], ['Cornetto Oreo', 70], ['Cornetto Double Chocolate (Alt)', 40],
+      ['Kesar Pista 700ml', 185], ['Blushing Strawberry', 125], ['Kwality Walls Tutti Frutti 700ml', 155],
+      ['Kwality Walls Chocolate 700ml', 150], ['Kwality Walls Vanilla 700ml', 99], ['Mango', 155],
+      ['Butterscotch 375g', 150], ['Dryfruit Rabri Kulfi', 35], ['Sunday Cup Vanilla', 30],
+      ['Choco Brownie 700ml', 319], ['Oreo Cup 100ml', 60], ['Tender Coconut 100ml', 50],
+      ['Tender Coconut 500ml', 249], ['Crunchy Butterscotch Small', 25], ['Trixy Cookie', 70],
+      ['Desi Creamy Kulfi 700ml', 279], ['Kwality Walls Creamy Kulfi 700ml', 185], ['Oreo', 199],
+      ['Chokissimo Cornetto', 70], ['Desi Kulfi Cup', 60], ['Cadbury Crackle 700ml', 379], ['Royal Kulfi', 65],
+      ['Black Forest Feast 70ml', 45], ['Trixy Cheese Cake', 70], ['Cornetto Butterscotch Cone', 45],
+      ['Choco Vanilla Cone', 30], ['Kwality Walls Milky Cake 500ml', 275], ['Gulab Jamun 500ml', 275],
+      ['Kwality Walls Boost Sandwich', 35], ['Cornetto Caramel', 70], ['Kwality Walls Hazelnut Choc 500ml', 325],
+      ['Majestic Kesar Pista', 210], ['Kwality Walls Dryfruit 100ml', 50], ['Kwality Walls Choco Brownie 100ml', 50],
+      ['Kwality Walls Divine Chocolate 100ml', 80], ['Dairy Mango Bar', 25], ['Dairy Butterscotch 900ml', 210],
+      ['Dairy Chocolatey 900ml', 210], ['Dairy Plain Pista 900ml', 199], ['Dairy Vanilla 900ml', 190],
+      ['Dairy Kesar Kulfi', 30], ['Dairy Malai Kulfi', 25], ['Dairy Vanilla 80ml', 20], ['Dairy Butterscotch 60ml', 15],
+      ['Dairy Vanilla 60ml', 10], ['Dairy Pineapple 55ml', 10], ['Dairy Spinno 70ml', 25], ['Mega Tub Vanilla', 240],
+      ['Mega Tub Butterscotch', 299], ['Mega Tub Dryfruit', 360], ['Dairy American Nuts 900ml', 240],
+      ['Dairy Belgian Chocolate 900ml', 299], ['Dairy Dryfruit Special', 260], ['Dairy Roasted Almond 900ml', 260],
+      ['Dairy Black Current 900ml', 299], ['Vanilla Coco Chips', 240], ['Dairy American Nuts 500ml', 199],
+      ['Dairy Cookies Cream 500ml', 199], ['Dairy Gajar Halwa 500ml', 199], ['Dairy Red Velvet 480ml', 299],
+      ['Dairy Jaggery Fruit Nuts', 299], ['Dairy Cone Kaju', 40], ['Dairy Dark Choco Cone', 40],
+      ['Butterscotch 70ml', 30], ['Dairy Junior Sundae American', 50], ['Dairy Jamun 52g', 30],
+      ['Dairy Gulab Jamun 480ml', 299], ['Dairy Double Chocolate 100ml', 60], ['Dairy Double Chocolate 500ml', 225],
+      ['Dairy Red Velvet Cone', 35], ['Dairy Day Choco Currant Bar', 40], ['Dairy Cassatta', 50],
+      ['Dairy Malai Kulfi 100ml', 50], ['Dairy Swinger Sundae', 35], ['Dairy Chocolatey 100ml', 40],
+      ['Dairy Junior Strawberry', 35], ['Dairy Junior Mango 100ml', 35], ['Dairy Black Current 100ml', 40],
+      ['Dairy Junior Fruit Punch', 50], ['Dairy Arabian Delite 100ml', 50], ['Dairy Rajbhog 100ml', 60],
+      ['Dairy Black Current Cone', 40], ['Dairy Butterscotch Cone', 35], ['Dairy Choco Cone', 40],
+      ['Dairy Belgian Chocolate Cone', 60], ['Dairy Strawberry Cone', 30], ['Dairy Black Current 500ml', 170],
+      ['Dairy Butterscotch 500ml', 160], ['Dairy Chocolatey 500ml', 160], ['Dairy Pista Chio', 199],
+      ['Dairy Strawberry 500ml', 150], ['Dairy Tutti Fruity 500ml', 150], ['Dairy Vanilla 500ml', 135],
+      ['Dairy Choco Bar', 20], ['Dairy Nutty Bar', 25], ['Dairy Triple Bar', 35], ['Dairy Choco Mocha', 50],
+      ['Dairy Choco Almond', 99], ['Dairy Choco Royale', 99], ['Cream Bell Sacch Mucch Aam', 25],
+      ['Cream Bell Matka Kulfi', 50], ['Cream Bell Kewra Kulfi', 20], ['Cream Bell Pista Kulfi', 30],
+      ['Cream Bell Maxum', 60], ['Cream Bell Super Sundae', 40], ['Cream Bell Ripples', 40],
+      ['Cream Bell Fantasia Arabian', 50], ['Cream Bell Manhattan', 50], ['Cream Bell Rajbhog Kulfi', 30],
+      ['Cream Bell Butterscotch 750ml', 159], ['Cream Bell French Vanilla 750ml', 159],
+      ['Cream Bell Chocolate 750ml', 199], ['Cream Bell Fantasia Belgium 750ml', 260],
+      ['Cream Bell Kesari Rajbhog 750ml', 260], ['Cream Bell Shahi Kulfi', 260], ['Cream Bell Royal Rajwadi', 10],
+      ['Cream Bell Kaju Kulfi 500ml', 180], ['Cream Bell Centre Treat', 30], ['Cream Bell Pista', 30],
+      ['Cream Bell French Vanilla (Small)', 20], ['Butterscotch 90ml', 20], ['Cream Bell Chocolate 90ml', 20],
+      ['Cream Bell Mango Bar', 20], ['Mega Star Mango Rush', 30], ['Brownie (Ice Cream)', 65],
+      ['Mega Star Choco Truffle', 55], ['Scoops Fruit Ninja', 160], ['Kesar Kulfi', 35],
+      ['Scoops Black Forest Cup', 55], ['Scoops Matka Kulfi', 65], ['Scoops Vanilla 500ml', 95],
+      ['Scoops Butterscotch 500ml', 130], ['Scoops Strawberry 500ml', 95], ['Scoops Fresh Mango 500ml', 145],
+      ['Scoops Chocolate 1L', 230], ['Scoops Caramel Nuts 500ml', 165], ['Scoops Honeymoon 500ml', 160],
+      ['Scoops Belgium Dark 500ml', 180], ['Scoops Dryfruit Temptation 500ml', 180],
+      ['Scoops Caramel Nuts 1L', 330], ['Scoops Honeymoon Delight 1000ml', 300], ['Scoops Belgium Chocolate 1L', 330],
+      ['Scoops Dryfruit Temptation 1L', 300], ['Scoops Choco Roco 1L', 290], ['Scoops Offer Mango', 260],
+      ['Scoops Offer American Nuts', 280], ['Gud Bud Dryfruit', 55], ['Scoops Vanilla 1L', 180],
+      ['Scoops Strawberry (Large)', 180], ['Scoops Chocolate 500ml', 130], ['Scoops Choco Chips 500ml', 145],
+      ['Scoops Choco Roco 500ml', 180], ['Scoops Butterscotch 1L', 200], ['Scoops Offer Choco Chips', 280],
+      ['Vanilla No Sugar', 55], ['Kesar Delight No Sugar', 60], ['Scoops Caramel Nut 125ml', 55],
+      ['Scoops Belgium Dark 125ml', 55], ['Scoops Offer Cookies N Cream', 260], ['Scoops Offer Kaju Kismiss', 280],
+      ['Scoops Offer Roasted Almond', 310], ['Scoops Chocolate Premium', 75], ['Mega Star Caramel Gold', 70],
+      ['Mega Star Butterscotch', 55], ['Scoops Black Current 750ml', 240], ['Froops Real Chikoo 650ml', 330],
+      ['Froops Sitaphal 650ml', 330], ['Froops Coconut 650ml', 299], ['Tender Coconut 125ml', 65],
+      ['Froops Sitaphal 125ml', 65], ['Froops Guava', 65], ['Froops Real Chikoo 125ml', 65],
+      ['Froops Kala Jamun 700ml', 299], ['Froops Real Mango 650ml', 330], ['Real Mango 125ml', 65],
+      ['Froops Real Litchi 125ml', 65], ['Froops Kala Jamun 125ml', 65], ['Froops Orange', 65],
+      ['Scoops Gold Vanilla', 60], ['Scoops Gold Caramel', 75], ['American Nuts 100ml', 35],
+      ['Strawberry Sunday 100ml', 35], ['Mega Star Choco Brownie', 65],
+    ]}],
+  },
+  {
+    key: 'mojitos', name: 'Mojitos', icon: '🍹',
+    subcats: [{ name: 'Mojitos', items: [
+      ['Virgin Mojito', 60], ['Blue Lagoon', 60], ['Green Apple Mojito', 70], ['Strawberry Mojito', 70],
+      ['Watermelon Mojito', 70], ['Peach Mojito', 60], ['Red Wine Sangria', 70], ['Fresh Lemon Soda', 40],
+      ['Ginger Soda', 40], ['Lemon and Ginger Soda', 40], ['Strawberry Soda', 50], ['Green Apple Soda', 50],
+    ]}],
+  },
+  {
+    key: 'bakerycookies', name: 'Bakery Cookies', icon: '🍪',
+    subcats: [{ name: 'Bakery Cookies', items: [
+      ['Dry Fruit Cookies', 90], ['Butter Coconut Cookies', 80], ['Butter Coconut Cookies (Large)', 100],
+      ['Butter Cookies Almond', 90], ['Salt Cookies', 50], ['Almond Cookies', 90], ['Fruit Cookie', 50],
+      ['Micro Cookies', 80], ['Chocolate Chip Cookies', 80], ['Zeera Butter Biscuits', 80],
+      ['Kaju Butter Cookies', 90], ['Butter Milk Cookies', 80], ['Sagu Butter Cookies', 80], ['Pista Butter Cookies', 90],
+    ]}],
+  },
+  {
+    key: 'general', name: 'General Items', icon: '🛒',
+    subcats: [
+      { name: 'Spoons N Forks', items: [['Spoons and Forks 10pcs', 20], ['Paper Plates', 20]] },
+      { name: 'Chips', items: [
+        ['Lays Wafer Style', 20], ['Lays Cream Onion', 20], ['Lays Tomato', 20], ['Lays Classic Salt', 20],
+        ['Lays Magic Masala', 20], ['Lays Hot N Sweet Chilli', 20], ['Kracklite Salt', 30], ['Kracklite Herbs', 30],
+        ['Kracklite Crunchy Cheese', 30], ['Kracklite Chilli Pepper', 30],
+      ]},
+      { name: 'Wine', items: [
+        ['Carl Jung 750ml', 650], ['Royalty Peach', 800], ['Royalty Mango', 800],
+        ['Veneto Red Wine 375ml', 350], ['Semivin Red Wine 750ml', 1200], ['J&J 750ml', 800],
+      ]},
+      { name: 'Kissan Jam 100g', items: [['Kissan Jam 100g', 20], ['Foodrite Mixed Jam 100g', 25]] },
+      { name: 'Kissan Jam 500g', items: [['Kissan Jam 200g', 72], ['Jam 500g', 155], ['Foodrite Mixed Jam 500g', 90]] },
+    ],
+  },
+  {
+    key: 'indiansnacks', name: 'Indian Snacks', icon: '🥜',
+    subcats: [{ name: 'Indian Snacks', items: [
+      ['Chakli 200g', 60], ['Chekodi 500g', 70], ['Dalmudi 250g', 60], ['Boondi 250g', 60],
+      ['Ribbon Murukku 125g', 40], ['Butter Murukku 250g', 60], ['Sev Bhujia 250g', 60], ['Masala Biscuits', 50],
+      ['Little Hearts', 50], ['Masala Chickpea', 50], ['Tasty Nuts', 50], ['Masala Chana Dal', 50],
+      ['Masala Green Peas', 50], ['Mixture 250g', 60],
+    ]}],
+  },
+  {
+    key: 'importchocolates', name: 'Import Chocolates', icon: '🍫',
+    subcats: [{ name: 'Import Chocolates', items: [] }],
+  },
+];
