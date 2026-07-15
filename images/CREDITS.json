@@ -40,14 +40,6 @@
     "sourcePage": "https://commons.wikimedia.org/wiki/File%3AFried_Rice_with_Fried_Chicken.jpg"
   },
   {
-    "key": "biryani",
-    "query": "biryani food",
-    "title": "File:Kacchi Dum Biryani.JPG",
-    "artist": "Durvankur Patil",
-    "license": "CC BY-SA 4.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AKacchi_Dum_Biryani.JPG"
-  },
-  {
     "key": "puffsrolls",
     "query": "puff pastry snack",
     "title": "File:Rustico leccese.jpg",
@@ -222,5 +214,13 @@
     "artist": "Mahi Tatavarty",
     "license": "CC BY-SA 4.0",
     "sourcePage": "https://commons.wikimedia.org/wiki/File%3A%22Amazing_Aloo_Paratha_and_Lovely_Lassi%22.jpg"
+  },
+  {
+    "key": "biryani",
+    "query": "chicken biryani plate rice",
+    "title": "File:Dum Biryani Plate.jpg",
+    "artist": "Umesh Tongbra",
+    "license": "CC BY-SA 3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ADum_Biryani_Plate.jpg"
   }
 ]

@@ -11,7 +11,7 @@ const ALL_QUERIES = {
   sandwich: 'sandwich food',
   starters: 'manchurian indo chinese food',
   friedrice: 'fried rice food',
-  biryani: 'biryani food',
+  biryani: 'chicken biryani plate rice',
   todayspecial: 'tandoori chicken platter',
   noodles: 'chow mein noodles dish',
   puffsrolls: 'puff pastry snack',
