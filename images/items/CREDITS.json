@@ -2860,16 +2860,6 @@
     "license": "CC0"
   },
   {
-    "img": "cooldrinks__389",
-    "name": "Charged 250ml",
-    "query": "soda bottle",
-    "catKey": "cooldrinks",
-    "status": "ok",
-    "usedQuery": "soda bottle",
-    "sourceTitle": "File:Beer bottles 2018 G1.jpg",
-    "license": "Public domain"
-  },
-  {
     "img": "cooldrinks__390",
     "name": "Limca 600ml",
     "query": "Limca bottle",
@@ -2878,46 +2868,6 @@
     "usedQuery": "Limca bottle",
     "sourceTitle": "File:Limca bottle in mussoorie.jpg",
     "license": "CC BY 1.0"
-  },
-  {
-    "img": "cooldrinks__391",
-    "name": "Diet Coke",
-    "query": "Diet Coke can",
-    "catKey": "cooldrinks",
-    "status": "ok",
-    "usedQuery": "Diet Coke can",
-    "sourceTitle": "File:Diet Coke Mentos.jpg",
-    "license": "CC BY-SA 3.0"
-  },
-  {
-    "img": "cooldrinks__392",
-    "name": "Soda 750ml",
-    "query": "soda bottle",
-    "catKey": "cooldrinks",
-    "status": "ok",
-    "usedQuery": "soda bottle",
-    "sourceTitle": "File:Beer bottles 2018 G1.jpg",
-    "license": "Public domain"
-  },
-  {
-    "img": "cooldrinks__393",
-    "name": "Soda 1.2L",
-    "query": "soda bottle",
-    "catKey": "cooldrinks",
-    "status": "ok",
-    "usedQuery": "soda bottle",
-    "sourceTitle": "File:Beer bottles 2018 G1.jpg",
-    "license": "Public domain"
-  },
-  {
-    "img": "cooldrinks__394",
-    "name": "2L Water",
-    "query": "Water drink",
-    "catKey": "cooldrinks",
-    "status": "ok",
-    "usedQuery": "Water drink",
-    "sourceTitle": "File:Fresh water fountain.jpg",
-    "license": "CC BY-SA 3.0"
   },
   {
     "img": "cooldrinks__395",
@@ -3008,26 +2958,6 @@
     "usedQuery": "Soft Drink drink",
     "sourceTitle": "File:Soft drink shelf 2.jpg",
     "license": "CC BY-SA 4.0"
-  },
-  {
-    "img": "cooldrinks__409",
-    "name": "Empty Glass",
-    "query": "Empty Glass drink",
-    "catKey": "cooldrinks",
-    "status": "ok",
-    "usedQuery": "Empty Glass drink",
-    "sourceTitle": "File:Through empty drinking glass 2.jpg",
-    "license": "CC BY-SA 4.0"
-  },
-  {
-    "img": "cooldrinks__410",
-    "name": "Goli Soda",
-    "query": "soda bottle",
-    "catKey": "cooldrinks",
-    "status": "ok",
-    "usedQuery": "soda bottle",
-    "sourceTitle": "File:Beer bottles 2018 G1.jpg",
-    "license": "Public domain"
   },
   {
     "img": "cooldrinks__412",
@@ -4910,56 +4840,6 @@
     "license": "CC0"
   },
   {
-    "img": "mojitos__691",
-    "name": "Fresh Lemon Soda",
-    "query": "soda bottle",
-    "catKey": "mojitos",
-    "status": "ok",
-    "usedQuery": "soda bottle",
-    "sourceTitle": "File:Beer bottles 2018 G1.jpg",
-    "license": "Public domain"
-  },
-  {
-    "img": "mojitos__692",
-    "name": "Ginger Soda",
-    "query": "soda bottle",
-    "catKey": "mojitos",
-    "status": "ok",
-    "usedQuery": "soda bottle",
-    "sourceTitle": "File:Beer bottles 2018 G1.jpg",
-    "license": "Public domain"
-  },
-  {
-    "img": "mojitos__693",
-    "name": "Lemon and Ginger Soda",
-    "query": "soda bottle",
-    "catKey": "mojitos",
-    "status": "ok",
-    "usedQuery": "soda bottle",
-    "sourceTitle": "File:Beer bottles 2018 G1.jpg",
-    "license": "Public domain"
-  },
-  {
-    "img": "mojitos__694",
-    "name": "Strawberry Soda",
-    "query": "soda bottle",
-    "catKey": "mojitos",
-    "status": "ok",
-    "usedQuery": "soda bottle",
-    "sourceTitle": "File:Beer bottles 2018 G1.jpg",
-    "license": "Public domain"
-  },
-  {
-    "img": "mojitos__695",
-    "name": "Green Apple Soda",
-    "query": "soda bottle",
-    "catKey": "mojitos",
-    "status": "ok",
-    "usedQuery": "soda bottle",
-    "sourceTitle": "File:Beer bottles 2018 G1.jpg",
-    "license": "Public domain"
-  },
-  {
     "img": "bakerycookies__697",
     "name": "Butter Coconut Cookies",
     "query": "Butter Coconut Cookies food",
@@ -5418,5 +5298,125 @@
     "usedQuery": "soft drink glass",
     "sourceTitle": "File:Solo (Australian soft drink) 2.jpg",
     "license": "CC0"
+  },
+  {
+    "img": "cooldrinks__391",
+    "name": "Diet Coke",
+    "query": "Diet Coke bottles store",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Diet Coke bottles store",
+    "sourceTitle": "File:Diet Coke and Coca-Cola Zero bottles at Target (50871079092).png",
+    "license": "CC BY-SA 2.0"
+  },
+  {
+    "img": "cooldrinks__394",
+    "name": "2L Water",
+    "query": "bottled water product",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "bottled water product",
+    "sourceTitle": "File:Kirkland Signature Drinking Water 1.5L 20050508.jpg",
+    "license": "CC BY-SA 3.0"
+  },
+  {
+    "img": "cooldrinks__389",
+    "name": "Charged 250ml",
+    "query": "Soft Drink drink",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Soft Drink drink",
+    "sourceTitle": "File:Soft drink shelf 2.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cooldrinks__392",
+    "name": "Soda 750ml",
+    "query": "Soft Drink drink",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Soft Drink drink",
+    "sourceTitle": "File:Soft drink shelf 2.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cooldrinks__393",
+    "name": "Soda 1.2L",
+    "query": "Soft Drink drink",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Soft Drink drink",
+    "sourceTitle": "File:Soft drink shelf 2.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cooldrinks__410",
+    "name": "Goli Soda",
+    "query": "Soft Drink drink",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "Soft Drink drink",
+    "sourceTitle": "File:Soft drink shelf 2.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "cooldrinks__409",
+    "name": "Empty Glass",
+    "query": "clear glass cup",
+    "catKey": "cooldrinks",
+    "status": "ok",
+    "usedQuery": "clear glass cup",
+    "sourceTitle": "File:Water pouring from a faucet into a clear glass cup. (15054813052).jpg",
+    "license": "Public domain"
+  },
+  {
+    "img": "mojitos__691",
+    "name": "Fresh Lemon Soda",
+    "query": "Soft Drink drink",
+    "catKey": "mojitos",
+    "status": "ok",
+    "usedQuery": "Soft Drink drink",
+    "sourceTitle": "File:Soft drink shelf 2.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "mojitos__692",
+    "name": "Ginger Soda",
+    "query": "Soft Drink drink",
+    "catKey": "mojitos",
+    "status": "ok",
+    "usedQuery": "Soft Drink drink",
+    "sourceTitle": "File:Soft drink shelf 2.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "mojitos__693",
+    "name": "Lemon and Ginger Soda",
+    "query": "Soft Drink drink",
+    "catKey": "mojitos",
+    "status": "ok",
+    "usedQuery": "Soft Drink drink",
+    "sourceTitle": "File:Soft drink shelf 2.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "mojitos__694",
+    "name": "Strawberry Soda",
+    "query": "Soft Drink drink",
+    "catKey": "mojitos",
+    "status": "ok",
+    "usedQuery": "Soft Drink drink",
+    "sourceTitle": "File:Soft drink shelf 2.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "img": "mojitos__695",
+    "name": "Green Apple Soda",
+    "query": "Soft Drink drink",
+    "catKey": "mojitos",
+    "status": "ok",
+    "usedQuery": "Soft Drink drink",
+    "sourceTitle": "File:Soft drink shelf 2.jpg",
+    "license": "CC BY-SA 4.0"
   }
 ]
