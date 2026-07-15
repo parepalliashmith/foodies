@@ -299,6 +299,12 @@ function closeUpiModal() {
   if (order) showOrderConfirmed(order);
 }
 
+function markPaidByCustomer() {
+  const order = orders.find(o => o.id === pendingUpiOrderId);
+  if (order) { order.paymentStatus = 'Unverified'; saveOrders(); }
+  closeUpiModal();
+}
+
 function showOrderConfirmed(order) {
   $('#confirmOrderId').textContent = order.id;
   $('#confirmModal').classList.add('show');
@@ -337,7 +343,7 @@ function renderOrders() {
       </div>
       <div class="order-actions">
         ${o.status !== 'Completed' ? `<button class="btn-advance" data-id="${o.id}">Staff: Advance Status →</button>` : ''}
-        ${o.paymentStatus === 'Pending' ? `<button class="btn-advance" data-paid="${o.id}">Staff: Mark as Paid ✓</button>` : ''}
+        ${o.paymentStatus === 'Pending' || o.paymentStatus === 'Unverified' ? `<button class="btn-advance" data-paid="${o.id}">Staff: Verify Payment ✓</button>` : ''}
       </div>
     </div>
   `).join('');
@@ -385,6 +391,7 @@ document.addEventListener('DOMContentLoaded', () => {
   $('#checkoutForm').addEventListener('submit', placeOrder);
   $('#confirmClose').addEventListener('click', closeConfirm);
   $('#upiClose').addEventListener('click', closeUpiModal);
+  $('#upiPaidBtn').addEventListener('click', markPaidByCustomer);
   $('#ordersNav').addEventListener('click', goToOrders);
   $('#overlay').addEventListener('click', () => { closeCartDrawer(); closeCheckout(); closeUpiModal(); });
 });
