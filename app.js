@@ -1,5 +1,15 @@
 // Foodies — app logic. Menu data comes from menu-data.js (CATEGORIES).
 
+const UPI_VPA = '9505410270@fam';
+const UPI_PAYEE_NAME = 'abhi';
+
+function buildUpiLink(amount, orderId) {
+  const params = new URLSearchParams({
+    pa: UPI_VPA, pn: UPI_PAYEE_NAME, am: String(amount), cu: 'INR', tn: `Foodies order ${orderId}`,
+  });
+  return `upi://pay?${params.toString()}`;
+}
+
 const NONVEG_WORDS = /\b(chicken|eggs?|mutton|fish|prawn|kabab|kfc|wings?|lollipop)\b/i;
 function isNonVeg(name) { return NONVEG_WORDS.test(name); }
 
@@ -27,6 +37,7 @@ let orders = JSON.parse(localStorage.getItem('fd_orders') || '[]');
 let activeCat = null;
 let vegOnly = false;
 let searchQuery = '';
+let pendingUpiOrderId = null;
 
 function saveCart() { localStorage.setItem('fd_cart', JSON.stringify(cart)); }
 function saveOrders() { localStorage.setItem('fd_orders', JSON.stringify(orders)); }
@@ -244,12 +255,14 @@ function placeOrder(e) {
   });
   const subtotal = cartTotal();
   const delivery = 30;
+  const total = subtotal + delivery;
   const order = {
     id: 'FD' + Date.now().toString().slice(-8),
     time: new Date().toISOString(),
     name, phone, address, payment,
-    lines, subtotal, delivery, total: subtotal + delivery,
+    lines, subtotal, delivery, total,
     status: 'Placed',
+    paymentStatus: payment === 'cod' ? 'Pay on Delivery' : 'Pending',
   };
   orders.unshift(order);
   saveOrders();
@@ -257,7 +270,33 @@ function placeOrder(e) {
   saveCart();
   updateCartBar();
   closeCheckout();
-  showOrderConfirmed(order);
+  if (payment === 'upi') showUpiModal(order); else showOrderConfirmed(order);
+}
+
+function showUpiModal(order) {
+  const link = buildUpiLink(order.total, order.id);
+  $('#upiOrderId').textContent = order.id;
+  $('#upiAmount').textContent = fmt(order.total);
+  $('#upiPayeeName').textContent = UPI_PAYEE_NAME;
+  $('#upiVpa').textContent = UPI_VPA;
+  $('#upiPayLink').href = link;
+  const qrWrap = $('#upiQrWrap');
+  qrWrap.innerHTML = '';
+  const qr = qrcode(0, 'M');
+  qr.addData(link);
+  qr.make();
+  qrWrap.innerHTML = qr.createSvgTag({ cellSize: 5, margin: 2 });
+  pendingUpiOrderId = order.id;
+  $('#upiModal').classList.add('show');
+  $('#overlay').classList.add('show');
+}
+function closeUpiModal() {
+  if (!pendingUpiOrderId) return;
+  $('#upiModal').classList.remove('show');
+  $('#overlay').classList.remove('show');
+  const order = orders.find(o => o.id === pendingUpiOrderId);
+  pendingUpiOrderId = null;
+  if (order) showOrderConfirmed(order);
 }
 
 function showOrderConfirmed(order) {
@@ -293,15 +332,28 @@ function renderOrders() {
       <div class="order-lines">
         ${o.lines.map(l => `<div class="order-line"><span>${l.qty}× ${l.name}</span><span>${fmt(l.price * l.qty)}</span></div>`).join('')}
       </div>
-      <div class="order-total">Total: ${fmt(o.total)} · ${o.payment.toUpperCase()}</div>
-      ${o.status !== 'Completed' ? `<button class="btn-advance" data-id="${o.id}">Staff: Advance Status →</button>` : ''}
+      <div class="order-total">Total: ${fmt(o.total)} · ${o.payment.toUpperCase()}
+        <span class="pay-status pay-status-${(o.paymentStatus || '').toLowerCase().replace(/\s+/g, '-')}">${o.paymentStatus || ''}</span>
+      </div>
+      <div class="order-actions">
+        ${o.status !== 'Completed' ? `<button class="btn-advance" data-id="${o.id}">Staff: Advance Status →</button>` : ''}
+        ${o.paymentStatus === 'Pending' ? `<button class="btn-advance" data-paid="${o.id}">Staff: Mark as Paid ✓</button>` : ''}
+      </div>
     </div>
   `).join('');
-  body.querySelectorAll('.btn-advance').forEach(btn => {
+  body.querySelectorAll('.btn-advance[data-id]').forEach(btn => {
     btn.addEventListener('click', () => {
       const order = orders.find(o => o.id === btn.dataset.id);
       const idx = STATUS_STEPS.indexOf(order.status);
       order.status = STATUS_STEPS[Math.min(idx + 1, STATUS_STEPS.length - 1)];
+      saveOrders();
+      renderOrders();
+    });
+  });
+  body.querySelectorAll('.btn-advance[data-paid]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const order = orders.find(o => o.id === btn.dataset.paid);
+      order.paymentStatus = 'Paid';
       saveOrders();
       renderOrders();
     });
@@ -332,6 +384,7 @@ document.addEventListener('DOMContentLoaded', () => {
   $('#checkoutClose').addEventListener('click', closeCheckout);
   $('#checkoutForm').addEventListener('submit', placeOrder);
   $('#confirmClose').addEventListener('click', closeConfirm);
+  $('#upiClose').addEventListener('click', closeUpiModal);
   $('#ordersNav').addEventListener('click', goToOrders);
-  $('#overlay').addEventListener('click', () => { closeCartDrawer(); closeCheckout(); });
+  $('#overlay').addEventListener('click', () => { closeCartDrawer(); closeCheckout(); closeUpiModal(); });
 });

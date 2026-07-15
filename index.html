@@ -132,7 +132,7 @@
     <div class="field"><label>Delivery Address</label><textarea id="coAddress" rows="2" required></textarea></div>
     <div class="pay-options">
       <label><input type="radio" name="payment" value="cod" checked /> Cash on Delivery</label>
-      <label><input type="radio" name="payment" value="upi" /> UPI (Demo)</label>
+      <label><input type="radio" name="payment" value="upi" /> UPI (GPay / PhonePe / Paytm)</label>
     </div>
     <div class="summary-row"><span>Subtotal</span><span id="coSubtotal">₹0</span></div>
     <div class="summary-row"><span>Delivery</span><span id="coDelivery">₹30</span></div>
@@ -150,6 +150,18 @@
   <button class="btn-primary" id="confirmOk" onclick="document.getElementById('confirmClose').click()">OK</button>
 </div>
 
+<div class="modal" id="upiModal">
+  <button class="modal-close" id="upiClose">✕</button>
+  <h3 style="text-align:center;">Pay via UPI</h3>
+  <p style="text-align:center;color:var(--muted);margin-top:-6px;">Order <span id="upiOrderId" style="color:var(--gold);font-weight:700;"></span></p>
+  <div id="upiQrWrap" style="display:flex;justify-content:center;margin:14px 0;background:#fff;padding:14px;border-radius:12px;"></div>
+  <p style="text-align:center;font-size:22px;font-weight:800;margin:6px 0;">Pay <span id="upiAmount"></span></p>
+  <p style="text-align:center;font-size:13px;color:var(--muted);">to <strong id="upiPayeeName" style="color:var(--white)"></strong> · <span id="upiVpa"></span></p>
+  <a class="btn-primary" id="upiPayLink" href="#" style="display:block;text-align:center;text-decoration:none;">Open UPI App to Pay</a>
+  <p style="text-align:center;font-size:11px;color:var(--muted);margin-top:10px;">Scan the QR with any UPI app, or tap the button on your phone. Your order is confirmed as paid once our staff verifies the payment.</p>
+</div>
+
+<script src="vendor/qrcode.min.js"></script>
 <script src="menu-data.js"></script>
 <script src="app.js"></script>
 </body>

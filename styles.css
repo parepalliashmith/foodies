@@ -227,7 +227,12 @@ button { font-family: inherit; cursor: pointer; }
 }
 .order-progress .step.done { background: var(--red-dark); color: #fff; border-color: var(--red); }
 .order-line { display: flex; justify-content: space-between; font-size: 13px; padding: 2px 0; color: var(--muted); }
-.order-total { margin-top: 8px; font-weight: 700; }
+.order-total { margin-top: 8px; font-weight: 700; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.pay-status { font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 999px; letter-spacing: 0.5px; }
+.pay-status-pending { background: var(--gold); color: #2a1a00; }
+.pay-status-paid { background: var(--green); color: #04210f; }
+.pay-status-pay-on-delivery { background: var(--bg-elev); color: var(--muted); border: 1px solid #3a2222; }
+.order-actions { display: flex; flex-direction: column; gap: 6px; }
 .btn-advance {
   margin-top: 10px; width: 100%; padding: 8px; border-radius: 8px; border: 1px dashed var(--gold);
   background: none; color: var(--gold); font-size: 12px;
