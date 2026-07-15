@@ -126,6 +126,7 @@ function itemRow(item, delayIndex) {
   const cls = delayIndex != null ? 'item-row item-row-enter' : 'item-row';
   const style = delayIndex != null ? ` style="animation-delay:${Math.min(delayIndex * 25, 500)}ms"` : '';
   return `<div class="${cls}" data-id="${item.id}"${style}>
+    <img class="item-thumb" src="images/${item.cat}.jpg" alt="" loading="lazy" />
     <span class="veg-dot ${item.veg ? 'veg' : 'nonveg'}" title="${item.veg ? 'Veg' : 'Non-Veg'}"></span>
     <div class="item-info">
       <div class="item-name">${item.name}</div>
