@@ -1,0 +1,226 @@
+[
+  {
+    "key": "sandwich",
+    "query": "sandwich food",
+    "title": "File:Bologna sandwich.jpg",
+    "artist": "Diderot's dreams",
+    "license": "CC BY 3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ABologna_sandwich.jpg"
+  },
+  {
+    "key": "noodles",
+    "query": "noodles food",
+    "title": "File:Soba-Noodles-Deliveryman-Tokyo-1935.png",
+    "artist": "Mainichi Shimbun",
+    "license": "Public domain",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ASoba-Noodles-Deliveryman-Tokyo-1935.png"
+  },
+  {
+    "key": "pizza",
+    "query": "pizza food",
+    "title": "File:Vegetarian Pizza.jpg",
+    "artist": "Petar Milošević",
+    "license": "CC BY-SA 4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AVegetarian_Pizza.jpg"
+  },
+  {
+    "key": "burger",
+    "query": "hamburger food",
+    "title": "File:NCI Visuals Food Hamburger.jpg",
+    "artist": "Len Rizzi (photographer)",
+    "license": "Public domain",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ANCI_Visuals_Food_Hamburger.jpg"
+  },
+  {
+    "key": "starters",
+    "query": "manchurian indo chinese food",
+    "title": "File:Baby Corn Manchurian.jpg",
+    "artist": "Sangam321",
+    "license": "CC BY-SA 4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ABaby_Corn_Manchurian.jpg"
+  },
+  {
+    "key": "friedrice",
+    "query": "fried rice food",
+    "title": "File:Fried Rice with Fried Chicken.jpg",
+    "artist": "BobbySire",
+    "license": "CC BY-SA 4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AFried_Rice_with_Fried_Chicken.jpg"
+  },
+  {
+    "key": "biryani",
+    "query": "biryani food",
+    "title": "File:Kacchi Dum Biryani.JPG",
+    "artist": "Durvankur Patil",
+    "license": "CC BY-SA 4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AKacchi_Dum_Biryani.JPG"
+  },
+  {
+    "key": "todayspecial",
+    "query": "grilled chicken food",
+    "title": "File:Grilled Chicken Sandwich.jpg",
+    "artist": "Sirsendu.mohanta",
+    "license": "CC BY-SA 4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AGrilled_Chicken_Sandwich.jpg"
+  },
+  {
+    "key": "puffsrolls",
+    "query": "puff pastry snack",
+    "title": "File:Rustico leccese.jpg",
+    "artist": "I, Calcagnile Floriano, User:Florixc",
+    "license": "CC BY-SA 3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ARustico_leccese.jpg"
+  },
+  {
+    "key": "momos",
+    "query": "momos food",
+    "title": "File:Momos with Sauce.jpg",
+    "artist": "Gaurav Dhwaj Khadka",
+    "license": "CC BY-SA 4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AMomos_with_Sauce.jpg"
+  },
+  {
+    "key": "wraps",
+    "query": "wrap roll food",
+    "title": "File:Smoked chicken and avocado wrap.jpg",
+    "artist": "Takeaway",
+    "license": "CC BY-SA 3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ASmoked_chicken_and_avocado_wrap.jpg"
+  },
+  {
+    "key": "kids",
+    "query": "french fries food",
+    "title": "File:Plate of chips at the Chalet Cafe, Cowfold, West Sussex, England.jpg",
+    "artist": "Acabashi",
+    "license": "CC BY-SA 4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3APlate_of_chips_at_the_Chalet_Cafe%2C_Cowfold%2C_West_Sussex%2C_England.jpg"
+  },
+  {
+    "key": "milkshakes",
+    "query": "milkshake glass",
+    "title": "File:Milkshake toppings - M&Ms and crushed almonds.jpg",
+    "artist": "Jack Everett",
+    "license": "CC BY-SA 2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AMilkshake_toppings_-_M%26Ms_and_crushed_almonds.jpg"
+  },
+  {
+    "key": "cakes",
+    "query": "birthday cake",
+    "title": "File:A birthday cake in West Bengal, India.jpg",
+    "artist": "Billjones94",
+    "license": "CC BY-SA 4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AA_birthday_cake_in_West_Bengal%2C_India.jpg"
+  },
+  {
+    "key": "pastries",
+    "query": "pastry dessert",
+    "title": "File:TortNapoleon(kuski).jpg",
+    "artist": "Otets at lb.wikipedia",
+    "license": "CC BY-SA 3.0 lu",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ATortNapoleon(kuski).jpg"
+  },
+  {
+    "key": "chat",
+    "query": "pani puri indian street food",
+    "title": "File:Golgappe (Pani Puri).jpg",
+    "artist": "Bhavana Homecook",
+    "license": "CC BY-SA 4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AGolgappe_(Pani_Puri).jpg"
+  },
+  {
+    "key": "lassies",
+    "query": "lassi drink",
+    "title": "File:Lassi and Bomaby Biscuits.JPG",
+    "artist": "Rohini1234",
+    "license": "CC BY-SA 4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ALassi_and_Bomaby_Biscuits.JPG"
+  },
+  {
+    "key": "juices",
+    "query": "fruit juice glass",
+    "title": "File:Watermelon Juice in a paper glass Held by a Beautiful Friend.PNG",
+    "artist": "Soumya Mukherjee",
+    "license": "CC BY-SA 4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AWatermelon_Juice_in_a_paper_glass_Held_by_a_Beautiful_Friend.PNG"
+  },
+  {
+    "key": "cooldrinks",
+    "query": "soft drink bottles",
+    "title": "File:Portello soft drink bottle.jpg",
+    "artist": "\"David J\"",
+    "license": "CC BY 2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3APortello_soft_drink_bottle.jpg"
+  },
+  {
+    "key": "scoopings",
+    "query": "ice cream scoop bowl",
+    "title": "File:Bowl ~ Ice cream.jpg",
+    "artist": "Mitchellhobbs",
+    "license": "CC BY-SA 4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ABowl_~_Ice_cream.jpg"
+  },
+  {
+    "key": "breads",
+    "query": "bread bakery",
+    "title": "File:Bread - La Brea Bakery Bread Pudding.jpg",
+    "artist": "Eric E Castro",
+    "license": "CC BY 2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ABread_-_La_Brea_Bakery_Bread_Pudding.jpg"
+  },
+  {
+    "key": "combos",
+    "query": "fast food meal tray",
+    "title": "File:Italian (Mikazuki), Japanese local fast food.jpg",
+    "artist": "tail_furry",
+    "license": "CC BY-SA 3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AItalian_(Mikazuki)%2C_Japanese_local_fast_food.jpg"
+  },
+  {
+    "key": "icecreams",
+    "query": "ice cream cone",
+    "title": "File:Ice cream cone - superman flavor.jpg",
+    "artist": "Ben Dominguez-Benner",
+    "license": "CC BY 2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AIce_cream_cone_-_superman_flavor.jpg"
+  },
+  {
+    "key": "mojitos",
+    "query": "mojito cocktail drink",
+    "title": "File:MojitoReydelmojito.jpg",
+    "artist": "Raimonsocial",
+    "license": "CC BY-SA 4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AMojitoReydelmojito.jpg"
+  },
+  {
+    "key": "bakerycookies",
+    "query": "cookies bakery",
+    "title": "File:Ice Box Bakery cookies (4714890352).jpg",
+    "artist": "Elizabeth from Lansing, MI, USA",
+    "license": "CC BY 2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AIce_Box_Bakery_cookies_(4714890352).jpg"
+  },
+  {
+    "key": "general",
+    "query": "grocery items shelf",
+    "title": "File:B&w print. The interior of Kerwin's grocery store on King st., showing large selections of goods for sale- fruit and grocery items, biscuits, bottles, and cans. A large scale for weighting goods (13608787903).jpg",
+    "artist": "Dundas Museum and Archives",
+    "license": "No restrictions",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AB%26w_print._The_interior_of_Kerwin's_grocery_store_on_King_st.%2C_showing_large_selections_of_goods_for_sale-_fruit_and_grocery_items%2C_biscuits%2C_bottles%2C_and_cans._A_large_scale_for_weighting_goods_(13608787903).jpg"
+  },
+  {
+    "key": "indiansnacks",
+    "query": "indian snacks food",
+    "title": "File:Sev Puri.jpg",
+    "artist": "https://www.flickr.com/photos/feastguru_kirti/",
+    "license": "CC BY-SA 2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ASev_Puri.jpg"
+  },
+  {
+    "key": "importchocolates",
+    "query": "chocolate bars",
+    "title": "File:Green and Black's dark chocolate bar 1.jpg",
+    "artist": "Mx. Granger",
+    "license": "CC0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AGreen_and_Black's_dark_chocolate_bar_1.jpg"
+  }
+]

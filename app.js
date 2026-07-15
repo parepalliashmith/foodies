@@ -44,7 +44,7 @@ function renderCategories() {
   const grid = $('#categoryGrid');
   grid.innerHTML = CATEGORIES.map(cat => {
     const count = cat.subcats.reduce((n, s) => n + s.items.length, 0);
-    return `<button class="cat-card" data-cat="${cat.key}">
+    return `<button class="cat-card" data-cat="${cat.key}" style="background-image:linear-gradient(180deg, rgba(10,6,6,0.35), rgba(10,6,6,0.92)), url('images/${cat.key}.jpg')">
       <span class="cat-icon">${cat.icon}</span>
       <span class="cat-name">${cat.name}</span>
       <span class="cat-count">${count} items</span>
@@ -62,6 +62,7 @@ function openCategory(key) {
   $('#searchView').classList.add('hidden');
   const cat = CATEGORIES.find(c => c.key === key);
   $('#categoryTitle').textContent = `${cat.icon} ${cat.name}`;
+  $('#categoryHero').style.backgroundImage = `linear-gradient(180deg, rgba(10,6,6,0.15), rgba(10,6,6,0.95)), url('images/${cat.key}.jpg')`;
   renderCategoryItems();
 }
 

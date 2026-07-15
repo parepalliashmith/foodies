@@ -78,9 +78,11 @@ button { font-family: inherit; cursor: pointer; }
   gap: 14px; padding: 18px 16px 90px; max-width: 1100px; margin: 0 auto;
 }
 .cat-card {
-  background: linear-gradient(160deg, var(--bg-card), #100b0b);
+  background-color: var(--bg-card);
+  background-size: cover; background-position: center;
   border: 1px solid #33191b; border-radius: var(--radius);
-  padding: 20px 12px; display: flex; flex-direction: column; align-items: center; gap: 6px;
+  padding: 20px 12px; min-height: 116px; display: flex; flex-direction: column; align-items: center;
+  justify-content: flex-end; gap: 4px;
   color: var(--white); transition: transform .15s, box-shadow .15s, border-color .15s;
 }
 .cat-card:hover { transform: translateY(-4px); border-color: var(--red); box-shadow: 0 10px 24px var(--red-glow); }
@@ -92,7 +94,7 @@ button { font-family: inherit; cursor: pointer; }
 .view-header {
   position: sticky; top: 62px; z-index: 15;
   display: flex; align-items: center; gap: 10px;
-  padding: 12px 16px; background: rgba(10,10,10,0.95); backdrop-filter: blur(6px);
+  padding: 40px 16px 18px; background-color: #0a0a0a; background-size: cover; background-position: center;
   border-bottom: 1px solid #2a1414;
 }
 .back-btn {
